@@ -60,9 +60,7 @@ TURNIPSCHOOL[^11] is a radio interface concealed within the A connector of a USB
 We designed and built TURNIPSCHOOL to demonstrate that capabilities such as miniaturization of covert electronic devices are accessible to anyone, not just nation-state actors. The device was created using open source software design tools, readily available components, and hobbyist-level assembly techniques.
 Solder paste stenciling with hot plate reflow was our method of PCB assembly, and we used a hand-formable silicone rubber compound to produce the overmold boot, shaped with a 3D printed mold[12]. The micro-B connector at the far end of the cable as well as the cable itself were taken from a commercial off-the-shelf cable with its A connector removed.
 
-We demonstrated TURNIPSCHOOL operating in the 900 MHz ISM band, but the radio,
-based on the popular CC1111 RF transceiver, can operate on many frequencies,
-primarily in the 300, 400, 800, and 900 MHz bands.
+We demonstrated TURNIPSCHOOL operating in the 900 MHz ISM band, but the radio, based on the popular CC1111 RF transceiver, can operate on many frequencies, primarily in the 300, 400, 800, and 900 MHz bands.
 
 During assembly, we compromised the performance of the monopole antenna by
 coiling it to fit within the plug body. This reduced the RF performance by
