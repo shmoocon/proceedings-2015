@@ -27,6 +27,12 @@
 3. httpscreenshot - A Tool for Both Teams
   - Steve Breen
   - Justin Kennedy
+4. Automated Binary Analysis with Pin and Python
+  - Omar Ahmed
+  - Tyler Bohan
+5. NaCl: A New Crypto Library
+  - Daniel J. Bernstein
+  - Tanja Lange
 
 ## BELAY IT!
 
@@ -37,6 +43,9 @@
 3. There's Waldo! Tracking Users via Mobile Apps
   - Colby Moore
   - Patrick Wardle
+4. Practical Machine Learning for Network Security
+  - Terry Nelms
+
 
 ## BRING IT ON!
 
@@ -46,41 +55,12 @@
   - Brandon Benson
 3. Quantum Computing 01100101
   - Tess Schrodinger
-
-1100	
-
-
-
-
-
-
-
-
-1200	
-
-
-
-
-
-
-
-
-1300	Lunch Break
-1400	
-Automated Binary Analysis with Pin and Python
-Omar Ahmed and Tyler Bohan
-
-
-Practical Machine Learning for Network Security
-Terry Nelms
-
-
-Come to the Dark Side--We Have (Misfortune) Cookies
-Lior Oppenheim and Shahar Tal
+4. Come to the Dark Side--We Have (Misfortune) Cookies
+  - Lior Oppenheim
+  - Shahar Tal
 
 1500	
-NaCl: A New Crypto Library
-Daniel J. Bernstein and Tanja Lange
+
 
 
 The Joy Of Intelligent Proactive Security
