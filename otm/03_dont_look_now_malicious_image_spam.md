@@ -46,21 +46,20 @@ Manual inspection of images shows that spammers try to prevent inspection of ima
 ![alt Figure5](imgs/fig5.jpg "scraped")  
 **Figure 5. Scraped images.**
 
-At first I only read about using image spam to spread malware and it seemed farfetched. Then I began inspecting the corpus with a different intent, finding my own malicious images in the wild. This included one with embedded malware that wasn’t listed on the malware registry sites for three days after it appeared in the corpus. The first technique we saw is easily detected by anti-malware once the malware has been identified and added to the update list of malware detection programs. A file is simply named something like “795-IMG_20131001_76475.jpg.exe”. This is easily detectable by someone with knowledge about computers but not so much when the default settings are to hide the extension and someone unfamiliar with file systems sees “795-IMG_20131001_76475.jpg” and assumes it’s an image. It’s not an effective technique otherwise, as even the default icon is different from the jpg icon. However, criminals dispersing these files are counting on uneducated users to click on the images to open them. 
+At first I only read about using image spam to spread malware and it seemed farfetched. Then I began inspecting the corpus with a different intent, finding my own malicious images in the wild. This included one with embedded malware that wasn’t listed on the malware registry sites for three days after it appeared in the corpus. The first technique we saw is easily detected by anti-malware once the malware has been identified and added to the update list of malware detection programs. A file is simply named something like `795-IMG_20131001_76475.jpg.exe`. This is easily detectable by someone with knowledge about computers but not so much when the default settings are to hide the extension and someone unfamiliar with file systems sees `795-IMG_20131001_76475.jpg` and assumes it’s an image. It’s not an effective technique otherwise, as even the default icon is different from the jpg icon. However, criminals dispersing these files are counting on uneducated users to click on the images to open them. 
 
 Embedding malware in files is not a new concept. It is used with MP3 files, video files, text documents and others. In general, when a non-executable file such as a jpeg containing an executable is double clicked, the non-executable file is opened by its associated application. You view the jpeg as a picture and nothing happens with the embedded malware. This presumes that the host machine is already infected and that another component, a loader, is present. The loader extracts the code from the jpeg (or other image) and runs it. Typically, this works because the component on the infected machine downloads the image from the web. In our case, these images came wrapped in spam, so we are certain that the complimentary portion of the malware infection was not present. We did perform some basic reverse engineering, noting that the loader was not present.
 
-Figures 6 and 7 shows another interesting tactic via a file that appears to be corrupt. The file size is greater than zero but an image viewer cannot open it. However, if you unzip it, you find a folder inside, and inside the folder is malware.
+**Figures 6 and 7** shows another interesting tactic via a file that appears to be corrupt. The file size is greater than zero but an image viewer cannot open it. However, if you unzip it, you find a folder inside, and inside the folder is malware.
 
-![alt Figure6](imgs/fig6.png "suspicious")
+![alt Figure6](imgs/fig6.png "suspicious")  
+**Figure 6. Suspicious file with apparently no content**
 
-Figure 6. Suspicious file with apparently no content
+![alt Figure7](imgs/fig7.png "executable")  
+**Figure 7. Uncompressed jpg file reveals folder with an executable inside.**
 
-![alt Figure7](imgs/fig7.png "executable")
+## The Enigmatic Sailboat
 
-Figure 7. Uncompressed jpg file reveals folder with an executable inside.
-
-## The Enigmatic Sailboat ##
 One can lose focus looking at tens of thousands of spam images. One evening, I was staring at a sailboat image, trying to figure out the context since the images delivered by Knujon do not come with the original emails. It occurred to me that steganography might be involved so decided to create a class project. Students downloaded various free and popular steganalysis and steganography tools from the Internet. I gave them a set of images from my corpus and had them test it. StegSecret identified steganography techniques from an older version of Outguess and JPHide. One image that was identified as possibly containing steganography is 10786-NatalyaIm-34.jpg, shown in Figure 8. 
 
 ![alt Figure8](imgs/fig8.png "NatalyaIm")
