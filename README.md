@@ -1,7 +1,7 @@
 ShmooCon Proceedings
 =======
 
-Proceedings of the 10th Shmoocon Information Security Conference
+Proceedings of the 11th Shmoocon Information Security Conference
 
 Editor: **Rob Fuller**  
 
