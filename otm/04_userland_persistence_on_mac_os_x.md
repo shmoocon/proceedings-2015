@@ -135,8 +135,7 @@ Since the conference, Yelp Security Engineering has released an update to their 
 * [^6] http://www.insanelymac.com/forum/topic/293359-tool-to-remove-apple-code-signatures-from-binaries/
 * [^7] https://gist.github.com/secretsquirrel/264bdb4c73ba29a80938
 * [^8] https://gist.github.com/secretsquirrel/798bcb7dc75dba6f1d17
-
-
+* [^9] http://thr3ads.net/dtrace-discuss/2007/11/380218-Running-DTrace-early-in-OSX-boot-process#m380226
 * [^10] https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L61
 * [^11] https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L99
 * [^12] https://gist.github.com/secretsquirrel/120f511775d57e76d633
