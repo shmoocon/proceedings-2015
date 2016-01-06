@@ -134,9 +134,6 @@ This survey only scratched the surface. Forty applications is far from a signifi
 
 It is therefore hoped that this survey may provide insight into secure  credential management for iOS applications; that it may help developers to improve the security of their applications; and thus, reduce the risk to consumers' data in general.
 
-
-
-
 Paper information:
 
 * Title: Knock Knock: A Survey of iOS Authentication Methods
