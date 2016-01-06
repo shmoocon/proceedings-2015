@@ -65,6 +65,9 @@
   - James Forshaw
 8. No Budget Threat Intelligence: Tracking Malware Campaigns on the Cheap
   - Andrew Morris
+9. Infrastructure Tracking with Passive Monitoring and Active Probing
+  - Anthony Kasza
+  - Dhia Mahjoub
 
 ## BRING IT ON!
 
@@ -93,8 +96,7 @@
 
 
 
-Infrastructure Tracking with Passive Monitoring and Active Probing
-Anthony Kasza and Dhia Mahjoub
+
 
 
 Mascots, March Madness & #yogapants: Hacking Goes to College
