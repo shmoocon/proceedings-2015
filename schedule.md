@@ -61,6 +61,8 @@
   - Shimon Modi
 7. The Windows Sandbox Paradox
   - James Forshaw
+8. No Budget Threat Intelligence: Tracking Malware Campaigns on the Cheap
+Andrew Morris
 
 ## BRING IT ON!
 
@@ -89,8 +91,7 @@
 
 
 
-No Budget Threat Intelligence: Tracking Malware Campaigns on the Cheap
-Andrew Morris
+
 
 
 Crypto Without Computers
