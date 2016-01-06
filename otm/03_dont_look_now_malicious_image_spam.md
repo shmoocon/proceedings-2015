@@ -85,8 +85,10 @@ https://www.virusbtn.com/resources/spammerscompendium/index, last accessed Janua
 * [^5] Spam Image Identification Using an Artificial Neural Network, Bowling, J. R., Hope, P., and Liszka, K. J., Proceedings of the 2008 MIT Spam Conference, Cambridge, Massachusetts, March 2008.
 * [^6] KnujOn, http://www.knujon.com/, last accessed January 2015.
 
+#### Metadata
 
-Primary Author Name: Kathy J. Liszka
-Primary Author Affiliation: The University of Akron
-Primary Author Email: liszka@uakron.edu
-Keywords/Tags: image spam, malware, steganography
+Tags: image spam, malware, steganography
+
+**Primary Author Name**: Kathy J. Liszka
+**Primary Author Affiliation**: The University of Akron
+**Primary Author Email**: liszka@uakron.edu
