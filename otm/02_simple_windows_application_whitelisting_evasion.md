@@ -31,7 +31,7 @@ By using specially crafted .NET assemblies, we are able to have these Sponsors e
 
 One of the principle reasons that execution of .NET assemblies is missed, has to do with how many vendors detect and block the execution events. The guidelines presented in the Kernel Data and Filtering Support guide, describes how vendors might attempt to block execution:  
 
-"Released Windows operating system versions do support notification of image loading operations (which does meet some ISV requirements), but do not provide the ability to block the loading operation.  For that reason, Microsoft investigated whether a new API would be needed to support this requirement, but ultimately concluded that existing supported functionality could be used to achieve the desired module load blocking behavior.  In particular, a file system mini-filter can be utilized to block the loading of both modules in both user mode (e.g., DLLs) and kernel mode (e.g., device drivers).  Intercepting IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION and returning STATUS_ACCESS_DENIED when sections are loaded for PAGE_EXECUTE permission is an appropriate approach." -Kernel Data Filtering and Support  
+> Released Windows operating system versions do support notification of image loading operations (which does meet some ISV requirements), but do not provide the ability to block the loading operation.  For that reason, Microsoft investigated whether a new API would be needed to support this requirement, but ultimately concluded that existing supported functionality could be used to achieve the desired module load blocking behavior.  In particular, a file system mini-filter can be utilized to block the loading of both modules in both user mode (e.g., DLLs) and kernel mode (e.g., device drivers).  Intercepting IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION and returning STATUS_ACCESS_DENIED when sections are loaded for PAGE_EXECUTE permission is an appropriate approach." - **Kernel Data Filtering and Support**
 
 The difficulty is that this is not how a .NET assembly is loaded.  
 
@@ -56,7 +56,7 @@ Adversaries adapt.  In response to an application whitelisting defense, we belie
 
 Works Cited:  
 * [^1] https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf  
-[2] http://www.bitnuts.de/KernelBasedMonitoring.pdf  
+* [^2] http://www.bitnuts.de/KernelBasedMonitoring.pdf  
 [3] Kernel Data and Filtering Support   -http://download.microsoft.com/download/4/4/b/44bb7147-f058-4002-9ab2-ed22870e3fe9/Kernal%20Data%20and%20Filtering%20Support%20for%20Windows%20Server%202008.doc  
 [4] https://github.com/stephenfewer/ReflectiveDLLInjection  
 [5] https://github.com/fancycode/MemoryModule  
