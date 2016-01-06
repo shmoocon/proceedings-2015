@@ -5,7 +5,7 @@
 
 Userland file infection techniques for OS X are not new. However, they seem somewhat forgotten with all the kernel, boot, and rootkit infection techniques covered over the past seven or eight years.  OS X userland remains a free-for-all with very few publically available defenses for the home user or enterprise customer.  This paper covers the injection of boot processes and core daemons, and available defenses.
 
-##Content:
+## Content
 
 ###Intro and Prior Work
 
