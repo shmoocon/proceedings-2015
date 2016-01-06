@@ -65,17 +65,15 @@ One can lose focus looking at tens of thousands of spam images. One evening, I w
 ![alt Figure8](imgs/fig8.png "NatalyaIm")  
 **Figure 8. 10786-NatalyaIm-34.jpg**
 
-Outguess confirmed that it could open the file if a password was provided. After trying the obvious passwords, including the filename, the word “Natalyalm” succeeded in producing the 509 bytes in Figure 9. I suspect this is a key that can be used to open another file holding information that I would not likely want to see. 
+Outguess confirmed that it could open the file if a password was provided. After trying the obvious passwords, including the filename, the word “Natalyalm” succeeded in producing the 509 bytes in **Figure 9**. I suspect this is a key that can be used to open another file holding information that I would not likely want to see. 
 
-![alt Figure9a](imgs/fig9a.png "NatalyaIm")
+![alt Figure9a](imgs/fig9a.png "NatalyaIm")  
+*Hidden data in ASCII*
 
-(a) hidden data in ASCII
+![alt Figure9b](imgs/fig9b.png "NatalyaIm")  
+*Partial hex dump of hidden data*
 
-![alt Figure9b](imgs/fig9b.png "NatalyaIm")
-
-(b) partial hex dump of hidden data
-
-Figure 9. Hidden data in 10786-NatalyaIm-34.jpg
+**Figure 9. Hidden data in 10786-NatalyaIm-34.jpg**
 
 ## References
 
