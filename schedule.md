@@ -22,7 +22,7 @@
   - Dominic Spill
   - Michael Ossmann
   - Jared Boone
-2. [Knock Knock: A Survey of iOS Authentication Methods](build/)
+2. [Knock Knock: A Survey of iOS Authentication Methods](build/02_)
   - David Schuetz
 3. httpscreenshot - A Tool for Both Teams
   - Steve Breen
