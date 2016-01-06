@@ -78,17 +78,11 @@ These projects show that the development of such tools is accessible to hobbyist
 
 ## Acknowledgements
 
-USBProxy has had contributions from many developers, for which we are very
-grateful. We would especially like to thank Adam Stasiak and Alexander Holler.
+USBProxy has had contributions from many developers, for which we are very grateful. We would especially like to thank Adam Stasiak and Alexander Holler.
 
-Daisho would not have been possible without the funding made available by the
-DARPA Cyber Fast Track program. We would like to thank our co-developers,
-Marshall Hecht, Benjamin Vernoux, and Mike Kershaw.
+Daisho would not have been possible without the funding made available by the DARPA Cyber Fast Track program. We would like to thank our co-developers, Marshall Hecht, Benjamin Vernoux, and Mike Kershaw.
 
-TURNIPSCHOOL is an original Great Scott Gadgets design which makes use of the
-software and firmware made available by RfCat[14]. We would like to thank Atlas
-for the RfCat project and Karoline "Kiki der Gecko" Busse for designing our USB
-connector mold[12].
+TURNIPSCHOOL is an original Great Scott Gadgets design which makes use of the software and firmware made available by RfCat[14]. We would like to thank Atlas for the RfCat project and Karoline "Kiki der Gecko" Busse for designing our USB connector mold[12].
 
 
 ## References
