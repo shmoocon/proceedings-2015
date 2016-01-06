@@ -27,7 +27,7 @@ The goals is to be able to execute a .NET assembly. The technique here is to fin
 
 By using specially crafted .NET assemblies, we are able to have these Sponsors execute the assembly on our behalf.  Our perspective here is not so much what the original intention of the Sponsor is.  But rather, how can we influence the binary to achieve our desired actions.  
 
-"There is a fundamental difference between the approach taken by a development team and that taken by someone attacking an application. A development team typically approaches an application based on what it is intended to do. In other words, they are designing an application to perform specific tasks based on documented functional requirements and use cases. An attacker, on the other hand, is more interested in what n application can be made to do and operates on the principle that "any action not specifically denied, is allowed" -OWASP Secure Coding Practices Guide v2  
+> There is a fundamental difference between the approach taken by a development team and that taken by someone attacking an application. A development team typically approaches an application based on what it is intended to do. In other words, they are designing an application to perform specific tasks based on documented functional requirements and use cases. An attacker, on the other hand, is more interested in what n application can be made to do and operates on the principle that "any action not specifically denied, is allowed" - **OWASP Secure Coding Practices Guide v2**
 
 One of the principle reasons that execution of .NET assemblies is missed, has to do with how many vendors detect and block the execution events. The guidelines presented in the Kernel Data and Filtering Support guide, describes how vendors might attempt to block execution:  
 
@@ -55,7 +55,7 @@ Adversaries adapt.  In response to an application whitelisting defense, we belie
 
 
 Works Cited:  
-[1] https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf  
+* [^1] https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf  
 [2] http://www.bitnuts.de/KernelBasedMonitoring.pdf  
 [3] Kernel Data and Filtering Support   -http://download.microsoft.com/download/4/4/b/44bb7147-f058-4002-9ab2-ed22870e3fe9/Kernal%20Data%20and%20Filtering%20Support%20for%20Windows%20Server%202008.doc  
 [4] https://github.com/stephenfewer/ReflectiveDLLInjection  
