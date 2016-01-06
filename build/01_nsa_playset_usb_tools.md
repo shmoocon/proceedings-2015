@@ -50,12 +50,7 @@ Initial work focused on developing an open source USB 3.0 Verilog core which cou
 
 When the hardware was complete, we started developing a pass-through application to prove our approach to forwarding data between USB 3.0 PHYs. Inspiration was taken from the USB 3.1 specification[10] Appendix E, which describes a "retimer" that actively retransmits data between two USB 3.0 Super Speed ports. Verilog code was derived from our USB 3.0 core to track the state of link negotiation and perform data whitening/scrambling and clock offset compensation.
 
-We demonstrated link negotiation completing while the Daisho hardware was
-installed between a Linux host and a flash drive. However, mere milliseconds
-after link negotiation, the link consistently fails. Our current hypothesis is
-that clock offset compensation, which is achieved by absorbing or producing SKP
-(skip) symbols, is not done correctly. This is causing a loss of state in the
-scrambling process and places invalid data on the link.
+We demonstrated link negotiation completing while the Daisho hardware was installed between a Linux host and a flash drive. However, mere milliseconds after link negotiation, the link consistently fails. Our current hypothesis is that clock offset compensation, which is achieved by absorbing or producing SKP (skip) symbols, is not done correctly. This is causing a loss of state in the scrambling process and places invalid data on the link.
 
 
 ## TURNIPSCHOOL
