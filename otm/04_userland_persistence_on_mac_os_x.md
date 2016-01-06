@@ -162,11 +162,9 @@ Recommendations:
 
 Since the conference, Yelp Security Engineering has released an update to their OSXCollector[^32] tool with an option to check everything on disk. Initial tests provided full coverage of the disk partition and an expected long runtime of approximately 30 minutes on a new VM.
 
-[30]: https://github.com/google/santa/commit/a99039ae4c6fa58aeabb399209bdde36c9e4cde3
-
-[31]: https://www.youtube.com/watch?v=Rq7PCbbWOhg
-
-[32]: https://github.com/Yelp/osxcollector
+* [^30] https://github.com/google/santa/commit/a99039ae4c6fa58aeabb399209bdde36c9e4cde3
+* [^31] https://www.youtube.com/watch?v=Rq7PCbbWOhg
+* [^32] https://github.com/Yelp/osxcollector
 
 ## References
 
