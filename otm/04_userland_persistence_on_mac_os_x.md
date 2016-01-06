@@ -92,12 +92,7 @@ When it comes to network availability during the boot process, there are two sta
 * [^10] https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L61
 * [^11] https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L99
 
-With the pre-networking issue solved, over 200 boot and core processes needed
-testing.  Two scripts were created to patch (infect) these binaries with
-[regular][12] payloads and [beaconing][13] payloads.  Testing each binary by
-hand resulted in a time consuming endeavor.  An additional [script][14] was
-developed to automate this process using python, VMFusion, vmrun, and BDF. A
-time lapse video of the process is located [here][15].
+With the pre-networking issue solved, over 200 boot and core processes needed testing.  Two scripts were created to patch (infect) these binaries with regular[^12] payloads and beaconing[^13] payloads.  Testing each binary by hand resulted in a time consuming endeavor.  An additional script[^14] was developed to automate this process using python, VMFusion, vmrun, and BDF. A time lapse video of the process is located here[^15].
 
 [12]: https://gist.github.com/secretsquirrel/120f511775d57e76d633
 
