@@ -85,12 +85,12 @@ The fact that passwords containing numbers and symbols require changing onscreen
 ## References
 
 * [^1] [Greene, Gallagher, Stanton, & Lee, 2014] I Can't Type That! P@$$w0rd Entry on Mobile Devices. In Human Aspects of Information Security, Privacy, and Trust, Lecture Notes in Computer Science Volume 8533, pp 160-171.
-* [^1] [Greene, Kelsey, & Franklin, 2015] Measuring the Usability and Security of Permuted Passwords on Mobile Platforms. National Institute of Standards and Technology Interagency Report 8040.
-* [^1] [ISO 9241, 1998] ISO 9241-11. Ergonomic requirements for office work with visual display terminals (VDTs) -- Part 11: Guidance on usability.
-* [^1] [Jakobsson & Akivipat, 2012] Rethinking Passwords to Adapt to Constrained Keyboards. In Proceedings of Mobile Security Technologies. http://www.markus-jakobsson.com/fastwords.pdf
-* [^1] [NIST SP 800-63-2, 2013] Burr et al, Electronic Authentication Guideline, National Institute of Standards and Technology Special Publication. 
-* [^1] [NSTIC, 2011] National Strategy for Trusted Identities in Cyberspace. Enhancing Online choice, Efficiency, Security, and Privacy. http://www.whitehouse.gov/sites/default/files/rss_viewer/NSTICstrategy)041511.pdf
-* [^1] [Stanton & Greene, 2014] Character Strings, Memory and Passwords: What a Recall Study Can Tell Us. In Human Aspects of Information, Security, Privacy, and Trust. Lecture Notes in Computer Science, Vol. 8533, pp 195-206. 
+* [^2] [Greene, Kelsey, & Franklin, 2015] Measuring the Usability and Security of Permuted Passwords on Mobile Platforms. National Institute of Standards and Technology Interagency Report 8040.
+* [^3] [ISO 9241, 1998] ISO 9241-11. Ergonomic requirements for office work with visual display terminals (VDTs) -- Part 11: Guidance on usability.
+* [^4] [Jakobsson & Akivipat, 2012] Rethinking Passwords to Adapt to Constrained Keyboards. In Proceedings of Mobile Security Technologies. http://www.markus-jakobsson.com/fastwords.pdf
+* [^5] [NIST SP 800-63-2, 2013] Burr et al, Electronic Authentication Guideline, National Institute of Standards and Technology Special Publication. 
+* [^6] [NSTIC, 2011] National Strategy for Trusted Identities in Cyberspace. Enhancing Online choice, Efficiency, Security, and Privacy. http://www.whitehouse.gov/sites/default/files/rss_viewer/NSTICstrategy)041511.pdf
+* [^7] [Stanton & Greene, 2014] Character Strings, Memory and Passwords: What a Recall Study Can Tell Us. In Human Aspects of Information, Security, Privacy, and Trust. Lecture Notes in Computer Science, Vol. 8533, pp 195-206. 
 
 #### Metadata
 
