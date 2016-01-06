@@ -13,21 +13,15 @@ Everything presented in the paper requires root permissions.  OS X Userland pers
 
 According to the Joanna Rutkowska’s “*Introducing Stealth Malware Taxonomy*”[^1] (pg. 3), the technique being used in this paper is considered “Type 1” Malware. The infection method used is called the "Pre-text Section Infection Method" by the author and the details are outlined here "Patching the Mach-o Format the Simple and Easy Way"[^2].  This research is built off of prior Mach-O patching techniques from Pedro Vilaça[^3] and Roy G Biv[^4] though it works across all Mach-O executable binaries for both the `LC_MAIN` and `LC_UNIXTHREAD` binary types, as long as the pre-text section is large enough for the malicious payload. This method is included in the Backdoor-Factory[^5] (BDF) which supports x86 and x64 chipsets for Mach-O and the `LC_MAIN` and `LC_UNIXTHREAD` formats within a FAT file. When patching these processes one does not need to be concerned about signing as this is only a function of applications and enforced by imported dylibs on signed applications. The OS X kernel does not enforce code signing for executable binaries as of the writing of this paper. BDF reduces the number of load commands for each code signing library and thereby un-signs the binary as default behavior. This technique has been know for some time[^6].
 
-[0]: https://s3.amazonaws.com/s3.synack.com/Synack_Shakacon_OSX_Malware_Persistence.pdf
+* [^0] https://s3.amazonaws.com/s3.synack.com/Synack_Shakacon_OSX_Malware_Persistence.pdf
+* [^1] https://web.archive.org/web/20110720002040/http://invisiblethings.org/papers/malware-taxonomy.pdf
+* [^2] http://secureallthethings.blogspot.com/2014/08/patching-mach-o-format-simple-and-easy.html
+* [^3] https://github.com/gdbinit/osx_boubou
+* [^4] http://vxheaven.org/lib/vrg01.html
+* [^5] https://github.com/secretsquirrel/the-backdoor-factory
+* [^6] http://www.insanelymac.com/forum/topic/293359-tool-to-remove-apple-code-signatures-from-binaries/
 
-[1]: https://web.archive.org/web/20110720002040/http://invisiblethings.org/papers/malware-taxonomy.pdf
-
-[2]: http://secureallthethings.blogspot.com/2014/08/patching-mach-o-format-simple-and-easy.html
-
-[3]: https://github.com/gdbinit/osx_boubou
-
-[4]: http://vxheaven.org/lib/vrg01.html
-
-[5]: https://github.com/secretsquirrel/the-backdoor-factory
-
-[6]: http://www.insanelymac.com/forum/topic/293359-tool-to-remove-apple-code-signatures-from-binaries/
-
-###Finding Processes
+### Finding Processes
 
 Infecting boot processes and core daemons offers a run-time advantage as the
 process typically executes as root and, as the author learned, before other
