@@ -10,41 +10,29 @@ A picture is worth a thousand headaches when it comes in the form of spam. The c
 
 Image spam is either embedded into the body of a message or sent as an attachment. This filter avoiding tactic first appeared around 2000 but was not considered much of a threat. By 2005 it accounted for a mere 1% of spam emails. Within 18 months however, images such as that in Figure 1 populated over 21% of email spam[^1]. It’s a relatively effective mode of content delivery because digital manipulations make it difficult for OCR readers to catch, and with minor changes, fingerprinting (ex., via MD5 hashes) is virtually impossible. 
 
-![alt Figure1a](imgs/fig1a.png "OCR detectable")
-
-(a) OCR detectable
-
-![alt Figure1b](imgs/fig1b.png "OCR defeatable")
-
-(b) OCR defeatable
-
-Figure 1. Image spam generated to bypass spam filters.
+| **OCR detectable** | **OCR defeatable** |
+|:------:|:-----:|
+| ![alt Figure1a](imgs/fig1a.png "OCR detectable") | ![alt Figure1b](imgs/fig1b.png "OCR defeatable") |
+**Figure 1. Image spam generated to bypass spam filters.**
 
 
-In 2007, a coworker became intrigued by image spam and the possibility of training an artificial neural network to differentiate between spam and ham, with spam being defined as a computer generated image and ham being identified as a photograph, illustrated in Figure 2.  We collected images from our personal inboxes and those of willing family and friends to create a small corpus of spam. Ham was generated from our cameras. Using a free version of FANN [^3], we trained and tested the artificial neural network. Playing with different variables such as hidden neurons, we reached an 89% success rate identifying spam and 90% success rate with ham. This was with a corpus of 2000 spam and 1000 ham images [^4]. Smaller corpuses in earlier work [^5] did not reveal as good results as one would expect.  The larger corpus is credited to Robert Bruen of Knujon who supplied spam images stripped from emails nightly from about April 2008 through March 2014 [^6]. 
+In 2007, a coworker became intrigued by image spam and the possibility of training an artificial neural network to differentiate between spam and ham, with spam being defined as a computer generated image and ham being identified as a photograph, illustrated in Figure 2.  We collected images from our personal inboxes and those of willing family and friends to create a small corpus of spam. Ham was generated from our cameras. Using a free version of FANN[^3], we trained and tested the artificial neural network. Playing with different variables such as hidden neurons, we reached an 89% success rate identifying spam and 90% success rate with ham. This was with a corpus of 2000 spam and 1000 ham images[^4]. Smaller corpuses in earlier work[^5] did not reveal as good results as one would expect.  The larger corpus is credited to Robert Bruen of Knujon who supplied spam images stripped from emails nightly from about April 2008 through March 2014[^6]. 
 
-![alt Figure2a](imgs/fig2a.jpg "spam")
-
-(a) spam
-
-![alt Figure2b](imgs/fig2b.png "ham")
-
-(b) ham
-
-Figure 2. Image spam versus ham.
+| **SPAM** | **HAM** |
+|:------:|:-----:|
+| ![alt Figure2a](imgs/fig2a.jpg "spam") | ![alt Figure2b](imgs/fig2b.png "ham") |  
+**Figure 2. Image spam versus ham.**
 
 The size of the corpus without duplicates by February 2011 was 215,799 images. We estimate it to be around 400,000 today. During different semesters teaching Computer Security at The University of Akron, I’ve assigned “in the wild” projects for both graduate and undergraduate students. The following sections summarize what we found in the corpus over time through various class and master’s projects.
 ## What are We Looking At? ##
 Spammers tend to run with the season. While many retailers are shelving Christmas wreaths alongside Halloween costumes, spammers wait until December to send Christmas images. January brings tidings of exercise equipment and February delivers chocolate and flowers to your inbox as in Figure 3. Pharmaceutical, financial, retail, gambling and software images are pervasive and appear with regularity year round.
 
-![alt Figure3](imgs/fig3.jpg "seasonal")
-
+![alt Figure3](imgs/fig3.jpg "seasonal")  
 Figure 3. Seasonal image spam.
 
 Sexually oriented images are dominated by pictures of women in various stages of clothing, as in Figure 4. Male images were common during the spring and summer of 2010 but haven’t appeared much since then. The percentage of hard core pornography is actually very low. This is considered to be a monetary commodity to be purchased. Because these images are stored on our server, we attempt to keep it as secure as possible to prevent a minor from hacking into it. 
 
-![alt Figure4](imgs/fig4.jpg "women")
-
+![alt Figure4](imgs/fig4.jpg "women")  
 Figure 4. Advertising women.
 
 Several other, unexpected categories surfaced. In early 2010, we saw our first animal cruelty pictures and also our first “hate” images. These were particularly disturbing to look at. The politically motivated hate images first appeared in October 2010 and continued through January 2011. To date, only a small number have appeared in the corpus, but the timing may not be coincidental to the unrest, protests, and ensuing violence that marked world events in January and February 2011.
