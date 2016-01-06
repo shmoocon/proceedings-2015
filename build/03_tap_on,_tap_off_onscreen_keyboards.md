@@ -52,7 +52,7 @@ Entering complex passwords on mobile devices is difficult due to constraints of 
 The fact that passwords containing numbers and symbols require changing onscreen keyboards is a fundamental difference between desktop and mobile platforms, yet it does not appear that current password policies have taken this fundamental difference into account. The effects that mobile device constraints have on both usability and security of passwords need to be systematically explored and measured in order to better inform password policies for the increasingly mobile work environment. With the current research, we have accomplished an initial piece of such systematic exploration. 
 
 ## References
-[Greene, Gallagher, Stanton, & Lee, 2014] I Can’t Type That! .P@$$w0rd Entry on Mobile Devices. In Human Aspects of Information Security, Privacy, and Trust, Lecture Notes in Computer Science Volume 8533, pp 160-171.
+[Greene, Gallagher, Stanton, & Lee, 2014] I Can’t Type That!.P@$$w0rd Entry on Mobile Devices. In Human Aspects of Information Security, Privacy, and Trust, Lecture Notes in Computer Science Volume 8533, pp 160-171.
 
 [Greene, Kelsey, & Franklin, 2015] Measuring the Usability and Security of Permuted Passwords on Mobile Platforms. National Institute of Standards and Technology Interagency Report 8040.
 
