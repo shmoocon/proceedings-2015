@@ -94,13 +94,10 @@ When it comes to network availability during the boot process, there are two sta
 
 With the pre-networking issue solved, over 200 boot and core processes needed testing.  Two scripts were created to patch (infect) these binaries with regular[^12] payloads and beaconing[^13] payloads.  Testing each binary by hand resulted in a time consuming endeavor.  An additional script[^14] was developed to automate this process using python, VMFusion, vmrun, and BDF. A time lapse video of the process is located here[^15].
 
-[12]: https://gist.github.com/secretsquirrel/120f511775d57e76d633
-
-[13]: https://gist.github.com/secretsquirrel/f84d99284faac9205ac4
-
-[14]: https://gist.github.com/secretsquirrel/a690bcc6ad0b69df20e9
-
-[15]: https://www.youtube.com/watch?v=KzzcIvxCP-I
+* [^12] https://gist.github.com/secretsquirrel/120f511775d57e76d633
+* [^13] https://gist.github.com/secretsquirrel/f84d99284faac9205ac4
+* [^14] https://gist.github.com/secretsquirrel/a690bcc6ad0b69df20e9
+* [^15] https://www.youtube.com/watch?v=KzzcIvxCP-I
 
 ### Results
 
