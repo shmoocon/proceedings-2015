@@ -30,18 +30,11 @@ covert USB-attached wireless microcontroller.
 All three projects feature open source hardware and software, allowing any
 interested researcher or hobbyist to experiment freely with the USB protocol.
 
-
 ## USBProxy
 
-USBProxy[1], first announced at ShmooCon 2014[2], is userspace tool for
-monitoring, modifying, and injecting USB packets in a connection. It was
-designed as a software solution for inexpensive, off-the-shelf hardware, such as
-the BeagleBone Black, to enable anyone to examine USB communications.
+USBProxy[^1], first announced at ShmooCon 2014[^2], is userspace tool for monitoring, modifying, and injecting USB packets in a connection. It was designed as a software solution for inexpensive, off-the-shelf hardware, such as the BeagleBone Black, to enable anyone to examine USB communications.
 
-Since the initial demonstration of USBProxy there has been a great deal of
-interest in using it to reverse engineer USB based protocols, especially for
-systems where access to the host is not possible. For example both Xbox 360[3]
-and Wii U controller[4] protocols have been examined with USBProxy.
+Since the initial demonstration of USBProxy there has been a great deal of interest in using it to reverse engineer USB based protocols, especially for systems where access to the host is not possible. For example both Xbox 360[^3] and Wii U controller[^4] protocols have been examined with USBProxy.
 
 We have also had success with standard USB protocols. For example, our work with
 USB Mass Storage[5] has allowed us to inspect and block unwanted writes from
