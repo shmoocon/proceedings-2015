@@ -26,6 +26,7 @@ In order to assess both the usability and security of system-generated passwords
 Usability is defined [ISO 9241, 1998] as "the extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use." Effectiveness, efficiency, and satisfaction are measurable attributes (each defined in ISO 9241) that combine to form the larger construct of usability. Here we focus on efficiency, defined as the "resources expended in relation to the accuracy and completeness with which users achieve goals." Efficiency is often measured via time on task. In the context of mobile password entry, one can measure password entry time, or number of keystrokes (i.e., taps on the onscreen keyboard). Since it is possible to count taps without collecting human data, we chose to do the latter in the current work. 
 
 ### Security Background
+
 There are two password metric groups, classified based on how a password is created: 1) user-generated passwords and 2) system-generated passwords (aka, randomly-generated passwords). It is important to note that password metrics measure only one of these two groups. In our work, we are currently concerned with system-generated passwords similar to those often found in higher-security enterprise environments. To measure our original (i.e., pre-permutation) system-generated passwords, we used the Shannon entropy formula from [NIST SP 800-63-2, 2013].
 
 ![Shannon Entropy Formula](imgs/ShannonEntropyFormula.png)
