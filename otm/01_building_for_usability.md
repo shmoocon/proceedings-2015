@@ -54,16 +54,19 @@ Many apps are only tested by the programmers (or programmers and quality assuran
 ## Test at Bars and Coffee Shops
 
 Sites like usertesting.com are useful because they scale so well. However it can be very helpful to watch people (real people, live in person) using your product. People in bars and coffee shops are relatively willing to start conversations with strangers, making it a very effective and cost efficient way to user test. Instagram founder Krieger call this “the bar exam.” He says:
-“Figure out how you would pitch your app or product to a stranger in a bar in 20 seconds, and if it’s too complicated to explain, re-think the simplicity. He said with their precursor to Instagram, called Burbn, they failed the bar test and realized they needed to re-work it.” (“Instagram Co-Founder on Startup Success” November 30, 2012. https://gigaom.com/2012/11/30/instagram-co-founder-on-startup-success-identify-your-early-obsessions/)
 
-Title: Building for Usability
-Subtitle:
-Primary Author Name: Elissa Shevinsky	
-Primary Author Affiliation: CTO of JeKuDo Privacy Company, Author at OR Books
-Primary Author Email: Elissabiz@gmail.com
-Additional Author Name:
-Additional Author Affiliation:
-Additional Author Email:
-(repeat Additional Author as necessary)
-Keywords/Tags: (comma delimited) Usability, User Testing, UI, UX, Drinking, Bourbon, Burbn
-Abstract: (limited to 200 words)
+> Figure out how you would pitch your app or product to a stranger in a bar in 20 seconds, and if it’s too complicated to explain, re-think the simplicity.
+
+He said with their precursor to Instagram, called Burbn, they failed the bar test and realized they needed to re-work it.
+
+(“Instagram Co-Founder on Startup Success” November 30, 2012. https://gigaom.com/2012/11/30/instagram-co-founder-on-startup-success-identify-your-early-obsessions/)
+
+## References
+
+#### Metadata
+
+Tags: Usability, User Testing, UI, UX, Drinking, Bourbon, Burbn
+
+**Primary Author Name**: Elissa Shevinsky  	
+**Primary Author Affiliation**: CTO of JeKuDo Privacy Company, Author at OR Books  
+**Primary Author Email**: Elissabiz@gmail.com
