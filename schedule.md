@@ -1,6 +1,6 @@
 # Schedule
 
-## One Track Mind 
+## ONE TRACK MIND
 
 1. Five Not-Totally-Crazy Ways to Build for Usability
   - Elissa Shevinsky
@@ -16,30 +16,30 @@
   - Xeno Kovah
   - Corey Kallenberg
 
-1830	
-Keynote Address
+## BUILD IT!
 
-Joseph Lorenzo Hall
+1. NSA Playset: USB Tools
+  - Dominic Spill
+  - Michael Ossmann
+  - Jared Boone
 
-2000	Infosec Family FUD
-Saturday, January 17, 2015
-Time	Build It!	Belay It!	Bring it On!
-0930	Registration Opens
-1000	
-NSA Playset: USB Tools
-Dominic Spill, Michael Ossmann, and Jared Boone
+2. Knock Knock: A Survey of iOS Authentication Methods
+  - David Schuetz
 
+## BELAY IT!
 
 Cockroach Analysis: A Statistical Analysis of the Flash and Java Files that Infest the Internet
 David Dorsey
 
 
+## BRING IT ON!
+
 Where the Wild Things Are: Encryption, Police Access & the User
 Whitney Merrill
 
+
 1100	
-Knock Knock: A Survey of iOS Authentication Methods
-David Schuetz
+
 
 
 Understanding a New Memory Corruption Defense: Use-after-Free (UaF) Mitigation and Bypass
