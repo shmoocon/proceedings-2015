@@ -25,9 +25,7 @@ Building for the specific threat model allows us to know when and where we can m
 
 Another area where we can easily build for both security and usability is in the user settings. We can allow the users to choose their settings, while informing them whether their choices are high or low security. This kind of design pattern applies to tasks like choosing a password, how long the user can be inactive before the app logs out, or whether or not to use GPS location services.
 
-That’s the approach taken by Blackphone’s operating system PrivatOS, which has strong security defaults but allows the user to override those settings.
-
-(Blackphone Support Security Center. Website visited February 6, 2015. https://support.blackphone.ch/customer/portal/topics/660716-security-center/articles)
+That’s the approach taken by Blackphone’s operating system PrivatOS, which has strong security defaults but allows the user to override those settings.[^3]
 
 ## Using New Tech for Identity Verification 
 
@@ -60,6 +58,8 @@ He said with their precursor to Instagram, called Burbn, they failed the bar tes
 
 * [^1] “Instagram Co-Founder Mike Krieger’s 8 Principles For Building Products People Want” by Josh Constine. November 30, 2012. http://techcrunch.com/2012/11/30/instagram-co-founder-mike-kriegers-8-principles-for-building-products-people-want/
 * [^2] “How Instagram Grew From Foursquare Knock-Off to $1 Billion Photo Empire” by Eric Markowitz. April 10, 2012.  http://www.inc.com/eric-markowitz/life-and-times-of-instagram-the-complete-original-story.html
+* [^3] Blackphone Support Security Center. Website visited February 6, 2015. https://support.blackphone.ch/customer/portal/topics/660716-security-center/articles
+
 
 (“Instagram Co-Founder on Startup Success” November 30, 2012. https://gigaom.com/2012/11/30/instagram-co-founder-on-startup-success-identify-your-early-obsessions/)
 
