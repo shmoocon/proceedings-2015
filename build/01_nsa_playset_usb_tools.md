@@ -102,17 +102,17 @@ TURNIPSCHOOL is an original Great Scott Gadgets design which makes use of the so
 [13] CC Bootloader, https://github.com/swift-nav/CC-Bootloader
 [14] RfCat, https://bitbucket.org/atlas0fd00m/rfcat
 
+#### Metadata
 
-Title: NSA Playset: USB Tools
-Primary Author Name: Dominic Spill
-Primary Author Email: dominicgs@gmail.com
+Tags: USB, Packet Sniffer, Open Source, Hardware
 
-Additional Author Name: Michael Ossmann
-Additional Author Affiliation: Great Scott Gadgets
-Additional Author Email: mike@ossmann.com
+**Primary Author Name**: Dominic Spill  
+**Primary Author Email**: dominicgs@gmail.com
 
-Additional Author Name: Jared Boone
-Additional Author Affiliation: ShareBrained Technology, Inc.
-Additional Author Email: jared@sharebrained.com
+**Additional Author Name**: Michael Ossmann  
+**Additional Author Affiliation**: Great Scott Gadgets  
+**Additional Author Email**: mike@ossmann.com
 
-Keywords: USB, Packet Sniffer, Open Source, Hardware
+**Additional Author Name**: Jared Boone  
+**Additional Author Affiliation**: ShareBrained Technology, Inc.  
+**Additional Author Email**: jared@sharebrained.com
