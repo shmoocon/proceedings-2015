@@ -73,7 +73,5 @@ Works Cited:
 
 
 **Primary Author Name**: Casey Smith  	
-**Primary Author Affiliation**: CTO of JeKuDo Privacy Company, Author at OR Books  
-**Primary Author Email**: Elissabiz@gmail.com
-Casey Smith @subTee
+**Primary Author Twitter**: @subTee
 
