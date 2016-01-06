@@ -47,11 +47,11 @@ Once we are using real names or pseudonyms, we also have the option of integrati
 
 Facebook and LinkedIn are also useful for real name verification but are problematic to integrate into a security-focused application because both companies are facing lawsuits for privacy violations. As a result of privacy concerns, some users have a mistrust of Facebook and LinkedIn’s authentication features. 
 
-4. Test and Iterate with Your User Base
+## Test and Iterate with Your User Base
 
 Many apps are only tested by the programmers (or programmers and quality assurance staff) that built the app. It’s important to test with your user base! You can perform usability testing on your target demographic easily and affordably at scale using sites like usertesting.com.  There are other reputable sites for testing your app but UserTesting.com is particularly useful because they work with over a million user testers, allowing you to target your testing for whatever demographic you are targeting. See: http://www.usertesting.com/product/users
 
-5. Test at Bars and Coffee Shops
+## Test at Bars and Coffee Shops
 
 Sites like usertesting.com are useful because they scale so well. However it can be very helpful to watch people (real people, live in person) using your product. People in bars and coffee shops are relatively willing to start conversations with strangers, making it a very effective and cost efficient way to user test. Instagram founder Krieger call this “the bar exam.” He says:
 “Figure out how you would pitch your app or product to a stranger in a bar in 20 seconds, and if it’s too complicated to explain, re-think the simplicity. He said with their precursor to Instagram, called Burbn, they failed the bar test and realized they needed to re-work it.” (“Instagram Co-Founder on Startup Success” November 30, 2012. https://gigaom.com/2012/11/30/instagram-co-founder-on-startup-success-identify-your-early-obsessions/)
