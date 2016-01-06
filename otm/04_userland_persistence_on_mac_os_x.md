@@ -136,19 +136,13 @@ The sshd daemon executes as root only when the service is enabled and when any p
 
 The most surprising boot process is perhaps `/usr/bin/awk`. Launchd executes an ntp script `/bin/sh /usr/libexec/ntpd-wrapper` which contains awk. This script is executed with root privileges, therefore so is awk.  See the demo video[^29] for both the pathcing of awk and sshd.
 
-[23]: https://www.dropbox.com/s/0iyio9if3gv37op/no_launchd.png?dl=0
-
-[24]: https://www.youtube.com/watch?v=l8g4aOMcJiQ
-
-[25]: https://gist.github.com/secretsquirrel/2ba497786027472f98dd
-
-[26]: https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemTechnology/SystemTechnology.html
- 
-[27]: https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/xpcproxy.8.html
-
-[28]: https://www.youtube.com/watch?v=hhdvrOOxJbo
-
-[29]: https://www.youtube.com/watch?v=CpKfnU8Rc3s
+* [^23] https://www.dropbox.com/s/0iyio9if3gv37op/no_launchd.png?dl=0
+* [^24] https://www.youtube.com/watch?v=l8g4aOMcJiQ
+* [^25] https://gist.github.com/secretsquirrel/2ba497786027472f98dd
+* [^26] https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemTechnology/SystemTechnology.html
+* [^27] https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/xpcproxy.8.html
+* [^28] https://www.youtube.com/watch?v=hhdvrOOxJbo
+* [^29] https://www.youtube.com/watch?v=CpKfnU8Rc3s
 
 ###Defenses
 
