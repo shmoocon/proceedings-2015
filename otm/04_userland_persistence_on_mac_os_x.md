@@ -160,8 +160,7 @@ Recommendations:
 * For Apple to include a TPM to verify the kernel and boot process
 * For hashing tools to check the entire disk, there are simply too many places to hide to not check everything
 
-Since the conference, Yelp Security Engineering has released an update to their [OSXCollector][32] tool 
-with an option to check everything on disk.  Initial tests provided full coverage of the disk partition 
+Since the conference, Yelp Security Engineering has released an update to their OSXCollector[^32] tool with an option to check everything on disk.  Initial tests provided full coverage of the disk partition 
 and an expected long runtime of approximately 30 minutes on a new VM.
 
 [30]: https://github.com/google/santa/commit/a99039ae4c6fa58aeabb399209bdde36c9e4cde3
