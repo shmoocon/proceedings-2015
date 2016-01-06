@@ -70,6 +70,8 @@
 9. Infrastructure Tracking with Passive Monitoring and Active Probing
   - Anthony Kasza
   - Dhia Mahjoub
+10. Micronesia: Sub-kernel Kit for Host Introspection in Determining Insider Threat
+  - Loc Nguyen
 
 ## BRING IT ON!
 
@@ -102,8 +104,7 @@
 
 
 
-Micronesia: Sub-kernel Kit for Host Introspection in Determining Insider Threat
-Loc Nguyen
+
 
 
 How Random is Your RNG?
