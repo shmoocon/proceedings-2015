@@ -33,7 +33,7 @@ There are two password metric groups, classified based on how a password is crea
 
 Where "H" equals the total entropy, "b" equals the number of characters to choose from, and "l" equals password length. Shannon entropy for the original (i.e., non-permuted) 10 passwords are shown below.
 
-![Shannon Entropy Examples](ShannonEntropyExamples.png)
+![Shannon Entropy Examples](imgs/ShannonEntropyExamples.png)
 
 ### Prior Research
 The current work was motivated by a recent behavioral study on mobile password entry for complex, system-generated passwords [Greene, Gallagher, Stanton, & Lee, 2014], which was a replication of a desktop password entry study [Stanton & Greene, 2014]. In both studies, participants had to learn, enter, and recall 10 system-generated passwords; entry times, error frequencies, and recall failures were recorded. Onscreen keyboard switching significantly increased input time and introduced errors. There were over four times as many smartphone errors in the mobile study as in the desktop study (2100 versus 513), emphasizing the effect of device on password usability. In addition to those 10 passwords from prior research, we also used new randomly generated passwords via a program developed in-house (details in Methodology section).
