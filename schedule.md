@@ -33,6 +33,11 @@
 5. NaCl: A New Crypto Library
   - Daniel J. Bernstein
   - Tanja Lange
+6. Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry
+  - Kristen K. Greene
+  - Joshua Franklin
+  - John Kelsey
+
 
 ## BELAY IT!
 
@@ -45,7 +50,12 @@
   - Patrick Wardle
 4. Practical Machine Learning for Network Security
   - Terry Nelms
-
+5. The Joy Of Intelligent Proactive Security
+  - Scott Behrens
+  - Andy Hoernecke
+6. Manually Searching Advisories and Blogs for Threat Data--"Who's Got Time for That?"
+  - Elvis Hovor
+  - Shimon Modi
 
 ## BRING IT ON!
 
@@ -58,25 +68,16 @@
 4. Come to the Dark Side--We Have (Misfortune) Cookies
   - Lior Oppenheim
   - Shahar Tal
-
-1500	
-
-
-
-The Joy Of Intelligent Proactive Security
-Scott Behrens and Andy Hoernecke
-
-
-Deception for the Cyber Defender: To Err is Human; to Deceive, Divine
-Tom Cross, David Raymond, and Gregory Conti
+5. Deception for the Cyber Defender: To Err is Human; to Deceive, Divine
+  - Tom Cross
+  - David Raymond
+  - Gregory Conti
 
 1600	
-Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry
-Kristen K. Greene, Joshua Franklin, and John Kelsey
 
 
-Manually Searching Advisories and Blogs for Threat Data--"Who's Got Time for That?"
-Elvis Hovor and Shimon Modi
+
+
 
 
 Rethinking Security's Role in Computer Science Education
