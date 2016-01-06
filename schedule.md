@@ -8,7 +8,7 @@
   - Casey Smith
 3. [Don't Look Now! Malicious Image Spam](otm/03_dont_look_now_malicious_image_spam.md)
   - Kathy Liszka
-4. [Userland Persistence on Mac OS X "It Just Works"
+4. [Userland Persistence on Mac OS X "It Just Works"](otm/04_userland_persistence_on_mac_os_x.md)
   - Joshua Pitts
 5. SEWiFi: Building a Security Enhanced WiFi Dongle
   - Ryan Holeman
