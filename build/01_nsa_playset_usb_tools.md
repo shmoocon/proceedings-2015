@@ -55,13 +55,7 @@ We demonstrated link negotiation completing while the Daisho hardware was instal
 
 ## TURNIPSCHOOL
 
-TURNIPSCHOOL[^11] is a radio interface concealed within the A connector of a USB
-cable. Consisting of a microcontroller, digital radio, and USB hub, the device
-provides a covert RF interface to software running on the host computer while
-simultaneously permitting normal operation of a downstream USB device at the
-other end of the cable. TURNIPSCHOOL can also be used as a radio-controlled USB
-device, potentially emulating other devices or implementing methods to probe the
-USB host.
+TURNIPSCHOOL[^11] is a radio interface concealed within the A connector of a USB cable. Consisting of a microcontroller, digital radio, and USB hub, the device provides a covert RF interface to software running on the host computer while simultaneously permitting normal operation of a downstream USB device at the other end of the cable. TURNIPSCHOOL can also be used as a radio-controlled USB device, potentially emulating other devices or implementing methods to probe the USB host.
 
 We designed and built TURNIPSCHOOL to demonstrate that capabilities such as
 miniaturization of covert electronic devices are accessible to anyone, not just
