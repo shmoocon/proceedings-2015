@@ -6,14 +6,10 @@
   - Elissa Shevinsky
 2. Simple Windows Application Whitelisting Evasion
   - Casey Smith
-
-1630	
-Don't Look Now! Malicious Image Spam
-Kathy Liszka
-
-1700	
-Userland Persistence on Mac OS X "It Just Works"
-Joshua Pitts
+3. Don't Look Now! Malicious Image Spam
+  - Kathy Liszka
+4. Userland Persistence on Mac OS X "It Just Works"
+  - Joshua Pitts
 
 1730	
 SEWiFi: Building a Security Enhanced WiFi Dongle
