@@ -13,14 +13,6 @@ Everything presented in the paper requires root permissions.  OS X Userland pers
 
 According to the Joanna Rutkowska’s “*Introducing Stealth Malware Taxonomy*”[^1] (pg. 3), the technique being used in this paper is considered “Type 1” Malware. The infection method used is called the "Pre-text Section Infection Method" by the author and the details are outlined here "Patching the Mach-o Format the Simple and Easy Way"[^2].  This research is built off of prior Mach-O patching techniques from Pedro Vilaça[^3] and Roy G Biv[^4] though it works across all Mach-O executable binaries for both the `LC_MAIN` and `LC_UNIXTHREAD` binary types, as long as the pre-text section is large enough for the malicious payload. This method is included in the Backdoor-Factory[^5] (BDF) which supports x86 and x64 chipsets for Mach-O and the `LC_MAIN` and `LC_UNIXTHREAD` formats within a FAT file. When patching these processes one does not need to be concerned about signing as this is only a function of applications and enforced by imported dylibs on signed applications. The OS X kernel does not enforce code signing for executable binaries as of the writing of this paper. BDF reduces the number of load commands for each code signing library and thereby un-signs the binary as default behavior. This technique has been know for some time[^6].
 
-* [^0] https://s3.amazonaws.com/s3.synack.com/Synack_Shakacon_OSX_Malware_Persistence.pdf
-* [^1] https://web.archive.org/web/20110720002040/http://invisiblethings.org/papers/malware-taxonomy.pdf
-* [^2] http://secureallthethings.blogspot.com/2014/08/patching-mach-o-format-simple-and-easy.html
-* [^3] https://github.com/gdbinit/osx_boubou
-* [^4] http://vxheaven.org/lib/vrg01.html
-* [^5] https://github.com/secretsquirrel/the-backdoor-factory
-* [^6] http://www.insanelymac.com/forum/topic/293359-tool-to-remove-apple-code-signatures-from-binaries/
-
 ### Finding Processes
 
 Infecting boot processes and core daemons offers a run-time advantage as the
@@ -32,9 +24,6 @@ for Mavericks and Yosemite by issuing the following command:
     ps -xu root
 
 For Mavericks and Yosemite this resulted in about 50[^7] and 67[^8] processes respectively.
-
-* [^7] https://gist.github.com/secretsquirrel/264bdb4c73ba29a80938
-* [^8] https://gist.github.com/secretsquirrel/798bcb7dc75dba6f1d17
 
 However by inspecting the process status list there is a PID gap between *launchd*, the first process, and the next process.  While this space turned out to be unimportant, it was determined that looking into the boot processes was important.
 
@@ -66,9 +55,6 @@ And the payload was patched this into *launchd* with the following commands usin
 
 This method found an additional 30 or so processes for Yosemite[^16] and Mavericks[^17].
 
-* [^16] https://www.dropbox.com/s/mx0z1l29rj78ebr/processoutput_10.10.7z?dl=0
-* [^17] https://www.dropbox.com/s/0d3xr5yox0d62cl/processoutput_10.9.7z?dl=0
-
 However, Dtrace is more accurate as the *ps* command is a point in time look and processes could be missed. The Dtrace execsnoop script solves this issue:
 
     #!/bin/bash
@@ -81,9 +67,6 @@ However, Dtrace is more accurate as the *ps* command is a point in time look and
     done
 
 This method found an additional 24 and 25 processes, with a total of over 110 processes on both Yosemite[^18] and Mavericks[^19].
-
-* [^18] https://www.dropbox.com/s/9fvstvt4ea0nm17/new_from_dtrace_10.10.txt?dl=0
-* [^19] https://www.dropbox.com/s/u8s2r446vekowm7/new_from_dtrace_10.9.txt?dl=0
 
 ### Patching Processes
 
@@ -144,13 +127,28 @@ Since the conference, Yelp Security Engineering has released an update to their 
 
 ## References
 
+
+* [^0] https://s3.amazonaws.com/s3.synack.com/Synack_Shakacon_OSX_Malware_Persistence.pdf
+* [^1] https://web.archive.org/web/20110720002040/http://invisiblethings.org/papers/malware-taxonomy.pdf
+* [^2] http://secureallthethings.blogspot.com/2014/08/patching-mach-o-format-simple-and-easy.html
+* [^3] https://github.com/gdbinit/osx_boubou
+* [^4] http://vxheaven.org/lib/vrg01.html
+* [^5] https://github.com/secretsquirrel/the-backdoor-factory
+* [^6] http://www.insanelymac.com/forum/topic/293359-tool-to-remove-apple-code-signatures-from-binaries/
+* [^7] https://gist.github.com/secretsquirrel/264bdb4c73ba29a80938
+* [^8] https://gist.github.com/secretsquirrel/798bcb7dc75dba6f1d17
+
+
 * [^10] https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L61
 * [^11] https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L99
 * [^12] https://gist.github.com/secretsquirrel/120f511775d57e76d633
 * [^13] https://gist.github.com/secretsquirrel/f84d99284faac9205ac4
 * [^14] https://gist.github.com/secretsquirrel/a690bcc6ad0b69df20e9
 * [^15] https://www.youtube.com/watch?v=KzzcIvxCP-I
-
+* [^16] https://www.dropbox.com/s/mx0z1l29rj78ebr/processoutput_10.10.7z?dl=0
+* [^17] https://www.dropbox.com/s/0d3xr5yox0d62cl/processoutput_10.9.7z?dl=0
+* [^18] https://www.dropbox.com/s/9fvstvt4ea0nm17/new_from_dtrace_10.10.txt?dl=0
+* [^19] https://www.dropbox.com/s/u8s2r446vekowm7/new_from_dtrace_10.9.txt?dl=0
 * [^20] https://www.dropbox.com/s/ju60vnz0lin7d57/formatted_Root_processesYosemite.csv?dl=0
 * [^21] https://www.dropbox.com/s/0gcud7ndcgplr3b/formatted_Root_processesMavs.csv?dl=0
 * [^22] https://github.com/synack/knockknock
