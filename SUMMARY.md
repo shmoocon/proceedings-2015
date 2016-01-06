@@ -9,5 +9,5 @@
 * [ONE TRACK MIND](otm/one_track_mind.md)
 * [BUILD IT](build/build_it.md)
 * [BELAY IT](belay/belay_it.md)
-* BRING IT ON
+* [BRING IT ON](bring/bring_it_on.md)
 
