@@ -11,11 +11,7 @@ Userland file infection techniques for OS X are not new. However, they seem some
 
 Everything presented in the paper requires root permissions.  OS X Userland persistence is not a new topic and has been researched **heavily**[^0] by Patrick Wardle and others.
 
-According to the Joanna Rutkowska’s “[Introducing Stealth Malware Taxonomy][1]”
-(pg. 3), the technique being used in this paper is considered “Type 1” Malware.
-The infection method used is called the "Pre-text Section Infection Method" by
-the author and the details are outlined here "[Patching the Mach-o Format the
-Simple and Easy Way][2]".  This research is built off of prior Mach-O patching
+According to the Joanna Rutkowska’s “*Introducing Stealth Malware Taxonomy*”[^1] (pg. 3), the technique being used in this paper is considered “Type 1” Malware. The infection method used is called the "Pre-text Section Infection Method" by the author and the details are outlined here "Patching the Mach-o Format the Simple and Easy Way[^2]".  This research is built off of prior Mach-O patching
 techniques from [Pedro Vilaça][3] and [Roy G Biv][4] though it works across all
 Mach-O executable binaries for both the LC_MAIN and LC_UNIXTHREAD binary
 types, as long as the pre-text section is large enough for the malicious
