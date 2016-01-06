@@ -38,7 +38,7 @@ For Mavericks and Yosemite this resulted in about 50[^7] and 67[^8] processes re
 
 However by inspecting the process status list there is a PID gap between *launchd*, the first process, and the next process.  While this space turned out to be unimportant, it was determined that looking into the boot processes was important.
 
-Dtrace is the perfect tool for looking at boot process through anonymous tracing; however Dtrace is [broken][9] on OS X. The fix requires patching the kernel.
+Dtrace is the perfect tool for looking at boot process through anonymous tracing; however Dtrace is broken[^9] on OS X. The fix requires patching the kernel.
 
 [9]: http://thr3ads.net/dtrace-discuss/2007/11/380218-Running-DTrace-early-in-OSX-boot-process#m380226
 
