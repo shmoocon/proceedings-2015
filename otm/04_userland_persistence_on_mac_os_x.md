@@ -144,17 +144,17 @@ time lapse video of the process is located [here][15].
 [15]: https://www.youtube.com/watch?v=KzzcIvxCP-I
 
 ###Results
-                +-----------------+----------+-----------+                 
-                |                 | Yosemite |Mavericks  |                 
-                +-----------------+----------+-----------+                 
-                | Boot Processes  | 118      | 111       |                 
-                +-----------------+----------+-----------+                 
-                | Pre-Networking  | 55       | 24        |
-                +-----------------+----------+-----------+                 
-                | Post-Networking | 36       | 59        |                 
-                +-----------------+----------+-----------+                 
-                | Not Viable      | 27       | 28        |                 
-                +-----------------+----------+-----------+
+    +-----------------+----------+-----------+                 
+    |                 | Yosemite |Mavericks  |                 
+    +-----------------+----------+-----------+                 
+    | Boot Processes  | 118      | 111       |                 
+    +-----------------+----------+-----------+                 
+    | Pre-Networking  | 55       | 24        |
+    +-----------------+----------+-----------+                 
+    | Post-Networking | 36       | 59        |                 
+    +-----------------+----------+-----------+                 
+    | Not Viable      | 27       | 28        |                 
+    +-----------------+----------+-----------+
 
 Detailed results for [Yosemite][20] and [Mavericks][21] including [KnockKnock][22] analysis.
 The 'Not Viable' processes are a result of binaries that either could not be patched because of a small
