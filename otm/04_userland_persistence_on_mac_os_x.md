@@ -69,8 +69,7 @@ This method found an additional 30 or so processes for Yosemite[^16] and Maveric
 * [^16] https://www.dropbox.com/s/mx0z1l29rj78ebr/processoutput_10.10.7z?dl=0
 * [^17] https://www.dropbox.com/s/0d3xr5yox0d62cl/processoutput_10.9.7z?dl=0
 
-However, Dtrace is more accurate as the *ps* command is a point in time look and
-processes could be missed. The Dtrace execsnoop script solves this issue:
+However, Dtrace is more accurate as the *ps* command is a point in time look and processes could be missed. The Dtrace execsnoop script solves this issue:
 
                 #!/bin/bash
                 i="0"         
