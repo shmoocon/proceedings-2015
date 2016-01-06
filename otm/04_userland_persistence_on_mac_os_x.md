@@ -143,7 +143,7 @@ time lapse video of the process is located [here][15].
 
 [15]: https://www.youtube.com/watch?v=KzzcIvxCP-I
 
-###Results
+### Results
     +-----------------+----------+-----------+                 
     |                 | Yosemite |Mavericks  |                 
     +-----------------+----------+-----------+                 
