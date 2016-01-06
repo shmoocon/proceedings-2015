@@ -71,14 +71,14 @@ This method found an additional 30 or so processes for Yosemite[^16] and Maveric
 
 However, Dtrace is more accurate as the *ps* command is a point in time look and processes could be missed. The Dtrace execsnoop script solves this issue:
 
-                #!/bin/bash
-                i="0"         
-                while [ $i -lt 1000 ]                 
-                do                 
-                /usr/bin/execsnoop -A >> /output.log                 
-                sleep .01                 
-                i=$[\$+1]                 
-                done
+    #!/bin/bash
+    i="0"         
+    while [ $i -lt 1000 ]                 
+    do                 
+        /usr/bin/execsnoop -A >> /output.log                 
+        sleep .01                 
+        i=$[\$+1]                 
+    done
 
 This method found an additional 24 and 25 processes, with a total of over 110
 processes on both [Yosemite][18] and [Mavericks][19].
