@@ -8,7 +8,7 @@ usability? This paper explores five of the most high impact ways that you can bu
 
 The need for easy to use encryption is now evident. Due to high profile hacks like the attack on Sony Pictures, mainstream users are beginning to take security seriously. Privacy activists like Snowden and the EFF are calling on technologists to build easy to use encryption products. Journalists and venture capitalists are amplifying that message. It’s clear that there is a social need, and a private market, for easy to use encryption products. The next step is figuring out how we can build more usable applications. 
 
- '##'Build and Test the Design First’
+## Build and Test the Design First
 
 My talk at Shmoocon was presented in an irreverent fashion but the core message is sincere. Building usable apps requires starting with strong design and then doing user testing. It’s critical to build and test the design before building the backend. This allows you to discover that your feature set needs improvement, or that there are usability issues to correct. It’s much easier to change the design or feature specifications before coding has begun. 
 
