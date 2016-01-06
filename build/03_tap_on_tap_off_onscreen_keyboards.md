@@ -1,9 +1,5 @@
 # Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry
 
-
-## Title: 
-Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry  
-
 ## Author information:
 Primary Author Name: Kristen K. Greene  
 Primary Author Affiliation: National Institute of Standards and Technology  
