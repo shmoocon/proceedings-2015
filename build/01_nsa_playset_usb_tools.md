@@ -15,9 +15,6 @@ added to USBProxy, a software framework that can operate on existing hardware
 platforms such as BeagleBone Black. Finally we introduce TURNIPSCHOOL, our own
 RF implant hidden in a USB cable.
 
-
-# NSA Playset: USB Tools
-
 ## Introduction
 
 USB is the most common interface for connecting devices to host computers, with
