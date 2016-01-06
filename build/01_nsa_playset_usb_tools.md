@@ -2,18 +2,9 @@
 
 ## Abstract
 
-USB implants were among the most talked about gadgets in the NSA ANT catalog
-after it leaked last year. Concealed in cables and connectors, these devices
-appear to be designed primarily to provide covert communication channels to
-malware operating on a host computer. Secondarily it seems that they could be
-used to implement USB attacks or to monitor connected USB devices.
+USB implants were among the most talked about gadgets in the NSA ANT catalog after it leaked last year. Concealed in cables and connectors, these devices appear to be designed primarily to provide covert communication channels to malware operating on a host computer. Secondarily it seems that they could be used to implement USB attacks or to monitor connected USB devices.
 
-We demonstrate tools we've built for the same capabilities, including USB
-man-in-the-middle with Daisho, our SuperSpeed USB platform for wired
-communication security research. Additionally we show capabilities recently
-added to USBProxy, a software framework that can operate on existing hardware
-platforms such as BeagleBone Black. Finally we introduce TURNIPSCHOOL, our own
-RF implant hidden in a USB cable.
+We demonstrate tools we've built for the same capabilities, including USB man-in-the-middle with Daisho, our SuperSpeed USB platform for wired communication security research. Additionally we show capabilities recently added to USBProxy, a software framework that can operate on existing hardware platforms such as BeagleBone Black. Finally we introduce TURNIPSCHOOL, our own RF implant hidden in a USB cable.
 
 ## Introduction
 
