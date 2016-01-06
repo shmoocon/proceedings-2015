@@ -122,7 +122,7 @@ Although applying blanket severity ratings across such a wide range of apps is s
 | High     | Did not use TLS or ignored cert errors | 2  |
 | High     | Password stored insecurely             | 4  |
 
-[I rated lack of certificate pinning as "Low" because it still has not been accepted as a standard practice, though I recommend its use wherever feasible.]
+[*I rated lack of certificate pinning as "Low" because it still has not been accepted as a standard practice, though I recommend its use wherever feasible.*]
 
 Most of these issues can be easily addressed through three simple changes:
 
