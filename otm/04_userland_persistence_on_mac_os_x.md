@@ -148,9 +148,9 @@ The most surprising boot process is perhaps `/usr/bin/awk`. Launchd executes an 
 
 The majority of the videos previously mentioned had anti-virus installed on the demo machines.  Anti-virus is not equipped to handle malicious code patched into valid binaries. Whitelisting is the preferred solution. Until recently there have been no solutions available to everyday consumers. In November 2014, Google Santa (not an official Google product) was released[^30], which occurred after this topic was submitted to ShmooCon CFP. Santa works by loading a kext (driver) and having a daemon (santad) that conducts the actual checking of binaries. If a binary is executed before santad and if santad itself is infected, both will be given a pass as demonstrated in this video[^31]. Network filters such as Little Snitch fall under same type of attack, if the process is executed before the first Little Snitch daemon then the network traffic will not be filtered.
 
-KnockKnock[^22] by Patrick Wardle provided the best results of all the tests, though it missed about half of the processes. This was due to the script not checking everything on disk and only reviewing knownpersistence locations. For example, KnockKnock overlooks the 'Socket' plist launch setting and binaries that were executed by scripts, such as awk, and simply did not check the binary such as launchd. Patrick Wardle updated KnockKnock before the conference to check currently running processes; however, the update will not catch processes like awk or perhaps sshd. Note: KnockKnock is not a whitelisting 
-solution, but rather an OS X persistence location checking script.  It executes as needed by the user, or 
-via jobs, but does not provide continuous monitoring.
+KnockKnock[^22] by Patrick Wardle provided the best results of all the tests, though it missed about half of the processes. This was due to the script not checking everything on disk and only reviewing knownpersistence locations. For example, KnockKnock overlooks the 'Socket' plist launch setting and binaries that were executed by scripts, such as awk, and simply did not check the binary such as launchd. Patrick Wardle updated KnockKnock before the conference to check currently running processes; however, the update will not catch processes like awk or perhaps sshd.
+
+Note: KnockKnock is not a whitelisting solution, but rather an OS X persistence location checking script.  It executes as needed by the user, or via jobs, but does not provide continuous monitoring.
 
 ### Solutions
 
