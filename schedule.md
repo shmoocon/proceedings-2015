@@ -40,6 +40,7 @@
 7. 0wn the Con
   - The Shmoo Group
 
+
 ## BELAY IT!
 
 1. Cockroach Analysis: A Statistical Analysis of the Flash and Java Files that Infest the Internet
@@ -57,6 +58,8 @@
 6. Manually Searching Advisories and Blogs for Threat Data--"Who's Got Time for That?"
   - Elvis Hovor
   - Shimon Modi
+7. The Windows Sandbox Paradox
+  - James Forshaw
 
 ## BRING IT ON!
 
@@ -80,8 +83,7 @@
 
 
 
-The Windows Sandbox Paradox
-James Forshaw
+
 
 
 Ask the EFF
