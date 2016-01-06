@@ -89,9 +89,8 @@ This method found an additional 24 and 25 processes, with a total of over 110 pr
 
 When it comes to network availability during the boot process, there are two states, pre-networking and post-networking. The author found that many processes launch pre-networking and prevent the normal execution of a standard reverse shell. Therefore, two payloads where developed -- a delay[^10] reverse tcp shell and a beaconing[^11] reverse tcp shell.  The delay payload works by waiting X seconds before launching the payload and doing so only once; the beaconing payload launches the payload every X seconds, repeating forever. For testing, the beaconing payload was employed with the default setting of 15 seconds.
 
-[10]: https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L61
-
-[11]: https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L99
+* [^10] https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L61
+* [^11] https://github.com/secretsquirrel/the-backdoor-factory/blob/a52a7c00d3af834ac78e224abec84543f584cbf5/intel/MachoIntel32.py#L99
 
 With the pre-networking issue solved, over 200 boot and core processes needed
 testing.  Two scripts were created to patch (infect) these binaries with
