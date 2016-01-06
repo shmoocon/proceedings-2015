@@ -128,7 +128,7 @@ The most interesting startup processes noted are:
 
 The first process to launch after the kernel is launchd.  It holds the equivalent responsibility to `/sbin/init` on Linux. Since *launchd* executes before other security implementations, such as antivirus, whitelisting, and application based network filters, it can avoid detection.  Further, removing an infected *launchd* binary is troublesome; without *launchd*, OS X will not successfully boot[^23]. An example of an infection process is demonstrated in a video[^24], with the script available on github[^25].
 
-The XPC framework[^26] is the OS X interprocess communication technology and is implemented via xpcproxy[^27].  Xpcproxy usually launches multiple instances when an application is launched and executes as root. See the xpcproxy demo [video][28] for an example. 
+The XPC framework[^26] is the OS X interprocess communication technology and is implemented via xpcproxy[^27].  Xpcproxy usually launches multiple instances when an application is launched and executes as root. See the xpcproxy demo video[^28] for an example. 
 
 The sshd daemon executes as root only when the service is enabled and when any packet is routed to the service port. This is a setting in its plist file called "Sockets".   To find all the services that use "Sockets" execute the following command:
 
