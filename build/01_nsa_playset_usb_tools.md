@@ -36,9 +36,7 @@ USBProxy[^1], first announced at ShmooCon 2014[^2], is userspace tool for monito
 
 Since the initial demonstration of USBProxy there has been a great deal of interest in using it to reverse engineer USB based protocols, especially for systems where access to the host is not possible. For example both Xbox 360[^3] and Wii U controller[^4] protocols have been examined with USBProxy.
 
-We have also had success with standard USB protocols. For example, our work with
-USB Mass Storage[5] has allowed us to inspect and block unwanted writes from
-suspicious hosts.
+We have also had success with standard USB protocols. For example, our work with USB Mass Storage[^5] has allowed us to inspect and block unwanted writes from suspicious hosts.
 
 Our latest step in the effort of opening USB experimentation to a wider audience
 has been to introduction of Python bindings to allow devices and packet filters
