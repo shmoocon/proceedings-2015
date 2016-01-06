@@ -13,6 +13,7 @@
    * [Userland Persistence on Mac OS X](otm/04_userland_persistence_on_mac_os_x.md)
 * [BUILD IT](build/build_it.md)
    * [NSA Playset: USB Tools](build/01_nsa_playset_usb_tools.md)
+   * Knock Knock: A Survey of iOS Authentication Methods
 * [BELAY IT](belay/belay_it.md)
 * [BRING IT ON](bring/bring_it_on.md)
 
