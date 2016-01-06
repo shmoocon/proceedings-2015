@@ -48,14 +48,14 @@ To work around this, the author used the following metasploit command to build a
 
 Which executes this script on the root of the filesystem:
 
-                #!/bin/bash                 
-                i="0"                 
-                while [ $i -lt 1000 ]                 
-                do                 
-                /bin/ps -xu root >> /Users/test/processoutput.txt                 
-                sleep .01                 
-                i=$[\$+1]                 
-                done
+    #!/bin/bash                 
+    i="0"                 
+    while [ $i -lt 1000 ]                 
+    do                 
+        /bin/ps -xu root >> /Users/test/processoutput.txt                 
+        sleep .01                 
+        i=$[\$+1]                 
+    done
 
 And the payload was patched this into *launchd* with the following commands using BDF:
 
