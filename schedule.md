@@ -4,7 +4,7 @@
 
 1. Five Not-Totally-Crazy Ways to Build for Usability
   - Elissa Shevinsky
-2. [Simple Windows Application Whitelisting Evasion](otm//02_simple_windows_application_whitelisting_evasion.md)
+2. [Simple Windows Application Whitelisting Evasion](otm/02_simple_windows_application_whitelisting_evasion.md)
   - Casey Smith
 3. Don't Look Now! Malicious Image Spam
   - Kathy Liszka
