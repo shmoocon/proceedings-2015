@@ -8,5 +8,5 @@
    * [Schedule](schedule.md)
 * [ONE TRACK MIND](otm/one_track_mind.md)
 * [BUILD IT](build/build_it.md)
-* BELAY IT
+* [BELAY IT](belay/belay_it.md)
 
