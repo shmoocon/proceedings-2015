@@ -12,7 +12,7 @@
   - Joshua Pitts
 5. SEWiFi: Building a Security Enhanced WiFi Dongle
   - Ryan Holeman
-6. Betting BIOS Bugs Won't Bite Y'er Butt?
+6. [Betting BIOS Bugs Won't Bite Y'er Butt?](otm/)
   - Xeno Kovah
   - Corey Kallenberg
 
