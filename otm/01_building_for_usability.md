@@ -15,7 +15,7 @@ A strong example of this approach is Instagram. Instagram was originally a photo
 
 > we’d build and throw away entire features. You’d waste three or four pieces of paper, not three weeks of coding.
 
-Burbn became successful only after user testing led the founders to realize that the Burbn app’s design and feature set was too complicated. They cut several features from Burbn, and created the simpler app that we now know as Instagram. Instagram would never have become a multi-billion dollar success without a strong process for design, prototyping and user testing. 
+Burbn became successful only after user testing led the founders to realize that the Burbn app’s design and feature set was too complicated. They cut several features from Burbn, and created the simpler app that we now know as Instagram. Instagram would never have become a multi-billion dollar success without a strong process for design, prototyping and user testing.[^1] [^2]
 
 ## Design for Your Users’ Threat Model
 
