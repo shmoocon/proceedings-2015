@@ -72,16 +72,8 @@
   - Tom Cross
   - David Raymond
   - Gregory Conti
-
-1600	
-
-
-
-
-
-
-Rethinking Security's Role in Computer Science Education
-Sarah Zatko
+6. Rethinking Security's Role in Computer Science Education
+  - Sarah Zatko
 
 1700	
 0wn the Con
