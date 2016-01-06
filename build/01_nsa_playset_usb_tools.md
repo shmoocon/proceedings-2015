@@ -46,11 +46,7 @@ Daisho[^7] [^8] is a DARPA Cyber Fast Track (CFT)[^9] funded open source hardwar
 
 The Daisho circuit board ("main board") contains an FPGA and a USB 3.0 Super Speed physical layer interface (PHY) for monitoring and control. For USB 3.0 work, a "front end" circuit board containing two additional PHYs is attached to the main board. These additional ports attach to a host and target device. The FPGA is the nexus for data to and from all three USB PHYs, and can forward, alter, or reject data as desired.
 
-Initial work focused on developing an open source USB 3.0 Verilog core which
-could be used to exchange large volumes of data with a monitoring computer. This
-work also validated the electrical characteristics of the USB 3.0 hardware,
-which is quite demanding due to its speed. With this earned confidence in our
-hardware design, we designed the USB 3.0 front end board.
+Initial work focused on developing an open source USB 3.0 Verilog core which could be used to exchange large volumes of data with a monitoring computer. This work also validated the electrical characteristics of the USB 3.0 hardware, which is quite demanding due to its speed. With this earned confidence in our hardware design, we designed the USB 3.0 front end board.
 
 When the hardware was complete, we started developing a pass-through application
 to prove our approach to forwarding data between USB 3.0 PHYs. Inspiration was
