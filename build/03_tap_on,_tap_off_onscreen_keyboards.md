@@ -53,7 +53,9 @@ We ran Monte Carlo simulations to conduct three different entropy loss experimen
 
 #### Usability Results
 
-The number of keystrokes saved—the efficiency gained—via permutation depends on the number of screen depth changes in the original password rather than on the length of the original password per se. The number of screen depth changes in turn depends on the frequency and placement of symbols and numbers, as those are the two character categories that require switching back and forth between onscreen keyboards. In other words, the more symbols there are and the more intermixed they are with other character classes in the original password, the more screen depth changes that will be saved via permutation. ![Permutation and iOS Tap Counts](PermutationAndTapCounts.png)
+The number of keystrokes saved—the efficiency gained—via permutation depends on the number of screen depth changes in the original password rather than on the length of the original password per se. The number of screen depth changes in turn depends on the frequency and placement of symbols and numbers, as those are the two character categories that require switching back and forth between onscreen keyboards. In other words, the more symbols there are and the more intermixed they are with other character classes in the original password, the more screen depth changes that will be saved via permutation.
+
+![Permutation and iOS Tap Counts](imgs/PermutationAndTapCounts.png)
 
 #### Security Results: Experiment 1, Fan-Out
 It is possible for multiple unique passwords to permute to the same password, thus our calculations must take into account the issue of password collisions like these: ![Password Collisions](PasswordCollisions.png)
