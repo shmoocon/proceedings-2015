@@ -77,7 +77,7 @@
 
 1. Where the Wild Things Are: Encryption, Police Access & the User
   - Whitney Merrill
-2. Analysis of POS Malware
+2. [Analysis of POS Malware](bring/)
   - Brandon Benson
 3. Quantum Computing 01100101
   - Tess Schrodinger
