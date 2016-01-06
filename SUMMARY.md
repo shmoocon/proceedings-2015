@@ -1,3 +1,8 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+   * [Foreword](foreword.md)
+   * [ShmooCon](shmoocon.md)
+   * [The Shmoo Group](the_shmoo_group.md)
+   * [Editor's Note](editors_note.md)
+   * [Schedule](schedule.md)
