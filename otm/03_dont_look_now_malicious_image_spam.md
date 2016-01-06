@@ -57,7 +57,7 @@ Embedding malware in files is not a new concept. It is used with MP3 files, vide
 
 ## The Enigmatic Sailboat
 
-One can lose focus looking at tens of thousands of spam images. One evening, I was staring at a sailboat image, trying to figure out the context since the images delivered by Knujon do not come with the original emails. It occurred to me that steganography might be involved so decided to create a class project. Students downloaded various free and popular steganalysis and steganography tools from the Internet. I gave them a set of images from my corpus and had them test it. StegSecret identified steganography techniques from an older version of Outguess and JPHide. One image that was identified as possibly containing steganography is `10786-NatalyaIm-34.jpg`, shown in **Figure 8**. 
+One can lose focus looking at tens of thousands of spam images. One evening, I was staring at a sailboat image, trying to figure out the context since the images delivered by Knujon do not come with the original emails. It occurred to me that steganography might be involved so decided to create a class project. Students downloaded various free and popular steganalysis and steganography tools from the Internet. I gave them a set of images from my corpus and had them test it. StegSecret identified steganography techniques from an older version of Outguess and JPHide. One image that was identified as possibly containing steganography is `10786-NatalyaIm-34.jpg`, shown in **Figure 7**. 
 
 ![alt Figure7](imgs/fig8.png "NatalyaIm")  
 **Figure 7. 10786-NatalyaIm-34.jpg**
