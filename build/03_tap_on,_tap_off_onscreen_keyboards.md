@@ -96,10 +96,9 @@ The fact that passwords containing numbers and symbols require changing onscreen
 
 Tags: usable security, authentication, metrology, password permutation, password generation
 
-## Author information:
-Primary Author Name: Kristen K. Greene  
-Primary Author Affiliation: National Institute of Standards and Technology  
-Primary Author Email: kristen.greene@nist.gov  
+**Primary Author Name**: Kristen K. Greene  
+**Primary Author Affiliation**: National Institute of Standards and Technology  
+**Primary Author Email**: kristen.greene@nist.gov  
 
 Additional Author Name: Joshua Franklin  
 Additional Author Affiliation: National Institute of Standards and Technology  
