@@ -49,7 +49,7 @@ Sites like usertesting.com are useful because they scale so well. However it can
 
 > Figure out how you would pitch your app or product to a stranger in a bar in 20 seconds, and if it’s too complicated to explain, re-think the simplicity.
 
-He said with their precursor to Instagram, called Burbn, they failed the bar test and realized they needed to re-work it.[^6]
+He said with their precursor to Instagram, called Burbn, they failed the bar test and realized they needed to re-work it.[^5]
 
 ## References
 
