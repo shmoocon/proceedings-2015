@@ -17,10 +17,6 @@ A strong example of this approach is Instagram. Instagram was originally a photo
 
 Burbn became successful only after user testing led the founders to realize that the Burbn app’s design and feature set was too complicated. They cut several features from Burbn, and created the simpler app that we now know as Instagram. Instagram would never have become a multi-billion dollar success without a strong process for design, prototyping and user testing. 
 
-(“Instagram Co-Founder Mike Krieger’s 8 Principles For Building Products People Want” by Josh Constine. November 30, 2012. http://techcrunch.com/2012/11/30/instagram-co-founder-mike-kriegers-8-principles-for-building-products-people-want/)
-
-(“How Instagram Grew From Foursquare Knock-Off to $1 Billion Photo Empire” by Eric Markowitz. April 10, 2012.  http://www.inc.com/eric-markowitz/life-and-times-of-instagram-the-complete-original-story.html)
- 
 ## Design for Your Users’ Threat Model
 
 “Made for Spies” is awesome if your users are spies. But if they are account executives (at Sony, for example) then we need to account for them being less motivated than the average spy. Let’s use messaging apps as an example. Mainstream users (executives included) need apps that are easy to use or else they will resort to DMing on Facebook and using other insecure communications.
@@ -57,11 +53,15 @@ Sites like usertesting.com are useful because they scale so well. However it can
 
 > Figure out how you would pitch your app or product to a stranger in a bar in 20 seconds, and if it’s too complicated to explain, re-think the simplicity.
 
-He said with their precursor to Instagram, called Burbn, they failed the bar test and realized they needed to re-work it.
-
-(“Instagram Co-Founder on Startup Success” November 30, 2012. https://gigaom.com/2012/11/30/instagram-co-founder-on-startup-success-identify-your-early-obsessions/)
+He said with their precursor to Instagram, called Burbn, they failed the bar test and realized they needed to re-work it.[^6]
 
 ## References
+
+
+* [^1] “Instagram Co-Founder Mike Krieger’s 8 Principles For Building Products People Want” by Josh Constine. November 30, 2012. http://techcrunch.com/2012/11/30/instagram-co-founder-mike-kriegers-8-principles-for-building-products-people-want/
+* [^2] “How Instagram Grew From Foursquare Knock-Off to $1 Billion Photo Empire” by Eric Markowitz. April 10, 2012.  http://www.inc.com/eric-markowitz/life-and-times-of-instagram-the-complete-original-story.html
+
+(“Instagram Co-Founder on Startup Success” November 30, 2012. https://gigaom.com/2012/11/30/instagram-co-founder-on-startup-success-identify-your-early-obsessions/)
 
 #### Metadata
 
