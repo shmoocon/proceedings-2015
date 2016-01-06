@@ -140,10 +140,6 @@ It is therefore hoped that this survey may provide insight into secure  credenti
 
 Tags: ios, mobile applications, authentication, best practices
 
-* Primary Author Name: David Schuetz
-* Primary Author Affiliation: Intrepidus Group
-* Primary Author Email: david@dasnet.org
-* Additional Author Name: -none- 
-* Additional Author Affiliation: -na-
-* Additional Author Email: -na-
-* (repeat Additional Author as necessary)
+**Primary Author Name**: David Schuetz  
+**Primary Author Affiliation**: Intrepidus Group
+**Primary Author Email**: david@dasnet.org
