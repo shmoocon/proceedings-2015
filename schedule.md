@@ -22,7 +22,6 @@
   - Dominic Spill
   - Michael Ossmann
   - Jared Boone
-
 2. Knock Knock: A Survey of iOS Authentication Methods
   - David Schuetz
 
