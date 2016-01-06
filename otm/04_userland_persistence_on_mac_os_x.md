@@ -177,7 +177,7 @@ the update will not catch processes like awk or perhaps sshd. Note: KnockKnock i
 solution, but rather an OS X persistence location checking script.  It executes as needed by the user, or 
 via jobs, but does not provide continuous monitoring.
 
-###Solutions
+### Solutions
 
 Recommendations:
 
