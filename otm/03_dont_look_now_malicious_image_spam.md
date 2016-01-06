@@ -103,7 +103,6 @@ https://www.virusbtn.com/resources/spammerscompendium/index, last accessed Janua
 [6] KnujOn, http://www.knujon.com/, last accessed January 2015.
 
 
-Subtitle: 
 Primary Author Name: Kathy J. Liszka
 Primary Author Affiliation: The University of Akron
 Primary Author Email: liszka@uakron.edu
