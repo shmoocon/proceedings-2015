@@ -28,12 +28,12 @@ The size of the corpus without duplicates by February 2011 was 215,799 images. W
 Spammers tend to run with the season. While many retailers are shelving Christmas wreaths alongside Halloween costumes, spammers wait until December to send Christmas images. January brings tidings of exercise equipment and February delivers chocolate and flowers to your inbox as in Figure 3. Pharmaceutical, financial, retail, gambling and software images are pervasive and appear with regularity year round.
 
 ![alt Figure3](imgs/fig3.jpg "seasonal")  
-Figure 3. Seasonal image spam.
+**Figure 3. Seasonal image spam.**
 
 Sexually oriented images are dominated by pictures of women in various stages of clothing, as in Figure 4. Male images were common during the spring and summer of 2010 but haven’t appeared much since then. The percentage of hard core pornography is actually very low. This is considered to be a monetary commodity to be purchased. Because these images are stored on our server, we attempt to keep it as secure as possible to prevent a minor from hacking into it. 
 
 ![alt Figure4](imgs/fig4.jpg "women")  
-Figure 4. Advertising women.
+**Figure 4. Advertising women.**
 
 Several other, unexpected categories surfaced. In early 2010, we saw our first animal cruelty pictures and also our first “hate” images. These were particularly disturbing to look at. The politically motivated hate images first appeared in October 2010 and continued through January 2011. To date, only a small number have appeared in the corpus, but the timing may not be coincidental to the unrest, protests, and ensuing violence that marked world events in January and February 2011.
 
