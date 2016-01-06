@@ -24,6 +24,9 @@
   - Jared Boone
 2. Knock Knock: A Survey of iOS Authentication Methods
   - David Schuetz
+3. httpscreenshot - A Tool for Both Teams
+  - Steve Breen
+  - Justin Kennedy
 
 ## BELAY IT!
 
@@ -31,6 +34,9 @@
   - David Dorsey
 2. Understanding a New Memory Corruption Defense: Use-after-Free (UaF) Mitigation and Bypass
   - Jared DeMott
+3. There's Waldo! Tracking Users via Mobile Apps
+  - Colby Moore
+  - Patrick Wardle
 
 ## BRING IT ON!
 
@@ -49,12 +55,10 @@
 
 
 1200	
-httpscreenshot - A Tool for Both Teams
-Steve Breen and Justin Kennedy
 
 
-There's Waldo! Tracking Users via Mobile Apps
-Colby Moore and Patrick Wardle
+
+
 
 
 Quantum Computing 01100101
