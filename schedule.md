@@ -48,7 +48,7 @@
 
 ## BELAY IT!
 
-1. Cockroach Analysis: A Statistical Analysis of the Flash and Java Files that Infest the Internet
+1. [Cockroach Analysis: A Statistical Analysis of the Flash and Java Files that Infest the Internet](belay/)
   - David Dorsey
 2. Understanding a New Memory Corruption Defense: Use-after-Free (UaF) Mitigation and Bypass
   - Jared DeMott
