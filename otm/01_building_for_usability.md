@@ -29,16 +29,23 @@ Building for the specific threat model allows us to know when and where we can m
 
 Another area where we can easily build for both security and usability is in the user settings. We can allow the users to choose their settings, while informing them whether their choices are high or low security. This kind of design pattern applies to tasks like choosing a password, how long the user can be inactive before the app logs out, or whether or not to use GPS location services.
 
-That’s the approach taken by Blackphone’s operating system PrivatOS, which has strong security defaults but allows the user to override those settings. (Blackphone Support Security Center. Website visited February 6, 2015. https://support.blackphone.ch/customer/portal/topics/660716-security-center/articles)
+That’s the approach taken by Blackphone’s operating system PrivatOS, which has strong security defaults but allows the user to override those settings.
 
-3.  ‘##Using New Tech for Identity Verification' 
+(Blackphone Support Security Center. Website visited February 6, 2015. https://support.blackphone.ch/customer/portal/topics/660716-security-center/articles)
+
+## Using New Tech for Identity Verification 
+
 A classic problem with encryption and usability has been verifying other parties. We have new tools to solve for this (as well as a changing user demographic for encrypted products) and that should become part of the conversation about building usable encryption. 
 
 First, let’s look at who is using encryption. Real name communication is becoming an increasingly important use case. Executives, for example, do not (in general) need to be anonymous with each other but do need to maintain privacy standards. Other use cases, like anonymous communication, are important but we are focusing on the real names use case for this example.
 
 Now let’s look at the tools at our disposal. Glimpse, for example, is an end to end encrypted photo and video messaging app. (Full disclosure, I led the team that built this app.) Using an app like this I can send a photo to you, in real time, which absolutely verifies that I am the sender. The Glimpse app has icons to show whether a photo or video has been uploaded from camera roll or whether it is being sent in real time. This kind of iconography is important, in order to evaluate the photo that is being received. This principle of verifying your contacts via video chat or real time photos applies to any encrypted app with a similar feature set. This does not work well for anonymous use cases (obviously) but real name real time encrypted chat is worth our attention. Note that Glimpse is out of the app store while we harden security features.
 
-Once we are using real names or pseudonyms, we also have the option of integrating Twitter and/or Github for identity verification. Keybase successfully incorporates Twitter and Github to verify identity. (“Keybase Docs: Understanding Tracking.” Website visited February 6, 2015. https://keybase.io/docs/tracking) Facebook and LinkedIn are also useful for real name verification but are problematic to integrate into a security-focused application because both companies are facing lawsuits for privacy violations. As a result of privacy concerns, some users have a mistrust of Facebook and LinkedIn’s authentication features. 
+Once we are using real names or pseudonyms, we also have the option of integrating Twitter and/or Github for identity verification. Keybase successfully incorporates Twitter and Github to verify identity.
+
+(“Keybase Docs: Understanding Tracking.” Website visited February 6, 2015. https://keybase.io/docs/tracking)
+
+Facebook and LinkedIn are also useful for real name verification but are problematic to integrate into a security-focused application because both companies are facing lawsuits for privacy violations. As a result of privacy concerns, some users have a mistrust of Facebook and LinkedIn’s authentication features. 
 
 4. Test and Iterate with Your User Base
 
