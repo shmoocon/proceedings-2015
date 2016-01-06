@@ -2,7 +2,7 @@
 
 ## ONE TRACK MIND
 
-1. [Five Not-Totally-Crazy Ways to Build for Usability](
+1. [Five Not-Totally-Crazy Ways to Build for Usability](otm/01_building_for_usability.md)
   - Elissa Shevinsky
 2. [Simple Windows Application Whitelisting Evasion](otm/02_simple_windows_application_whitelisting_evasion.md)
   - Casey Smith
