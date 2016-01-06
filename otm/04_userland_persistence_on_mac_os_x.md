@@ -103,6 +103,7 @@ With the pre-networking issue solved, over 200 boot and core processes needed te
 [15]: https://www.youtube.com/watch?v=KzzcIvxCP-I
 
 ### Results
+
     +-----------------+----------+-----------+                 
     |                 | Yosemite |Mavericks  |                 
     +-----------------+----------+-----------+                 
