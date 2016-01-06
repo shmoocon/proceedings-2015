@@ -7,5 +7,5 @@
    * [Editor's Note](editors_note.md)
    * [Schedule](schedule.md)
 * [ONE TRACK MIND](otm/one_track_mind.md)
-* BUILD IT
+* [BUILD IT](build/build_it.md)
 
