@@ -58,10 +58,7 @@ He said with their precursor to Instagram, called Burbn, they failed the bar tes
 * [^2] “How Instagram Grew From Foursquare Knock-Off to $1 Billion Photo Empire” by Eric Markowitz. April 10, 2012.  http://www.inc.com/eric-markowitz/life-and-times-of-instagram-the-complete-original-story.html
 * [^3] Blackphone Support Security Center. Website visited February 6, 2015. https://support.blackphone.ch/customer/portal/topics/660716-security-center/articles
 * [^4] “Keybase Docs: Understanding Tracking.” Website visited February 6, 2015. https://keybase.io/docs/tracking
-
-
-
-(“Instagram Co-Founder on Startup Success” November 30, 2012. https://gigaom.com/2012/11/30/instagram-co-founder-on-startup-success-identify-your-early-obsessions/)
+* [^5] “Instagram Co-Founder on Startup Success” November 30, 2012. https://gigaom.com/2012/11/30/instagram-co-founder-on-startup-success-identify-your-early-obsessions/
 
 #### Metadata
 
