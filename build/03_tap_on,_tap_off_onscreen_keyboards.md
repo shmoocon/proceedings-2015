@@ -58,7 +58,10 @@ The number of keystrokes saved—the efficiency gained—via permutation depends
 ![Permutation and iOS Tap Counts](imgs/PermutationAndTapCounts.png)
 
 #### Security Results: Experiment 1, Fan-Out
-It is possible for multiple unique passwords to permute to the same password, thus our calculations must take into account the issue of password collisions like these: ![Password Collisions](PasswordCollisions.png)
+It is possible for multiple unique passwords to permute to the same password, thus our calculations must take into account the issue of password collisions like these:
+
+![Password Collisions](imgs/PasswordCollisions.png)
+
 In our first experiment, we asked: how many passwords collide with the same user-friendly password? ![Experiment 1, Fan-Out](Experiment1-FanOut.png)
 
 #### Security Results: Experiment 2, Entropy Loss
