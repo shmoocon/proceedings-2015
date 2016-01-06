@@ -92,7 +92,9 @@
 8. Crypto Without Computers
   - Ben Agre
 9. Mascots, March Madness & #yogapants: Hacking Goes to College
-Chris Cullison, Zack Allen, and Avi Rubin
+  - Chris Cullison
+  - Zack Allen
+  - Avi Rubin
 
 1200	
 The Dark Art of Data Visualization
