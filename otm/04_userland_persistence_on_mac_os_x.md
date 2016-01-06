@@ -127,10 +127,10 @@ patching/file infection.
 
 The most interesting startup processes noted are:
 
-* /sbin/launchd
-* /usr/libexec/xpcproxy
-* /usr/sbin/sshd
-* /usr/bin/awk
+* `/sbin/launchd`
+* `/usr/libexec/xpcproxy`
+* `/usr/sbin/sshd`
+* `/usr/bin/awk`
 
 The first process to launch after the kernel is launchd.  It holds the equivalent responsibility to /sbin/init on Linux. Since *launchd* executes before other security implementations, such as antivirus, whitelisting, and application based network filters, it can avoid detection.  Further, removing an infected *launchd* binary is troublesome; without *launchd*, OS X will [not successfully boot][23]. An example of an infection process is demonstrated in a [video][24], with the script available on [github][25].
 
