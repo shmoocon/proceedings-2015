@@ -94,11 +94,6 @@ When it comes to network availability during the boot process, there are two sta
 
 With the pre-networking issue solved, over 200 boot and core processes needed testing.  Two scripts were created to patch (infect) these binaries with regular[^12] payloads and beaconing[^13] payloads.  Testing each binary by hand resulted in a time consuming endeavor.  An additional script[^14] was developed to automate this process using python, VMFusion, vmrun, and BDF. A time lapse video of the process is located here[^15].
 
-* [^12] https://gist.github.com/secretsquirrel/120f511775d57e76d633
-* [^13] https://gist.github.com/secretsquirrel/f84d99284faac9205ac4
-* [^14] https://gist.github.com/secretsquirrel/a690bcc6ad0b69df20e9
-* [^15] https://www.youtube.com/watch?v=KzzcIvxCP-I
-
 ### Results
 
     +-----------------+----------+-----------+                 
@@ -114,10 +109,6 @@ With the pre-networking issue solved, over 200 boot and core processes needed te
     +-----------------+----------+-----------+
 
 Detailed results for Yosemite[^20] and Mavericks[^21] including KnockKnock[^22] analysis. The 'Not Viable' processes are a result of binaries that either could not be patched because of a small pre-text section, the OS would not boot after patching the binary, or the process was properly sandboxed and would not connect out. The reader should make note that most of the tested binaries were viable for patching/file infection.
-
-* [^20] https://www.dropbox.com/s/ju60vnz0lin7d57/formatted_Root_processesYosemite.csv?dl=0
-* [^21] https://www.dropbox.com/s/0gcud7ndcgplr3b/formatted_Root_processesMavs.csv?dl=0
-* [^22] https://github.com/synack/knockknock
 
 The most interesting startup processes noted are:
 
@@ -135,14 +126,6 @@ The sshd daemon executes as root only when the service is enabled and when any p
     grep -r -i "<key>Sockets</key>" /System/Library/Launch*
 
 The most surprising boot process is perhaps `/usr/bin/awk`. Launchd executes an ntp script `/bin/sh /usr/libexec/ntpd-wrapper` which contains awk. This script is executed with root privileges, therefore so is awk.  See the demo video[^29] for both the pathcing of awk and sshd.
-
-* [^23] https://www.dropbox.com/s/0iyio9if3gv37op/no_launchd.png?dl=0
-* [^24] https://www.youtube.com/watch?v=l8g4aOMcJiQ
-* [^25] https://gist.github.com/secretsquirrel/2ba497786027472f98dd
-* [^26] https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemTechnology/SystemTechnology.html
-* [^27] https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/xpcproxy.8.html
-* [^28] https://www.youtube.com/watch?v=hhdvrOOxJbo
-* [^29] https://www.youtube.com/watch?v=CpKfnU8Rc3s
 
 ### Defenses
 
@@ -162,11 +145,26 @@ Recommendations:
 
 Since the conference, Yelp Security Engineering has released an update to their OSXCollector[^32] tool with an option to check everything on disk. Initial tests provided full coverage of the disk partition and an expected long runtime of approximately 30 minutes on a new VM.
 
+## References
+
+* [^12] https://gist.github.com/secretsquirrel/120f511775d57e76d633
+* [^13] https://gist.github.com/secretsquirrel/f84d99284faac9205ac4
+* [^14] https://gist.github.com/secretsquirrel/a690bcc6ad0b69df20e9
+* [^15] https://www.youtube.com/watch?v=KzzcIvxCP-I
+
+* [^20] https://www.dropbox.com/s/ju60vnz0lin7d57/formatted_Root_processesYosemite.csv?dl=0
+* [^21] https://www.dropbox.com/s/0gcud7ndcgplr3b/formatted_Root_processesMavs.csv?dl=0
+* [^22] https://github.com/synack/knockknock
+* [^23] https://www.dropbox.com/s/0iyio9if3gv37op/no_launchd.png?dl=0
+* [^24] https://www.youtube.com/watch?v=l8g4aOMcJiQ
+* [^25] https://gist.github.com/secretsquirrel/2ba497786027472f98dd
+* [^26] https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemTechnology/SystemTechnology.html
+* [^27] https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/xpcproxy.8.html
+* [^28] https://www.youtube.com/watch?v=hhdvrOOxJbo
+* [^29] https://www.youtube.com/watch?v=CpKfnU8Rc3s
 * [^30] https://github.com/google/santa/commit/a99039ae4c6fa58aeabb399209bdde36c9e4cde3
 * [^31] https://www.youtube.com/watch?v=Rq7PCbbWOhg
 * [^32] https://github.com/Yelp/osxcollector
-
-## References
 
 ### Metadata
 
