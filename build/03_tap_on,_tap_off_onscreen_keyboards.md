@@ -94,8 +94,7 @@ The fact that passwords containing numbers and symbols require changing onscreen
 
 #### Metadata
 
-## Title: 
-Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry  
+Tags: usable security, authentication, metrology, password permutation, password generation
 
 ## Author information:
 Primary Author Name: Kristen K. Greene  
@@ -110,7 +109,6 @@ Additional Author Name: John Kelsey
 Additional Author Affiliation: National Institute of Standards and Technology  
 Additional Author Email: john.kelsey@nist.gov  
 
-## Keywords/Tags: 
-usable security, authentication, metrology, password permutation, password generation
+## Keywords/
 
 
