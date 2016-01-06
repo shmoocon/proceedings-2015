@@ -1,20 +1,7 @@
 # NSA Playset: USB Tools
 
-Title: NSA Playset: USB Tools
-Primary Author Name: Dominic Spill
-Primary Author Email: dominicgs@gmail.com
+## Abstract
 
-Additional Author Name: Michael Ossmann
-Additional Author Affiliation: Great Scott Gadgets
-Additional Author Email: mike@ossmann.com
-
-Additional Author Name: Jared Boone
-Additional Author Affiliation: ShareBrained Technology, Inc.
-Additional Author Email: jared@sharebrained.com
-
-Keywords: USB, Packet Sniffer, Open Source, Hardware
-
-Abstract:
 USB implants were among the most talked about gadgets in the NSA ANT catalog
 after it leaked last year. Concealed in cables and connectors, these devices
 appear to be designed primarily to provide covert communication channels to
@@ -200,3 +187,18 @@ connector mold[12].
 [12] TURNIPSCHOOL casing, https://github.com/kikithegecko/turnipschool-casing
 [13] CC Bootloader, https://github.com/swift-nav/CC-Bootloader
 [14] RfCat, https://bitbucket.org/atlas0fd00m/rfcat
+
+
+Title: NSA Playset: USB Tools
+Primary Author Name: Dominic Spill
+Primary Author Email: dominicgs@gmail.com
+
+Additional Author Name: Michael Ossmann
+Additional Author Affiliation: Great Scott Gadgets
+Additional Author Email: mike@ossmann.com
+
+Additional Author Name: Jared Boone
+Additional Author Affiliation: ShareBrained Technology, Inc.
+Additional Author Email: jared@sharebrained.com
+
+Keywords: USB, Packet Sniffer, Open Source, Hardware
