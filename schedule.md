@@ -99,16 +99,10 @@
   - Chris Cullison
   - Zack Allen
   - Avi Rubin
-
-1200	
-
-
-
-
-
-
-How Random is Your RNG?
-Meltem Sˆnmez Turan, John Kelsey, and Kerry McKay
+10. How Random is Your RNG?
+  - Meltem Sˆnmez Turan
+  - John Kelsey
+  - Kerry McKay
 
 1300	
 Closing Plenary
