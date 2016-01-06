@@ -27,26 +27,26 @@
 
 ## BELAY IT!
 
-Cockroach Analysis: A Statistical Analysis of the Flash and Java Files that Infest the Internet
-David Dorsey
-
+1. Cockroach Analysis: A Statistical Analysis of the Flash and Java Files that Infest the Internet
+  - David Dorsey
+2. Understanding a New Memory Corruption Defense: Use-after-Free (UaF) Mitigation and Bypass
+  - Jared DeMott
 
 ## BRING IT ON!
 
-Where the Wild Things Are: Encryption, Police Access & the User
-Whitney Merrill
-
+1. Where the Wild Things Are: Encryption, Police Access & the User
+  - Whitney Merrill
+2. Analysis of POS Malware
+  - Brandon Benson
 
 1100	
 
 
 
-Understanding a New Memory Corruption Defense: Use-after-Free (UaF) Mitigation and Bypass
-Jared DeMott
 
 
-Analysis of POS Malware
-Brandon Benson
+
+
 
 1200	
 httpscreenshot - A Tool for Both Teams
