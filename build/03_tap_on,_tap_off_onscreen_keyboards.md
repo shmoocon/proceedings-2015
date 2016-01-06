@@ -67,7 +67,9 @@ In our first experiment, we asked: how many passwords collide with the same user
 ![Experiment 1, Fan-Out](imgs/Experiment1-FanOut.png)
 
 #### Security Results: Experiment 2, Entropy Loss
-In our second experiment, we asked: how much entropy is lost by permuting passwords? ![Experiment 2, Entropy Loss](Experiment2-EntropyLoss.png)
+In our second experiment, we asked: how much entropy is lost by permuting passwords?
+
+![Experiment 2, Entropy Loss](imgs/Experiment2-EntropyLoss.png)
 
 #### Security Results: Experiment 3, All-Lowercase
 In our third experiment, we asked: how much additional password length would we need to just change over to all lowercase letters? ![Experiment 3, All-Lowercase](Experiment3-AllLowercase.png)
