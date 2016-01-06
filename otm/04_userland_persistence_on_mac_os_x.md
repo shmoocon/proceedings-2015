@@ -9,7 +9,7 @@ Userland file infection techniques for OS X are not new. However, they seem some
 
 ### Intro and Prior Work
 
-Everything presented in the paper requires root permissions.  OS X Userland persistence is not a new topic and has been researched [heavily][0] by Patrick Wardle and others.
+Everything presented in the paper requires root permissions.  OS X Userland persistence is not a new topic and has been researched **heavily**[^0] by Patrick Wardle and others.
 
 According to the Joanna Rutkowska’s “[Introducing Stealth Malware Taxonomy][1]”
 (pg. 3), the technique being used in this paper is considered “Type 1” Malware.
