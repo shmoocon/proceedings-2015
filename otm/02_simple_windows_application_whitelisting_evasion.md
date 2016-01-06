@@ -41,8 +41,11 @@ We believe that this may affect a number of applications that rely on the patter
 
 ##Native Image Execution
 
-There are a couple of techniques that can be used to execute Native images.  For example, you can attempt to execute the file via rundll32 or pcwutl.dll.
-[C:\Windows\System32\rundll32.exe" C:\Windows\system32\pcwutl.dll,CreateAndRunTask -path "C:\rouge.exe].  However this execution event is likely to be blocked. The best technique we have found is to utilize a custom Portable Executable(PE) loader to execute the native binary from memory.  
+There are a couple of techniques that can be used to execute Native images.  For example, you can attempt to execute the file via `rundll32` or `pcwutl.dll`.
+
+    C:\Windows\System32\rundll32.exe" C:\Windows\system32\pcwutl.dll,CreateAndRunTask -path "C:\rouge.exe
+
+However this execution event is likely to be blocked. The best technique we have found is to utilize a custom Portable Executable(PE) loader to execute the native binary from memory.  
 
 In order to achieve this we will leverage the work done by other researchers to mimic the PE loader provided by the operating system. 
 We built a custom tool called Malwaria, which was used to execute a native DLL in memory.  We used the techniques described earlier to achieve code execution.  This tool embeds the dll as a resource, and then executes the file from a byte array in memory. 
