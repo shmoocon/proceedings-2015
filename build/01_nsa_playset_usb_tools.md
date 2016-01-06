@@ -87,9 +87,9 @@ TURNIPSCHOOL is an original Great Scott Gadgets design which makes use of the so
 
 ## References
 
-[1] USBProxy, https://github.com/dominicgs/USBProxy
-[2] USBProxy: An Open and Affordable USB Man in the Middle Device, ShmooCon proceedings 2014
-[3] Xbox 360 controller imitation, http://controllingxbox.blogspot.co.uk/
+* [^1] USBProxy, https://github.com/dominicgs/USBProxy
+* [^2] USBProxy: An Open and Affordable USB Man in the Middle Device, ShmooCon proceedings 2014
+* [^3] Xbox 360 controller imitation, http://controllingxbox.blogspot.co.uk/
 [4] Wii U controller protocol, http://www.polygon.com/2014/11/25/7287029/super-smash-bros-gc-adapter
 [5] USB write blocking with USBProxy, https://www.youtube.com/watch?v=IQpPgnU-O-A
 [6] FaceDancer, Travis Goodspeed, Sergey Bratus, http://goodfet.sourceforge.net/hardware/facedancer21
