@@ -73,9 +73,7 @@ All three of these tools provide platforms from which to further USB research, e
 
 Our success with these projects, while still only partial, should serve to motivate others to tackle challenging hardware problems. With careful and deliberate effort and help from the growing community of hardware hackers, functional hardware was produced without the benefit of formal electrical engineering education. All of these systems were produced by a few determined people working across several time zones, and have produced valuable design documentation and code that we hope will serve as a foundation for other projects.
 
-These projects show that the development of such tools is accessible to
-hobbyists and enthusiasts and does not require the resources of a large
-government agency.
+These projects show that the development of such tools is accessible to hobbyists and enthusiasts and does not require the resources of a large government agency.
 
 
 ## Acknowledgements
