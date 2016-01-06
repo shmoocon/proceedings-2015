@@ -29,8 +29,6 @@ However by inspecting the process status list there is a PID gap between *launch
 
 Dtrace is the perfect tool for looking at boot process through anonymous tracing; however Dtrace is broken[^9] on OS X. The fix requires patching the kernel.
 
-* [^9] http://thr3ads.net/dtrace-discuss/2007/11/380218-Running-DTrace-early-in-OSX-boot-process#m380226
-
 To work around this, the author used the following metasploit command to build a payload:
 
     msfvenom -p osx/x64/exec CMD=/exec.sh -f raw  \> /tmp/exec.bin
