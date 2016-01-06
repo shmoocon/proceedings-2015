@@ -91,15 +91,7 @@
   - Nate Cardozo
 8. Crypto Without Computers
   - Ben Agre
-
-1100	
-
-
-
-
-
-
-Mascots, March Madness & #yogapants: Hacking Goes to College
+9. Mascots, March Madness & #yogapants: Hacking Goes to College
 Chris Cullison, Zack Allen, and Avi Rubin
 
 1200	
