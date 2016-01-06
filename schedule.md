@@ -2,12 +2,10 @@
 
 ## One Track Mind 
 
-* Five Not-Totally-Crazy Ways to Build for Usability
-Elissa Shevinsky
-
-1600	
-Simple Windows Application Whitelisting Evasion
-Casey Smith
+1. Five Not-Totally-Crazy Ways to Build for Usability
+  - Elissa Shevinsky
+2. Simple Windows Application Whitelisting Evasion
+  - Casey Smith
 
 1630	
 Don't Look Now! Malicious Image Spam
