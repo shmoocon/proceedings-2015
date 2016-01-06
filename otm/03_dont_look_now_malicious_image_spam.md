@@ -1,10 +1,12 @@
 # Don't Look Now! Malicious Image Spam
 
 ## Abstract: 
+
 A picture is worth a thousand words. It also contains malware and other interesting items if one looks past the wavy words, pills, sailboats and pornography. Working with a corpus of roughly 400,000 spam images, students at The University of Akron have helped categorize the images, perform steganalysis, and extract malware. This paper presents a view of the corpus and things found lurking in the wild.
-# Don’t Look Now! Malicious Image Spam #
-## Ham versus Spam ##
-A picture is worth a thousand headaches when it comes in the form of spam. The content is usually malicious whether it contains phishing links, pornography, or markets fake pharmaceuticals and retail goods. Modern spam filters are very good at identifying this nuisance yet spam still performs the ritual daily assault on our inboxes. The Spammer’s Compendium [2] is an excellent resource of information on different techniques spammers use to avoid detection. This paper specifically looks at image spam.  
+
+## Ham versus Spam
+
+A picture is worth a thousand headaches when it comes in the form of spam. The content is usually malicious whether it contains phishing links, pornography, or markets fake pharmaceuticals and retail goods. Modern spam filters are very good at identifying this nuisance yet spam still performs the ritual daily assault on our inboxes. The Spammer’s Compendium [^2] is an excellent resource of information on different techniques spammers use to avoid detection. This paper specifically looks at image spam.  
 
 Image spam is either embedded into the body of a message or sent as an attachment. This filter avoiding tactic first appeared around 2000 but was not considered much of a threat. By 2005 it accounted for a mere 1% of spam emails. Within 18 months however, images such as that in Figure 1 populated over 21% of email spam [1]. It’s a relatively effective mode of content delivery because digital manipulations make it difficult for OCR readers to catch, and with minor changes, fingerprinting (ex., via MD5 hashes) is virtually impossible. 
 
@@ -88,19 +90,15 @@ Outguess confirmed that it could open the file if a password was provided. After
 
 Figure 9. Hidden data in 10786-NatalyaIm-34.jpg
 
-## References ##
-[1] J. Swartz, “Picture this: A sneakier kind of spam,” USA Today, Jul. 23, 2006.
+## References
 
-[2] Spammer’s Compendium,
+* [^1] J. Swartz, “Picture this: A sneakier kind of spam,” USA Today, Jul. 23, 2006.
+* [^2] Spammer’s Compendium,
 https://www.virusbtn.com/resources/spammerscompendium/index, last accessed January 2015.
-
-[3] Fast Artificial Neural Network Library, http://leenissen.dk/fann/, last accessed January 2015.
-
-[4] Artificial Neural Networks as a Tool for Identifying Image Spam, Hope, P., Bowling, J. R., and Liszka, K. J., The 2009 International Conference on Security and Management (SAM'09), July 2009, pp. 447-451.
-
-[5] Spam Image Identification Using an Artificial Neural Network, Bowling, J. R., Hope, P., and Liszka, K. J., Proceedings of the 2008 MIT Spam Conference, Cambridge, Massachusetts, March 2008.
-
-[6] KnujOn, http://www.knujon.com/, last accessed January 2015.
+* [^3] Fast Artificial Neural Network Library, http://leenissen.dk/fann/, last accessed January 2015.
+* [^4] Artificial Neural Networks as a Tool for Identifying Image Spam, Hope, P., Bowling, J. R., and Liszka, K. J., The 2009 International Conference on Security and Management (SAM'09), July 2009, pp. 447-451.
+* [^5] Spam Image Identification Using an Artificial Neural Network, Bowling, J. R., Hope, P., and Liszka, K. J., Proceedings of the 2008 MIT Spam Conference, Cambridge, Massachusetts, March 2008.
+* [^6] KnujOn, http://www.knujon.com/, last accessed January 2015.
 
 
 Primary Author Name: Kathy J. Liszka
