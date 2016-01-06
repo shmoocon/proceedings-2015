@@ -1,21 +1,5 @@
 # Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry
 
-## Author information:
-Primary Author Name: Kristen K. Greene  
-Primary Author Affiliation: National Institute of Standards and Technology  
-Primary Author Email: kristen.greene@nist.gov  
-
-Additional Author Name: Joshua Franklin  
-Additional Author Affiliation: National Institute of Standards and Technology  
-Additional Author Email: joshua.franklin@nist.gov  
-
-Additional Author Name: John Kelsey  
-Additional Author Affiliation: National Institute of Standards and Technology  
-Additional Author Email: john.kelsey@nist.gov  
-
-## Keywords/Tags: 
-usable security, authentication, metrology, password permutation, password generation
-
 ## Abstract: 
 Password entry on mobile devices significantly impacts both usability and security, but there is a dearth of usable security research in this area, specifically for complex password entry. To address this research gap, we set out to assign strength metrics to passwords for which we already had usability data, in an effort to have a more meaningful comparison between usability and security. A primary accomplishment of this work is our method of optimizing the input of randomly generated passwords on mobile devices via password permutation. This is done by grouping character classes (i.e., uppercase, lowercase, numbers, symbols) together to minimize the total number of required keystrokes and decrease cognitive load. The number of keystrokes (i.e., taps) saved via permutation depends on the number of onscreen keyboard changes required in the original password rather than on password length. The number of keyboard changes in turn depends on the frequency and placement of symbols and numbers. We propose a method for quantifying effects on entropy resulting from this password permutation. Additionally, we created and are releasing Python scripts (available from  [<https://github.com/usnistgov/PasswordMetrics>]) for the experiments on entropy loss we conducted across passwords ranging in length from 5 to 20 characters.  
 
@@ -82,6 +66,18 @@ Entering complex passwords on mobile devices is difficult due to constraints of 
 
 
 
+## Author information:
+Primary Author Name: Kristen K. Greene  
+Primary Author Affiliation: National Institute of Standards and Technology  
+Primary Author Email: kristen.greene@nist.gov  
 
+Additional Author Name: Joshua Franklin  
+Additional Author Affiliation: National Institute of Standards and Technology  
+Additional Author Email: joshua.franklin@nist.gov  
 
+Additional Author Name: John Kelsey  
+Additional Author Affiliation: National Institute of Standards and Technology  
+Additional Author Email: john.kelsey@nist.gov  
 
+## Keywords/Tags: 
+usable security, authentication, metrology, password permutation, password generation
