@@ -59,7 +59,8 @@ Adversaries adapt.  In response to an application whitelisting defense, we belie
 
 
 
-Works Cited:  
+## References
+
 * [^1] https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf  
 * [^2] http://www.bitnuts.de/KernelBasedMonitoring.pdf  
 * [^3] Kernel Data and Filtering Support   -http://download.microsoft.com/download/4/4/b/44bb7147-f058-4002-9ab2-ed22870e3fe9/Kernal%20Data%20and%20Filtering%20Support%20for%20Windows%20Server%202008.doc  
@@ -71,6 +72,7 @@ Works Cited:
 * [^9] PE/COFF Specification - http://download.microsoft.com/download/e/b/a/eba1050f-a31d-436b-9281-92cdfeae4b45/pecoff.doc  
 * [^10] Living Off the Land: A Minimalist’s Guide to Windows Post-Exploitation – Christopher Campbell & Matthew Graeber  
 
+#### Metadata
 
 **Primary Author Name**: Casey Smith  	
 **Primary Author Twitter**: @subTee
