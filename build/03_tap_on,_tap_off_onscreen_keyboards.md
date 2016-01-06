@@ -62,7 +62,9 @@ It is possible for multiple unique passwords to permute to the same password, th
 
 ![Password Collisions](imgs/PasswordCollisions.png)
 
-In our first experiment, we asked: how many passwords collide with the same user-friendly password? ![Experiment 1, Fan-Out](Experiment1-FanOut.png)
+In our first experiment, we asked: how many passwords collide with the same user-friendly password?
+
+![Experiment 1, Fan-Out](imgs/Experiment1-FanOut.png)
 
 #### Security Results: Experiment 2, Entropy Loss
 In our second experiment, we asked: how much entropy is lost by permuting passwords? ![Experiment 2, Entropy Loss](Experiment2-EntropyLoss.png)
