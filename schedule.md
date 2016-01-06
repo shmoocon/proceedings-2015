@@ -84,7 +84,7 @@
 4. Come to the Dark Side--We Have (Misfortune) Cookies
   - Lior Oppenheim
   - Shahar Tal
-5. Deception for the Cyber Defender: To Err is Human; to Deceive, Divine
+5. [Deception for the Cyber Defender: To Err is Human; to Deceive, Divine](bring/)
   - Tom Cross
   - David Raymond
   - Gregory Conti
