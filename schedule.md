@@ -70,7 +70,7 @@
 9. [Infrastructure Tracking with Passive Monitoring and Active Probing](belay)
   - Anthony Kasza
   - Dhia Mahjoub
-10. Micronesia: Sub-kernel Kit for Host Introspection in Determining Insider Threat
+10. [Micronesia: Sub-kernel Kit for Host Introspection in Determining Insider Threat](belay/)
   - Loc Nguyen
 
 ## BRING IT ON!
