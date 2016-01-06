@@ -3,8 +3,7 @@ ShmooCon Proceedings
 
 Proceedings of the 10th Shmoocon Information Security Conference
 
-Editor: **James Arlen**  
-Assistant Editors: **Rob Fuller**
+Editor: **Rob Fuller**  
 
 © 2014 Individual Authors, Shmoocon Press  
 All rights reserved.
