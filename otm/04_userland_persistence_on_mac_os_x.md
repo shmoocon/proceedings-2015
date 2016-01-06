@@ -80,12 +80,10 @@ However, Dtrace is more accurate as the *ps* command is a point in time look and
         i=$[\$+1]                 
     done
 
-This method found an additional 24 and 25 processes, with a total of over 110
-processes on both [Yosemite][18] and [Mavericks][19].
+This method found an additional 24 and 25 processes, with a total of over 110 processes on both Yosemite[^18] and Mavericks[^19].
 
-[18]: https://www.dropbox.com/s/9fvstvt4ea0nm17/new_from_dtrace_10.10.txt?dl=0
-
-[19]: https://www.dropbox.com/s/u8s2r446vekowm7/new_from_dtrace_10.9.txt?dl=0
+* [^18] https://www.dropbox.com/s/9fvstvt4ea0nm17/new_from_dtrace_10.10.txt?dl=0
+* [^19] https://www.dropbox.com/s/u8s2r446vekowm7/new_from_dtrace_10.9.txt?dl=0
 
 ### Patching Processes
 
