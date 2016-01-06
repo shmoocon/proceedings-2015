@@ -10,14 +10,11 @@
   - Kathy Liszka
 4. Userland Persistence on Mac OS X "It Just Works"
   - Joshua Pitts
-
-1730	
-SEWiFi: Building a Security Enhanced WiFi Dongle
-Ryan Holeman
-
-1800	
-Betting BIOS Bugs Won't Bite Y'er Butt?
-Xeno Kovah and Corey Kallenberg
+5. SEWiFi: Building a Security Enhanced WiFi Dongle
+  - Ryan Holeman
+6. Betting BIOS Bugs Won't Bite Y'er Butt?
+  - Xeno Kovah
+  - Corey Kallenberg
 
 1830	
 Keynote Address
