@@ -134,10 +134,12 @@ This survey only scratched the surface. Forty applications is far from a signifi
 
 It is therefore hoped that this survey may provide insight into secure  credential management for iOS applications; that it may help developers to improve the security of their applications; and thus, reduce the risk to consumers' data in general.
 
-Paper information:
+## References
 
-* Title: Knock Knock: A Survey of iOS Authentication Methods
-* Subtitle: -none- 
+#### Metadata
+
+Tags: ios, mobile applications, authentication, best practices
+
 * Primary Author Name: David Schuetz
 * Primary Author Affiliation: Intrepidus Group
 * Primary Author Email: david@dasnet.org
@@ -145,4 +147,3 @@ Paper information:
 * Additional Author Affiliation: -na-
 * Additional Author Email: -na-
 * (repeat Additional Author as necessary)
-* Keywords/Tags: ios, mobile applications, authentication, best practices
