@@ -25,7 +25,7 @@ In 2007, a coworker became intrigued by image spam and the possibility of traini
 
 The size of the corpus without duplicates by February 2011 was 215,799 images. We estimate it to be around 400,000 today. During different semesters teaching Computer Security at The University of Akron, I’ve assigned “in the wild” projects for both graduate and undergraduate students. The following sections summarize what we found in the corpus over time through various class and master’s projects.
 ## What are We Looking At? ##
-Spammers tend to run with the season. While many retailers are shelving Christmas wreaths alongside Halloween costumes, spammers wait until December to send Christmas images. January brings tidings of exercise equipment and February delivers chocolate and flowers to your inbox as in Figure 3. Pharmaceutical, financial, retail, gambling and software images are pervasive and appear with regularity year round.
+Spammers tend to run with the season. While many retailers are shelving Christmas wreaths alongside Halloween costumes, spammers wait until December to send Christmas images. January brings tidings of exercise equipment and February delivers chocolate and flowers to your inbox as in **Figure 3**. Pharmaceutical, financial, retail, gambling and software images are pervasive and appear with regularity year round.
 
 ![alt Figure3](imgs/fig3.jpg "seasonal")  
 **Figure 3. Seasonal image spam.**
