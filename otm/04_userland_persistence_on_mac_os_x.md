@@ -29,17 +29,14 @@ security implementations.  To determine boot processes and core daemons, the
 author first looked at post boot processes after user login on a new OS X image
 for Mavericks and Yosemite by issuing the following command:
 
-                ps -xu root
+    ps -xu root
 
-For Mavericks and Yosemite this resulted in about [50][7] and [67][8] processes
-respectively.
+For Mavericks and Yosemite this resulted in about 50[^7] and 67[^8] processes respectively.
 
-[7]: https://gist.github.com/secretsquirrel/264bdb4c73ba29a80938
+* [^7] https://gist.github.com/secretsquirrel/264bdb4c73ba29a80938
+* [^8] https://gist.github.com/secretsquirrel/798bcb7dc75dba6f1d17
 
-[8]: https://gist.github.com/secretsquirrel/798bcb7dc75dba6f1d17
-
-However by inspecting the process status list there is a PID gap between
-*launchd*, the first process, and the next process.  While this space turned out
+However by inspecting the process status list there is a PID gap between *launchd*, the first process, and the next process.  While this space turned out
 to be unimportant, it was determined that looking into the boot processes was
 important.
 
