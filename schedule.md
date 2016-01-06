@@ -78,23 +78,12 @@
   - Gregory Conti
 6. Rethinking Security's Role in Computer Science Education
   - Sarah Zatko
-
-1700	
-
-
-
+7. Ask the EFF
+  - Kurt Opsahl
+  - Nate Cardozo
 
 
 
-Ask the EFF
-Kurt Opsahl and Nate Cardozo
-
-1800		Golden Flag Awards	
-1830	Fire Talks		
-2100	Saturday Night Party @ The Washington Hilton
-Sunday, January 18, 2015
-Time	Build It!	Belay It!	Bring it On!
-0930	Registration Opens
 1000	
 White is the New Black: Why White Data Really Matters
 Irena Damsky
