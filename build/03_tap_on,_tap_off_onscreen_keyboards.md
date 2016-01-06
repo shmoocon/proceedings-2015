@@ -100,14 +100,12 @@ Tags: usable security, authentication, metrology, password permutation, password
 **Primary Author Affiliation**: National Institute of Standards and Technology  
 **Primary Author Email**: kristen.greene@nist.gov  
 
-Additional Author Name: Joshua Franklin  
-Additional Author Affiliation: National Institute of Standards and Technology  
-Additional Author Email: joshua.franklin@nist.gov  
+**Additional Author Name**: Joshua Franklin  
+**Additional Author Affiliation**: National Institute of Standards and Technology  
+**Additional Author Email**: joshua.franklin@nist.gov  
 
-Additional Author Name: John Kelsey  
-Additional Author Affiliation: National Institute of Standards and Technology  
-Additional Author Email: john.kelsey@nist.gov  
-
-## Keywords/
+**Additional Author Name**: John Kelsey  
+**Additional Author Affiliation**: National Institute of Standards and Technology  
+**Additional Author Email**: john.kelsey@nist.gov  
 
 
