@@ -62,14 +62,7 @@ Solder paste stenciling with hot plate reflow was our method of PCB assembly, an
 
 We demonstrated TURNIPSCHOOL operating in the 900 MHz ISM band, but the radio, based on the popular CC1111 RF transceiver, can operate on many frequencies, primarily in the 300, 400, 800, and 900 MHz bands.
 
-During assembly, we compromised the performance of the monopole antenna by
-coiling it to fit within the plug body. This reduced the RF performance by
-approximately 10 dB compared to a straight monopole. We considered other options
-such as running a monopole down the cable or using a chip antenna, but all
-options required us to place the antenna very close to a ground plane or shield.
-We estimated that coiling a monopole on top of the PCB in the plug body was
-easiest and was likely no worse than any other antenna configuration that could
-be fully concealed.
+During assembly, we compromised the performance of the monopole antenna by coiling it to fit within the plug body. This reduced the RF performance by approximately 10 dB compared to a straight monopole. We considered other options such as running a monopole down the cable or using a chip antenna, but all options required us to place the antenna very close to a ground plane or shield. We estimated that coiling a monopole on top of the PCB in the plug body was easiest and was likely no worse than any other antenna configuration that could be fully concealed.
 
 We installed an open source bootloader[13] in the microcontroller's flash
 memory. This allows us to modify the application firmware at any time, but a
