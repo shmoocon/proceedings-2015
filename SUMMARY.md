@@ -14,7 +14,7 @@
 * [BUILD IT](build/build_it.md)
    * [NSA Playset: USB Tools](build/01_nsa_playset_usb_tools.md)
    * [Knock Knock: A Survey of iOS Authentication Methods](build/02_knock_knock_a_survey_of_ios_authentication_methods.md)
-   * [Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry](build/03_tap_on,_tap_off_onscreen_keyboards_and_mobile_pass.md)
+   * [Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry](build/03_tap_on_,tap_offonscreen_keyboards_and_mobile_pas.md)
 * [BELAY IT](belay/belay_it.md)
 * [BRING IT ON](bring/bring_it_on.md)
 
