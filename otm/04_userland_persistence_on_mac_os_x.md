@@ -144,16 +144,9 @@ The most surprising boot process is perhaps `/usr/bin/awk`. Launchd executes an 
 * [^28] https://www.youtube.com/watch?v=hhdvrOOxJbo
 * [^29] https://www.youtube.com/watch?v=CpKfnU8Rc3s
 
-###Defenses
+### Defenses
 
-The majority of the videos previously mentioned had anti-virus installed on the demo machines.  Anti-virus 
-is not equipped to handle malicious code patched into valid binaries. Whitelisting is the preferred 
-solution. Until recently there have been no solutions available to everyday consumers. In November 2014,
-Google Santa (not an official Google product) was [released][30], which occurred after this topic was 
-submitted to ShmooCon CFP. Santa works by loading a kext (driver) and having a daemon (santad) that 
-conducts the actual checking of binaries. If a binary is executed before santad and if santad itself 
-is infected, both will be given a pass as demonstrated in this [video][31]. Network filters such as 
-Little Snitch fall under same type of attack, if the process is executed before the first Little 
+The majority of the videos previously mentioned had anti-virus installed on the demo machines.  Anti-virus is not equipped to handle malicious code patched into valid binaries. Whitelisting is the preferred solution. Until recently there have been no solutions available to everyday consumers. In November 2014, Google Santa (not an official Google product) was released[^30], which occurred after this topic was submitted to ShmooCon CFP. Santa works by loading a kext (driver) and having a daemon (santad) that conducts the actual checking of binaries. If a binary is executed before santad and if santad itself is infected, both will be given a pass as demonstrated in this video[^31]. Network filters such as Little Snitch fall under same type of attack, if the process is executed before the first Little 
 Snitch daemon then the network traffic will not be filtered.
 
 [KnockKnock][22] by Patrick Wardle provided the best results of all the tests, though it missed about 
