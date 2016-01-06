@@ -134,7 +134,7 @@ The sshd daemon executes as root only when the service is enabled and when any p
 
     grep -r -i "<key>Sockets</key>" /System/Library/Launch*
 
-The most surprising boot process is perhaps /usr/bin/awk.  Launchd executes an ntp script '/bin/sh /usr/libexec/ntpd-wrapper' which contains awk.  This script is executed with root privileges, therefore so is awk.  See the demo [video][29] for both the pathcing of awk and sshd.
+The most surprising boot process is perhaps `/usr/bin/awk`. Launchd executes an ntp script `/bin/sh /usr/libexec/ntpd-wrapper` which contains awk. This script is executed with root privileges, therefore so is awk.  See the demo [video][29] for both the pathcing of awk and sshd.
 
 [23]: https://www.dropbox.com/s/0iyio9if3gv37op/no_launchd.png?dl=0
 
