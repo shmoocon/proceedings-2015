@@ -8,18 +8,11 @@ We demonstrate tools we've built for the same capabilities, including USB man-in
 
 ## Introduction
 
-USB is the most common interface for connecting devices to host computers, with
-more than 2 billions devices sold per year. With such a large number and wide
-variety of devices, there comes a vast surface area to examine for security
-vulnerabilities.
+USB is the most common interface for connecting devices to host computers, with more than 2 billions devices sold per year. With such a large number and wide variety of devices, there comes a vast surface area to examine for security vulnerabilities.
 
-We present three projects for exploring the USB protocol, devices, and host
-interfaces. They include packet sniffers which are able to monitor and modify
-traffic in transit for both High Speed and Super Speed USB interfaces and a
-covert USB-attached wireless microcontroller.
+We present three projects for exploring the USB protocol, devices, and host interfaces. They include packet sniffers which are able to monitor and modify traffic in transit for both High Speed and Super Speed USB interfaces and a covert USB-attached wireless microcontroller.
 
-All three projects feature open source hardware and software, allowing any
-interested researcher or hobbyist to experiment freely with the USB protocol.
+All three projects feature open source hardware and software, allowing any interested researcher or hobbyist to experiment freely with the USB protocol.
 
 ## USBProxy
 
