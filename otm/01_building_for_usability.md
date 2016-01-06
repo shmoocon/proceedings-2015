@@ -10,7 +10,7 @@ The need for easy to use encryption is now evident. Due to high profile hacks li
 
 ## Build and Test the Design First
 
-My talk at Shmoocon was presented in an irreverent fashion but the core message is sincere. Building usable apps requires starting with strong design and then doing user testing. It’s critical to build and test the design before building the backend. This allows you to discover that your feature set needs improvement, or that there are usability issues to correct. It’s much easier to change the design or feature specifications before coding has begun. 
+My talk at ShmooCon was presented in an irreverent fashion but the core message is sincere. Building usable apps requires starting with strong design and then doing user testing. It’s critical to build and test the design before building the backend. This allows you to discover that your feature set needs improvement, or that there are usability issues to correct. It’s much easier to change the design or feature specifications before coding has begun. 
 
 A strong example of this approach is Instagram. Instagram was originally a photo + checkins app called Burbn. The Instagram founders would create code only when necessary, instead using paper and other prototyping tools. Instagram co-founders Mike Krieger and Kevin Systrom would go to a cafe with little iPhone design pads. According to Krieger, “we’d build and throw away entire features. You’d waste three or four pieces of paper, not three weeks of coding.”
 
