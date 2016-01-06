@@ -1,5 +1,6 @@
 # Editor's Note
 
+
 Like many of my interactions with Bruce Potter, I find myself having to do something that I said would be a good idea.
 
 **One of these days, I’ll learn.**
