@@ -1,8 +1,7 @@
 # Building for Usability
 
 ## Abstract
-There is a clear need for easy to use security products. We have the crypto - what about
-usability? This paper explores five of the most high impact ways that you can build more usable software.
+There is a clear need for easy to use security products. We have the crypto - what about usability? This paper explores five of the most high impact ways that you can build more usable software.
 
 ## Content
 
@@ -12,7 +11,9 @@ The need for easy to use encryption is now evident. Due to high profile hacks li
 
 My talk at ShmooCon was presented in an irreverent fashion but the core message is sincere. Building usable apps requires starting with strong design and then doing user testing. It’s critical to build and test the design before building the backend. This allows you to discover that your feature set needs improvement, or that there are usability issues to correct. It’s much easier to change the design or feature specifications before coding has begun. 
 
-A strong example of this approach is Instagram. Instagram was originally a photo + checkins app called Burbn. The Instagram founders would create code only when necessary, instead using paper and other prototyping tools. Instagram co-founders Mike Krieger and Kevin Systrom would go to a cafe with little iPhone design pads. According to Krieger, “we’d build and throw away entire features. You’d waste three or four pieces of paper, not three weeks of coding.”
+A strong example of this approach is Instagram. Instagram was originally a photo + checkins app called Burbn. The Instagram founders would create code only when necessary, instead using paper and other prototyping tools. Instagram co-founders Mike Krieger and Kevin Systrom would go to a cafe with little iPhone design pads. According to Krieger: 
+
+> we’d build and throw away entire features. You’d waste three or four pieces of paper, not three weeks of coding.
 
 Burbn became successful only after user testing led the founders to realize that the Burbn app’s design and feature set was too complicated. They cut several features from Burbn, and created the simpler app that we now know as Instagram. Instagram would never have become a multi-billion dollar success without a strong process for design, prototyping and user testing. 
 
@@ -20,7 +21,7 @@ Burbn became successful only after user testing led the founders to realize that
 
 (“How Instagram Grew From Foursquare Knock-Off to $1 Billion Photo Empire” by Eric Markowitz. April 10, 2012.  http://www.inc.com/eric-markowitz/life-and-times-of-instagram-the-complete-original-story.html)
  
-2.  '##'Design for Your Users’ Threat Model’
+## Design for Your Users’ Threat Model
 
 “Made for Spies” is awesome if your users are spies. But if they are account executives (at Sony, for example) then we need to account for them being less motivated than the average spy. Let’s use messaging apps as an example. Mainstream users (executives included) need apps that are easy to use or else they will resort to DMing on Facebook and using other insecure communications.
 
