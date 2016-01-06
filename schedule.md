@@ -1,13 +1,8 @@
 # Schedule
 
 ## One Track Mind 
-1200	Registration Opens
-1430	
-Opening Remarks, Rumblings, and Rants
-Bruce Potter
 
-1530	
-Five Not-Totally-Crazy Ways to Build for Usability
+* Five Not-Totally-Crazy Ways to Build for Usability
 Elissa Shevinsky
 
 1600	
