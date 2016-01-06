@@ -195,12 +195,12 @@ and an expected long runtime of approximately 30 minutes on a new VM.
 
 [32]: https://github.com/Yelp/osxcollector
 
+## References
+
+### Metadata
 
 Primary Author Name: Josh Pitts
-
 Primary Author Affiliation: Leviathan Security Group
-
 Primary Author Email: the.midnite.runr@gmail.com
-
 Keywords/Tags: OSX, mac, Apple, malware, userland, persistence, file infection,
 file injection, file patching
