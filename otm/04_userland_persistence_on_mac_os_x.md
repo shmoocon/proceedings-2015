@@ -59,10 +59,10 @@ Which executes this script on the root of the filesystem:
 
 And the payload was patched this into *launchd* with the following commands using BDF:
 
-                $sudo ./backdoor.py -f launchd -s user_supplied_shellcode -U exec.bin
-                [output]                 
-                $sudo cp backdoored/launchd /sbin/launchd                 
-                $sudo reboot
+    $sudo ./backdoor.py -f launchd -s user_supplied_shellcode -U exec.bin
+    [output]                 
+    $sudo cp backdoored/launchd /sbin/launchd                 
+    $sudo reboot
 
 This method found an additional 30 or so processes for Yosemite[^16] and Mavericks[^17].
 
