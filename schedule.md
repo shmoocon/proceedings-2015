@@ -43,6 +43,8 @@
   - Irena Damsky
 9. Eliminating Timing Side-channels. A Tutorial.
   - Peter Schwabe
+10. The Dark Art of Data Visualization
+  - David Pisano
 
 ## BELAY IT!
 
@@ -97,8 +99,7 @@
   - Avi Rubin
 
 1200	
-The Dark Art of Data Visualization
-David Pisano
+
 
 
 Micronesia: Sub-kernel Kit for Host Introspection in Determining Insider Threat
