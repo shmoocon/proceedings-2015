@@ -35,9 +35,7 @@ First, let’s look at who is using encryption. Real name communication is becom
 
 Now let’s look at the tools at our disposal. Glimpse, for example, is an end to end encrypted photo and video messaging app. (Full disclosure, I led the team that built this app.) Using an app like this I can send a photo to you, in real time, which absolutely verifies that I am the sender. The Glimpse app has icons to show whether a photo or video has been uploaded from camera roll or whether it is being sent in real time. This kind of iconography is important, in order to evaluate the photo that is being received. This principle of verifying your contacts via video chat or real time photos applies to any encrypted app with a similar feature set. This does not work well for anonymous use cases (obviously) but real name real time encrypted chat is worth our attention. Note that Glimpse is out of the app store while we harden security features.
 
-Once we are using real names or pseudonyms, we also have the option of integrating Twitter and/or Github for identity verification. Keybase successfully incorporates Twitter and Github to verify identity.
-
-(“Keybase Docs: Understanding Tracking.” Website visited February 6, 2015. https://keybase.io/docs/tracking)
+Once we are using real names or pseudonyms, we also have the option of integrating Twitter and/or Github for identity verification. Keybase successfully incorporates Twitter and Github to verify identity. [^4]
 
 Facebook and LinkedIn are also useful for real name verification but are problematic to integrate into a security-focused application because both companies are facing lawsuits for privacy violations. As a result of privacy concerns, some users have a mistrust of Facebook and LinkedIn’s authentication features. 
 
@@ -59,6 +57,8 @@ He said with their precursor to Instagram, called Burbn, they failed the bar tes
 * [^1] “Instagram Co-Founder Mike Krieger’s 8 Principles For Building Products People Want” by Josh Constine. November 30, 2012. http://techcrunch.com/2012/11/30/instagram-co-founder-mike-kriegers-8-principles-for-building-products-people-want/
 * [^2] “How Instagram Grew From Foursquare Knock-Off to $1 Billion Photo Empire” by Eric Markowitz. April 10, 2012.  http://www.inc.com/eric-markowitz/life-and-times-of-instagram-the-complete-original-story.html
 * [^3] Blackphone Support Security Center. Website visited February 6, 2015. https://support.blackphone.ch/customer/portal/topics/660716-security-center/articles
+* [^4] “Keybase Docs: Understanding Tracking.” Website visited February 6, 2015. https://keybase.io/docs/tracking
+
 
 
 (“Instagram Co-Founder on Startup Success” November 30, 2012. https://gigaom.com/2012/11/30/instagram-co-founder-on-startup-success-identify-your-early-obsessions/)
