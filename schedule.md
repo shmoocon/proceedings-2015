@@ -39,7 +39,8 @@
   - John Kelsey
 7. 0wn the Con
   - The Shmoo Group
-
+8. White is the New Black: Why White Data Really Matters
+  - Irena Damsky
 
 ## BELAY IT!
 
@@ -85,8 +86,7 @@
 
 
 1000	
-White is the New Black: Why White Data Really Matters
-Irena Damsky
+
 
 
 No Budget Threat Intelligence: Tracking Malware Campaigns on the Cheap
