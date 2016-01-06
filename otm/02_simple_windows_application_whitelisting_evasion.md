@@ -51,7 +51,7 @@ In order to achieve this we will leverage the work done by other researchers to 
 
 We built a custom tool called **Malwaria**, which was used to execute a native DLL in memory.  We used the techniques described earlier to achieve code execution.  This tool embeds the dll as a resource, and then executes the file from a byte array in memory. 
 
-An excellent tool has been developed by the PowerSploit team.  `Invoke-ReflectivePEInjection`.  This tool is an amazing example of how PowerShell and the .NET framework can be leveraged to execute arbitrary PE files.  Since many environments trust the `powershell.exe` binary, it is a natural evolution for adversaries to leverage this framework.  By creating an exploit for CVE-2014-4113, and embedding that into the `Invoke-ReflectivePEInjection` script.  We were able to achieve privilege escalation, even an environment with strict whitelisting enabled.  
+An excellent tool has been developed by the PowerSploit team.  `Invoke-ReflectivePEInjection`[^7].  This tool is an amazing example of how PowerShell and the .NET framework can be leveraged to execute arbitrary PE files.  Since many environments trust the `powershell.exe` binary, it is a natural evolution for adversaries to leverage this framework.  By creating an exploit for CVE-2014-4113, and embedding that into the `Invoke-ReflectivePEInjection`[^7] script.  We were able to achieve privilege escalation, even an environment with strict whitelisting enabled.  
 
 ## Conclusion:
 
