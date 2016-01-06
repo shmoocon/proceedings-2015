@@ -37,7 +37,8 @@
   - Kristen K. Greene
   - Joshua Franklin
   - John Kelsey
-
+7. 0wn the Con
+  - The Shmoo Group
 
 ## BELAY IT!
 
@@ -76,8 +77,7 @@
   - Sarah Zatko
 
 1700	
-0wn the Con
-The Shmoo Group
+
 
 
 The Windows Sandbox Paradox
