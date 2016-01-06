@@ -18,7 +18,7 @@
 
 ## BUILD IT!
 
-1. NSA Playset: USB Tools
+1. [NSA Playset: USB Tools](build/01_)
   - Dominic Spill
   - Michael Ossmann
   - Jared Boone
