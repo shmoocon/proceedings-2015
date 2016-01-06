@@ -99,7 +99,7 @@
   - Chris Cullison
   - Zack Allen
   - Avi Rubin
-10. How Random is Your RNG?
+10. [How Random is Your RNG?](bring/)
   - Meltem Sˆnmez Turan
   - John Kelsey
   - Kerry McKay
