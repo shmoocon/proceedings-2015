@@ -6,9 +6,9 @@ A picture is worth a thousand words. It also contains malware and other interest
 
 ## Ham versus Spam
 
-A picture is worth a thousand headaches when it comes in the form of spam. The content is usually malicious whether it contains phishing links, pornography, or markets fake pharmaceuticals and retail goods. Modern spam filters are very good at identifying this nuisance yet spam still performs the ritual daily assault on our inboxes. The Spammer’s Compendium [^2] is an excellent resource of information on different techniques spammers use to avoid detection. This paper specifically looks at image spam.  
+A picture is worth a thousand headaches when it comes in the form of spam. The content is usually malicious whether it contains phishing links, pornography, or markets fake pharmaceuticals and retail goods. Modern spam filters are very good at identifying this nuisance yet spam still performs the ritual daily assault on our inboxes. The Spammer’s Compendium [^1] is an excellent resource of information on different techniques spammers use to avoid detection. This paper specifically looks at image spam.  
 
-Image spam is either embedded into the body of a message or sent as an attachment. This filter avoiding tactic first appeared around 2000 but was not considered much of a threat. By 2005 it accounted for a mere 1% of spam emails. Within 18 months however, images such as that in Figure 1 populated over 21% of email spam [^1]. It’s a relatively effective mode of content delivery because digital manipulations make it difficult for OCR readers to catch, and with minor changes, fingerprinting (ex., via MD5 hashes) is virtually impossible. 
+Image spam is either embedded into the body of a message or sent as an attachment. This filter avoiding tactic first appeared around 2000 but was not considered much of a threat. By 2005 it accounted for a mere 1% of spam emails. Within 18 months however, images such as that in Figure 1 populated over 21% of email spam[^2]. It’s a relatively effective mode of content delivery because digital manipulations make it difficult for OCR readers to catch, and with minor changes, fingerprinting (ex., via MD5 hashes) is virtually impossible. 
 
 ![alt Figure1a](fig1a.png "OCR detectable")
 
