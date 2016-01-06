@@ -42,10 +42,7 @@ Our latest step in the effort of opening USB experimentation to a wider audience
 
 ## Daisho: USB 3.0 Super Speed
 
-Daisho[^7] [^8] is a DARPA Cyber Fast Track (CFT)[^9] funded open source hardware
-development platform for analyzing and attacking wired interfaces. USB 3.0 Super
-Speed monitoring and man-in-the-middle attack is a primary goal of the Daisho
-project.
+Daisho[^7] [^8] is a DARPA Cyber Fast Track (CFT)[^9] funded open source hardware development platform for analyzing and attacking wired interfaces. USB 3.0 Super Speed monitoring and man-in-the-middle attack is a primary goal of the Daisho project.
 
 The Daisho circuit board ("main board") contains an FPGA and a USB 3.0 Super
 Speed physical layer interface (PHY) for monitoring and control. For USB 3.0
