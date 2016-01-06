@@ -10,11 +10,11 @@ A picture is worth a thousand headaches when it comes in the form of spam. The c
 
 Image spam is either embedded into the body of a message or sent as an attachment. This filter avoiding tactic first appeared around 2000 but was not considered much of a threat. By 2005 it accounted for a mere 1% of spam emails. Within 18 months however, images such as that in Figure 1 populated over 21% of email spam[^1]. It’s a relatively effective mode of content delivery because digital manipulations make it difficult for OCR readers to catch, and with minor changes, fingerprinting (ex., via MD5 hashes) is virtually impossible. 
 
-![alt Figure1a](fig1a.png "OCR detectable")
+![alt Figure1a](imgs/fig1a.png "OCR detectable")
 
 (a) OCR detectable
 
-![alt Figure1b](fig1b.png "OCR defeatable")
+![alt Figure1b](imgs/fig1b.png "OCR defeatable")
 
 (b) OCR defeatable
 
