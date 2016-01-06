@@ -89,11 +89,7 @@ processes on both [Yosemite][18] and [Mavericks][19].
 
 ###Patching Processes
 
-When it comes to network availability during the boot process, there are two
-states, pre-networking and post-networking. The author found that many processes
-launch pre-networking and prevent the normal execution of a standard reverse
-shell. Therefore, two payloads where developed -- a [delay][10] reverse tcp shell and a
-[beaconing][11] reverse tcp shell.  The delay payload works by waiting X seconds
+When it comes to network availability during the boot process, there are two states, pre-networking and post-networking. The author found that many processes launch pre-networking and prevent the normal execution of a standard reverse shell. Therefore, two payloads where developed -- a delay[^10] reverse tcp shell and a beaconing[^11] reverse tcp shell.  The delay payload works by waiting X seconds
 before launching the payload and doing so only once; the beaconing payload
 launches the payload every X seconds, repeating forever. For testing,
 the beaconing payload was employed with the default setting of 15 seconds.
