@@ -30,7 +30,7 @@ Spammers tend to run with the season. While many retailers are shelving Christma
 ![alt Figure3](imgs/fig3.jpg "seasonal")  
 **Figure 3. Seasonal image spam.**
 
-Sexually oriented images are dominated by pictures of women in various stages of clothing, as in Figure 4. Male images were common during the spring and summer of 2010 but haven’t appeared much since then. The percentage of hard core pornography is actually very low. This is considered to be a monetary commodity to be purchased. Because these images are stored on our server, we attempt to keep it as secure as possible to prevent a minor from hacking into it. 
+Sexually oriented images are dominated by pictures of women in various stages of clothing, as in **Figure 4**. Male images were common during the spring and summer of 2010 but haven’t appeared much since then. The percentage of hard core pornography is actually very low. This is considered to be a monetary commodity to be purchased. Because these images are stored on our server, we attempt to keep it as secure as possible to prevent a minor from hacking into it. 
 
 ![alt Figure4](imgs/fig4.jpg "women")  
 **Figure 4. Advertising women.**
@@ -38,12 +38,13 @@ Sexually oriented images are dominated by pictures of women in various stages of
 Several other, unexpected categories surfaced. In early 2010, we saw our first animal cruelty pictures and also our first “hate” images. These were particularly disturbing to look at. The politically motivated hate images first appeared in October 2010 and continued through January 2011. To date, only a small number have appeared in the corpus, but the timing may not be coincidental to the unrest, protests, and ensuing violence that marked world events in January and February 2011.
 
 Hardest to deal with were several “soft” child porn images found in March 2011 and about a dozen potential human trafficking images discovered in fall 2011. The questionable images were of two Japanese children, fully clothed, in various positions ranging from mildly uncomfortable to completely inappropriate but inspection by a specialist with the City of Akron Police Department confirmed that there was nothing legal to pursue. 
-## Don’t rename that file! ##
-Manual inspection of images shows that spammers try to prevent inspection of image content by scraping the header part of the image. This renders the image unreadable by a file reader although it does open using a picture editor. The technique makes it possible to successfully convey the intended message to the user but prevents processing the image. Figure 5 shows a few examples of these images found in our corpus. 
 
-![alt Figure5](imgs/fig5.jpg "scraped")
+## Don’t rename that file!
 
-Figure 5. Scraped images.
+Manual inspection of images shows that spammers try to prevent inspection of image content by scraping the header part of the image. This renders the image unreadable by a file reader although it does open using a picture editor. The technique makes it possible to successfully convey the intended message to the user but prevents processing the image. **Figure 5** shows a few examples of these images found in our corpus. 
+
+![alt Figure5](imgs/fig5.jpg "scraped")  
+**Figure 5. Scraped images.**
 
 At first I only read about using image spam to spread malware and it seemed farfetched. Then I began inspecting the corpus with a different intent, finding my own malicious images in the wild. This included one with embedded malware that wasn’t listed on the malware registry sites for three days after it appeared in the corpus. The first technique we saw is easily detected by anti-malware once the malware has been identified and added to the update list of malware detection programs. A file is simply named something like “795-IMG_20131001_76475.jpg.exe”. This is easily detectable by someone with knowledge about computers but not so much when the default settings are to hide the extension and someone unfamiliar with file systems sees “795-IMG_20131001_76475.jpg” and assumes it’s an image. It’s not an effective technique otherwise, as even the default icon is different from the jpg icon. However, criminals dispersing these files are counting on uneducated users to click on the images to open them. 
 
