@@ -35,10 +35,11 @@ One of the principle reasons that execution of .NET assemblies is missed, has to
 
 The difficulty is that this is not how a .NET assembly is loaded.  
 
-> The root issue here is that at the point at which execute operations are detected (CreateFileMapping->NtCreateSection), only read-only access to the section is requested, so it is not processed as an execute operation.  Later, execute access is requested in the file mapping (MapViewOfFile->NtMapViewOfSection), which results in the image being mapped as EXECUTE_WRITECOPY and subsequently allows unchecked execute access." - **Chris Lord, Bit9**
+> The root issue here is that at the point at which execute operations are detected (`CreateFileMapping`->`NtCreateSection`), only read-only access to the section is requested, so it is not processed as an execute operation.  Later, execute access is requested in the file mapping (MapViewOfFile->NtMapViewOfSection), which results in the image being mapped as `EXECUTE_WRITECOPY` and subsequently allows unchecked execute access." - **Chris Lord, Bit9**
 
 We believe that this may affect a number of applications that rely on the pattern to detect and block execution events.    
-###Native Image Execution:
+
+##Native Image Execution
 
 There are a couple of techniques that can be used to execute Native images.  For example, you can attempt to execute the file via rundll32 or pcwutl.dll.
 [C:\Windows\System32\rundll32.exe" C:\Windows\system32\pcwutl.dll,CreateAndRunTask -path "C:\rouge.exe].  However this execution event is likely to be blocked. The best technique we have found is to utilize a custom Portable Executable(PE) loader to execute the native binary from memory.  
