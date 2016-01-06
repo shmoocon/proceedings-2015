@@ -199,8 +199,9 @@ and an expected long runtime of approximately 30 minutes on a new VM.
 
 ### Metadata
 
-Primary Author Name: Josh Pitts
-Primary Author Affiliation: Leviathan Security Group
-Primary Author Email: the.midnite.runr@gmail.com
-Keywords/Tags: OSX, mac, Apple, malware, userland, persistence, file infection,
+Tags: OSX, mac, Apple, malware, userland, persistence, file infection,
 file injection, file patching
+
+**Primary Author Name**: Josh Pitts  
+**Primary Author Affiliation**: Leviathan Security Group  
+**Primary Author Email**: the.midnite.runr@gmail.com  
