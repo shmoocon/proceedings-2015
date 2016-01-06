@@ -113,11 +113,7 @@ With the pre-networking issue solved, over 200 boot and core processes needed te
     | Not Viable      | 27       | 28        |                 
     +-----------------+----------+-----------+
 
-Detailed results for [Yosemite][20] and [Mavericks][21] including [KnockKnock][22] analysis.
-The 'Not Viable' processes are a result of binaries that either could not be patched because of a small
-pre-text section, the OS would not boot after patching the binary, or the process was properly sandboxed 
-and would not connect out. The reader should make note that most of the tested binaries were viable for
-patching/file infection.
+Detailed results for Yosemite[^20] and Mavericks[^21] including KnockKnock[^22] analysis. The 'Not Viable' processes are a result of binaries that either could not be patched because of a small pre-text section, the OS would not boot after patching the binary, or the process was properly sandboxed and would not connect out. The reader should make note that most of the tested binaries were viable for patching/file infection.
 
 [20]: https://www.dropbox.com/s/ju60vnz0lin7d57/formatted_Root_processesYosemite.csv?dl=0
 
