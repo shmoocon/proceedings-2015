@@ -41,6 +41,8 @@
   - The Shmoo Group
 8. White is the New Black: Why White Data Really Matters
   - Irena Damsky
+9. Eliminating Timing Side-channels. A Tutorial.
+  - Peter Schwabe
 
 ## BELAY IT!
 
@@ -84,22 +86,11 @@
 7. Ask the EFF
   - Kurt Opsahl
   - Nate Cardozo
-
-
-
-1000	
-
-
-
-
-
-
-Crypto Without Computers
-Ben Agre
+8. Crypto Without Computers
+  - Ben Agre
 
 1100	
-Eliminating Timing Side-channels. A Tutorial.
-Peter Schwabe
+
 
 
 Infrastructure Tracking with Passive Monitoring and Active Probing
