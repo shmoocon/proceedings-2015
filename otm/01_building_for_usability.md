@@ -4,7 +4,7 @@
 There is a clear need for easy to use security products. We have the crypto - what about
 usability? This paper explores five of the most high impact ways that you can build more usable software.
 
-‘#Building for Usability' 
+## Content
 
 The need for easy to use encryption is now evident. Due to high profile hacks like the attack on Sony Pictures, mainstream users are beginning to take security seriously. Privacy activists like Snowden and the EFF are calling on technologists to build easy to use encryption products. Journalists and venture capitalists are amplifying that message. It’s clear that there is a social need, and a private market, for easy to use encryption products. The next step is figuring out how we can build more usable applications. 
 
