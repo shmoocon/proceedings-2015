@@ -31,7 +31,8 @@ There are two password metric groups, classified based on how a password is crea
 
 ![Shannon Entropy Formula](imgs/ShannonEntropyFormula.png)
 
-Where "H" equals the total entropy, "b" equals the number of characters to choose from, and "l" equals password length. Shannon entropy for the original (i.e., non-permuted) 10 passwords are shown below. 
+Where "H" equals the total entropy, "b" equals the number of characters to choose from, and "l" equals password length. Shannon entropy for the original (i.e., non-permuted) 10 passwords are shown below.
+
 ![Shannon Entropy Examples](ShannonEntropyExamples.png)
 
 ### Prior Research
