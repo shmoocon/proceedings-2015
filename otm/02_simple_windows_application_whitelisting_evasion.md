@@ -71,5 +71,9 @@ Works Cited:
 * [^9] PE/COFF Specification - http://download.microsoft.com/download/e/b/a/eba1050f-a31d-436b-9281-92cdfeae4b45/pecoff.doc  
 * [^10] Living Off the Land: A Minimalist’s Guide to Windows Post-Exploitation – Christopher Campbell & Matthew Graeber  
 
+
+**Primary Author Name**: Casey Smith  	
+**Primary Author Affiliation**: CTO of JeKuDo Privacy Company, Author at OR Books  
+**Primary Author Email**: Elissabiz@gmail.com
 Casey Smith @subTee
 
