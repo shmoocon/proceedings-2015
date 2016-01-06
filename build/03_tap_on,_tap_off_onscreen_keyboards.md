@@ -72,7 +72,9 @@ In our second experiment, we asked: how much entropy is lost by permuting passwo
 ![Experiment 2, Entropy Loss](imgs/Experiment2-EntropyLoss.png)
 
 #### Security Results: Experiment 3, All-Lowercase
-In our third experiment, we asked: how much additional password length would we need to just change over to all lowercase letters? ![Experiment 3, All-Lowercase](Experiment3-AllLowercase.png)
+In our third experiment, we asked: how much additional password length would we need to just change over to all lowercase letters? 
+
+![Experiment 3, All-Lowercase](imgs/Experiment3-AllLowercase.png)
 
 ## Conclusions
 Entering complex passwords on mobile devices is difficult due to constraints of onscreen keyboards, in particular, the fact that entering numbers and symbols requires switching back and forth between different onscreen keyboards. Our password permutation helps mitigate this usability issue, making it more efficient (i.e., requiring fewer taps) to enter complex, system-generated passwords on mobile devices. We measured the security loss due to our password permutation, and addressed the loss by adding additional lowercase letters.  
