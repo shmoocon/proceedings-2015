@@ -33,7 +33,7 @@
 5. NaCl: A New Crypto Library
   - Daniel J. Bernstein
   - Tanja Lange
-6. [Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry]
+6. [Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry]()
   - Kristen K. Greene
   - Joshua Franklin
   - John Kelsey
