@@ -77,6 +77,7 @@ In our third experiment, we asked: how much additional password length would we 
 ![Experiment 3, All-Lowercase](imgs/Experiment3-AllLowercase.png)
 
 ## Conclusions
+
 Entering complex passwords on mobile devices is difficult due to constraints of onscreen keyboards, in particular, the fact that entering numbers and symbols requires switching back and forth between different onscreen keyboards. Our password permutation helps mitigate this usability issue, making it more efficient (i.e., requiring fewer taps) to enter complex, system-generated passwords on mobile devices. We measured the security loss due to our password permutation, and addressed the loss by adding additional lowercase letters.  
 
 The fact that passwords containing numbers and symbols require changing onscreen keyboards is a fundamental difference between desktop and mobile platforms, yet it does not appear that current password policies have taken this fundamental difference into account. The effects that mobile device constraints have on both usability and security of passwords need to be systematically explored and measured in order to better inform password policies for the increasingly mobile work environment. With the current research, we have accomplished an initial piece of such systematic exploration. 
