@@ -41,7 +41,7 @@
   - The Shmoo Group
 8. White is the New Black: Why White Data Really Matters
   - Irena Damsky
-9. Eliminating Timing Side-channels. A Tutorial.
+9. [Eliminating Timing Side-channels. A Tutorial](build/)
   - Peter Schwabe
 10. The Dark Art of Data Visualization
   - David Pisano
