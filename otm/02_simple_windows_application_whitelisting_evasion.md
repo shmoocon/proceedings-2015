@@ -39,7 +39,7 @@ The difficulty is that this is not how a .NET assembly is loaded.
 
 We believe that this may affect a number of applications that rely on the pattern to detect and block execution events.    
 
-##Native Image Execution
+## Native Image Execution
 
 There are a couple of techniques that can be used to execute Native images.  For example, you can attempt to execute the file via `rundll32` or `pcwutl.dll`.
 
@@ -47,12 +47,13 @@ There are a couple of techniques that can be used to execute Native images.  For
 
 However this execution event is likely to be blocked. The best technique we have found is to utilize a custom Portable Executable(PE) loader to execute the native binary from memory.  
 
-In order to achieve this we will leverage the work done by other researchers to mimic the PE loader provided by the operating system. 
-We built a custom tool called Malwaria, which was used to execute a native DLL in memory.  We used the techniques described earlier to achieve code execution.  This tool embeds the dll as a resource, and then executes the file from a byte array in memory. 
+In order to achieve this we will leverage the work done by other researchers to mimic the PE loader provided by the operating system.
 
-An excellent tool has been developed by the PowerSploit team.  Invoke-ReflectivePEInjection.  This tool is an amazing example of how PowerShell and the .NET framework can be leveraged to execute arbitrary PE files.  Since many environments trust the powershell.exe binary, it is a natural evolution for adversaries to leverage this framework.  By creating an exploit for CVE-2014-4113, and embedding that into the Invoke-ReflectivePEInjection script.  We were able to achieve privilege escalation, even an environment with strict whitelisting enabled.  
+We built a custom tool called **Malwaria**, which was used to execute a native DLL in memory.  We used the techniques described earlier to achieve code execution.  This tool embeds the dll as a resource, and then executes the file from a byte array in memory. 
 
-###Conclusion:
+An excellent tool has been developed by the PowerSploit team.  `Invoke-ReflectivePEInjection`.  This tool is an amazing example of how PowerShell and the .NET framework can be leveraged to execute arbitrary PE files.  Since many environments trust the `powershell.exe` binary, it is a natural evolution for adversaries to leverage this framework.  By creating an exploit for CVE-2014-4113, and embedding that into the `Invoke-ReflectivePEInjection` script.  We were able to achieve privilege escalation, even an environment with strict whitelisting enabled.  
+
+## Conclusion:
 
 Adversaries adapt.  In response to an application whitelisting defense, we believe that adversaries will adapt a "Living Off The Land" approach.  This involves using pre-existing trusted tools to achieve lateral movement and privilege escalation.  When it is necessary to execute a custom binary, it is likely that adversaries can leverage approaches described above in order to achieve action on objectives.
 
@@ -61,14 +62,14 @@ Adversaries adapt.  In response to an application whitelisting defense, we belie
 Works Cited:  
 * [^1] https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf  
 * [^2] http://www.bitnuts.de/KernelBasedMonitoring.pdf  
-[3] Kernel Data and Filtering Support   -http://download.microsoft.com/download/4/4/b/44bb7147-f058-4002-9ab2-ed22870e3fe9/Kernal%20Data%20and%20Filtering%20Support%20for%20Windows%20Server%202008.doc  
-[4] https://github.com/stephenfewer/ReflectiveDLLInjection  
-[5] https://github.com/fancycode/MemoryModule  
-[6] https://github.com/Scavanger/MemoryModule.net  
-[7] https://github.com/clymb3r/PowerShell/tree/master/Invoke-ReflectivePEInjection  
-[8] http://opensecuritytraining.info/LifeOfBinaries.html  
-[9] PE/COFF Specification - http://download.microsoft.com/download/e/b/a/eba1050f-a31d-436b-9281-92cdfeae4b45/pecoff.doc  
-[10] Living Off the Land: A Minimalist’s Guide to Windows Post-Exploitation – Christopher Campbell & Matthew Graeber  
+* [^3] Kernel Data and Filtering Support   -http://download.microsoft.com/download/4/4/b/44bb7147-f058-4002-9ab2-ed22870e3fe9/Kernal%20Data%20and%20Filtering%20Support%20for%20Windows%20Server%202008.doc  
+* [^4] https://github.com/stephenfewer/ReflectiveDLLInjection  
+* [^5] https://github.com/fancycode/MemoryModule  
+* [^6] https://github.com/Scavanger/MemoryModule.net  
+* [^7] https://github.com/clymb3r/PowerShell/tree/master/Invoke-ReflectivePEInjection  
+* [^8] http://opensecuritytraining.info/LifeOfBinaries.html  
+* [^9] PE/COFF Specification - http://download.microsoft.com/download/e/b/a/eba1050f-a31d-436b-9281-92cdfeae4b45/pecoff.doc  
+* [^10] Living Off the Land: A Minimalist’s Guide to Windows Post-Exploitation – Christopher Campbell & Matthew Graeber  
 
 Casey Smith @subTee
 
