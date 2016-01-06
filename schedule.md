@@ -55,7 +55,7 @@
 3. There's Waldo! Tracking Users via Mobile Apps
   - Colby Moore
   - Patrick Wardle
-4. Practical Machine Learning for Network Security
+4. [Practical Machine Learning for Network Security](belay/)
   - Terry Nelms
 5. The Joy Of Intelligent Proactive Security
   - Scott Behrens
