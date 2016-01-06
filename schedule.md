@@ -6,7 +6,7 @@
   - Elissa Shevinsky
 2. [Simple Windows Application Whitelisting Evasion](otm/02_simple_windows_application_whitelisting_evasion.md)
   - Casey Smith
-3. Don't Look Now! Malicious Image Spam
+3. [Don't Look Now! Malicious Image Spam](otm/03_dont_look_now_malicious_image_spam.md)
   - Kathy Liszka
 4. Userland Persistence on Mac OS X "It Just Works"
   - Joshua Pitts
