@@ -38,12 +38,7 @@ Since the initial demonstration of USBProxy there has been a great deal of inter
 
 We have also had success with standard USB protocols. For example, our work with USB Mass Storage[^5] has allowed us to inspect and block unwanted writes from suspicious hosts.
 
-Our latest step in the effort of opening USB experimentation to a wider audience
-has been to introduction of Python bindings to allow devices and packet filters
-to be written in Python. In turn this has allowed us to support a library of
-existing device implementations that have historically targeted the FaceDancer
-platform[6]. We were able to demonstrate an unmodified FaceDancer keyboard
-implementation running on USBProxy and the BeagleBone Black.
+Our latest step in the effort of opening USB experimentation to a wider audience has been to introduction of Python bindings to allow devices and packet filters to be written in Python. In turn this has allowed us to support a library of existing device implementations that have historically targeted the FaceDancer platform[^6]. We were able to demonstrate an unmodified FaceDancer keyboard implementation running on USBProxy and the BeagleBone Black.
 
 
 ## Daisho: USB 3.0 Super Speed
