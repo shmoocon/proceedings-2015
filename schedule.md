@@ -88,7 +88,7 @@
   - Tom Cross
   - David Raymond
   - Gregory Conti
-6. Rethinking Security's Role in Computer Science Education
+6. [Rethinking Security's Role in Computer Science Education](bring/)
   - Sarah Zatko
 7. Ask the EFF
   - Kurt Opsahl
