@@ -44,6 +44,8 @@
   - Whitney Merrill
 2. Analysis of POS Malware
   - Brandon Benson
+3. Quantum Computing 01100101
+  - Tess Schrodinger
 
 1100	
 
@@ -61,8 +63,7 @@
 
 
 
-Quantum Computing 01100101
-Tess Schrodinger
+
 
 1300	Lunch Break
 1400	
