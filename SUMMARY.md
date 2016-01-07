@@ -24,5 +24,5 @@
 * [BRING IT ON](bring/bring_it_on.md)
    * [2014 Analysis of POS Malware](bring/01_2014_analysis_of_pos_malware.md)
    * [Deception for the Cyber Defender](bring/02_deception_for_the_cyber_defender.md)
-   * Rethinking the Role of Security in Undergraduate Education
+   * [Rethinking the Role of Security in Undergraduate Education](bring/03_rethinking_the_role_of_security_in_edu.md)
 
