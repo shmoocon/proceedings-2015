@@ -103,14 +103,13 @@ Table 1 - Click Distribution
 </table>
 
 Based on the number of clicks and the effective click through rate, students proved the effectiveness of social media as an attack vector for malicious actors. Traditional attack strategies, like phishing and insider attacks, were leveraged and proved successful. We outline the most successful attack strategies by the students as follows:
-<ul>
-    <li>Targeted Phishing</li>
-    <li>Attacking insider forums</li>
-    <li>Targeted hashtag attacks</li>
-    <li>Brand/Business/University impersonation only</li>
-    <li>Human Impersonation</li>
-    <li>Spray and pray hashtag hijacking</li>
-</ul>
+
+* Targeted Phishing
+* Attacking insider forums
+* Targeted hashtag attacks
+* Brand/Business/University impersonation only
+* Human Impersonation
+* Spray and pray hashtag hijacking
 
 Targeted phishing from the UMich job website was by far most effective strategy. The tactic successfully targeted a specific audience, specifically college students looking for jobs, as a launching platform for clicks. This strategy is not effective in larger scale attacks due to the loss of the targeted nature of the attack.
 
