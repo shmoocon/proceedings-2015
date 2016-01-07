@@ -20,7 +20,7 @@ There has been a major push to develop specialized security content geared towar
 
 <A HREF="#section2">Section 2</A> presents some data regarding securityís current visibility in general undergraduate curriculum, and the degree to which it is integrated into core classes.  Then in <A HREF="#section3">Section 3</A>  Environmental Engineering and its integration into general engineering curriculum is used as an exemplar from which to model computer security integration into computer science.  This section also addresses some simple changes which could be made to computer science accreditation requirements, in order to ensure that they meet the same standards as those in engineering.  <A HREF="#section4">Section 4</A> lays out general goals for computer science curricula in the future, and simple, actionable ways to achieve those goals.  <A HREF="#section5">Section 5</A> discusses overall goals for undergraduate curriculum design and the next steps towards achieving these goals.   
 
-<A NAME="section2"></A>
+<a name="section2"></a>
 
 # 2. Security in today's curricula
 
