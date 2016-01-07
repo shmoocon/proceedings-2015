@@ -206,10 +206,9 @@ Baltimore, MD. http://www.abet.org/eac-criteria-2014-2015.
 * [^7]	Harris, E. ìData Breach Hurts Profit at Target.î New York Times. Feb 26, 2014.  
 * [^8]	Sahami, M. et al.  2013. Computer Science Curricula 2013: Curriculum Guidelines for Undergraduate Degree Programs in Computer Science.  (Dec 2013), Joint Task Force on Computing Curricula ACM IEEE. DOI= http://dx.doi.org/10.1145/2534860.    
 
+#### Metadata
 
-Title: Rethinking the Role of Security in Undergraduate Education  
-Primary Author Name: Sarah Zatko  
-Primary Author Affiliation:   
-Primary Author Email: ZatkoSarah at gmail dot com  
-Keywords/Tags: computer science, security, computer security, education, curriculum design 
+Tags: computer science, security, computer security, education, curriculum design 
 
+**Primary Author Name**: Sarah Zatko  
+**Primary Author Email**: ZatkoSarah at gmail dot com  
