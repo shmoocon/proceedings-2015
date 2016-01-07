@@ -122,15 +122,15 @@ The last three are a combination of impersonations and spamming hashtags. Some s
 
 #References
 
-[1] http://www.nationalccdc.org/index.php/competition/about-ccdc/mission
-[2] https://www.nsa.gov/public_info/press_room/2014/cdx_media_advisory.shtml
-[3] http://www.uscyberpatriot.org/
-[4] http://www.bloomberg.com/news/articles/2015-02-10/twitter-cfo-anthony-noto-s-account-appears-to-have-been-hacked
-[5]
-[6] https://nakedsecurity.sophos.com/2012/01/20/anonymous-opmegaupload-ddos-attack/
-[7] http://www.theinquirer.net/inquirer/news/2140416/anonymous-twitter-links-cause-ddos-attacks
-[8] http://betanews.com/2014/12/26/anonymous-declares-war-on-lizard-squad-after-ddos-attacks-on-game-networks/
-[9] http://www.webroot.com/blog/2012/10/19/malware-campaign-spreading-via-facebook-direct-messages-spotted-in-the-wild/
+* [^1] http://www.nationalccdc.org/index.php/competition/about-ccdc/mission
+* [^2] https://www.nsa.gov/public_info/press_room/2014/cdx_media_advisory.shtml
+* [^3] http://www.uscyberpatriot.org/
+* [^4] http://www.bloomberg.com/news/articles/2015-02-10/twitter-cfo-anthony-noto-s-account-appears-to-have-been-hacked
+* [^5]
+* [^6] https://nakedsecurity.sophos.com/2012/01/20/anonymous-opmegaupload-ddos-attack/
+* [^7] http://www.theinquirer.net/inquirer/news/2140416/anonymous-twitter-links-cause-ddos-attacks
+* [^8] http://betanews.com/2014/12/26/anonymous-declares-war-on-lizard-squad-after-ddos-attacks-on-game-networks/
+* [^9] http://www.webroot.com/blog/2012/10/19/malware-campaign-spreading-via-facebook-direct-messages-spotted-in-the-wild/
 
 #### Metadata
 
