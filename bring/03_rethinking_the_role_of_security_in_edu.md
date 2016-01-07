@@ -155,7 +155,7 @@ The question already asks about worst case runtimes. A subtle change to the word
 
 Any worst case runtime is also a potential attack vector.  Instead of presenting the worst case as something that occurs due to particularly bad luck, it should be made clear that bad inputs can be constructed purposefully.  A malicious user could use this as an avenue for a denial of service attack.  By emphasizing these aspects each time worst case run times are discussed, students can be trained to recognize similar situations later in life.  The first step in secure design is recognizing which situations are riskier than others and require more careful consideration.  This simple change in wording could go a long way to developing this awareness in students early.  
 
-##4.3	Programming Assignments##
+## 4.3 Programming Assignments
 
 A few schools teach defensive coding practices. Teaching defensive coding practices as an isolated exercise is better than not teaching them at all, but is not going to make defensive coding habits become reflex.  Only frequent, consistent repetition will make something part of a studentís everyday routine.  Input validation is a good example.  
 
