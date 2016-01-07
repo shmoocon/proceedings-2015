@@ -14,8 +14,7 @@ All of these attacks are so-called *timing attacks*. The general idea is quite s
 
 ## 2. Secret branch conditions
 
-The most obvious source for data-dependent timing variation in software are
-conditional branches. Consider the following piece of code:
+The most obvious source for data-dependent timing variation in software are conditional branches. Consider the following piece of code:
 
     if(secret)
     {
