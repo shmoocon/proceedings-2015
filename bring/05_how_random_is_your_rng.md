@@ -6,9 +6,6 @@ Cryptographic primitives need random numbers to protect your data. Random number
 
 Estimating entropy is a difficult (if not impossible) problem, and we've been working to create usable guidance that will give conservative estimates on the amount of entropy in an entropy source. We want to share some of the challenges and proposed methods. We will also talk about some new directions that we're investigating, and present the results of our estimation methods on simulated entropy sources.
 
-
-# How Random is Your RNG?
-
 ## Introduction
 
 Random numbers are necessary for cryptography. Every time someone generates a key, initialization vector, nonce, random signature parameter, etc., they use a random number generator. The strength of those random numbers is important--there have been real-world attacks allowed by failures to generate cryptographically strong random numbers [1]. 
