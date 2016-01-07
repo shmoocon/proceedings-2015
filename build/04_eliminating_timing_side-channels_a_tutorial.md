@@ -66,11 +66,7 @@ The general technique to rewrite table lookups without leaking timing informatio
       return r;
     }
 
-Note that this code is using a function `isequal` for constant-time comparison
-instead of a simple `==` operator. The reason is that compilers may use
-conditional branches when facing `==`. A general approach for constant-time
-equality comparison in C looks as follows; note that it can easily be adapted to
-other data types by changing the types of inputs and the `sizeof` argument:
+Note that this code is using a function `isequal` for constant-time comparison instead of a simple `==` operator. The reason is that compilers may use conditional branches when facing `==`. A general approach for constant-time equality comparison in C looks as follows; note that it can easily be adapted to other data types by changing the types of inputs and the `sizeof` argument:
 
     int isequal(uint32 a, uint32 b)
     {
