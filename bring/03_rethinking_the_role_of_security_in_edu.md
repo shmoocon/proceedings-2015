@@ -166,7 +166,7 @@ When students have programming assignments, whether the assignment itself is sec
 <a name="section5"></a>
 # 5. GOALS AND NEXT STEPS#
 
-The intent of these curriculum changes is that students graduating with an undergraduate computer science degree understand the security basics of their chosen field.  That includes the following student outcomes: 
+The intent of these curriculum changes is that students graduating with an undergraduate computer science degree understand the security basics of their chosen field. That includes the following student outcomes: 
 
 * Students can evaluate the security of their designs
 * Students can recognize when they need further security expertise
