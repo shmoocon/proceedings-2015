@@ -157,7 +157,7 @@ Any worst case runtime is also a potential attack vector.  Instead of presenting
 
 ## 4.3 Programming Assignments
 
-A few schools teach defensive coding practices. Teaching defensive coding practices as an isolated exercise is better than not teaching them at all, but is not going to make defensive coding habits become reflex.  Only frequent, consistent repetition will make something part of a studentís everyday routine.  Input validation is a good example.  
+A few schools teach defensive coding practices. Teaching defensive coding practices as an isolated exercise is better than not teaching them at all, but is not going to make defensive coding habits become reflex.  Only frequent, consistent repetition will make something part of a student's everyday routine.  Input validation is a good example.  
 
 In most programming courses, there will be at least one or two assignments where students are expected to do input validation, but they are not always expected to keep doing so after that unit is over.  What they will learn from this, logically, is that input validation is useful to know, but not something you need to think about every time.  
 
