@@ -141,7 +141,7 @@ With simple, subtle changes like these throughout the course, students will come
 
 ##4.2	Algorithms and Worst Case Run Times##
 
-The second example problem is from an algorithms class at University of Montana .  Students were given the simple hash function shown in Figure 6, which takes a letter k and computes h(k) = k mod 13.    This function will be used to build a hash table from user-supplied data.  
+The second example problem is from an algorithms class at University of Montana.  Students were given the simple hash function shown in Figure 6, which takes a letter k and computes h(k) = k mod 13. This function will be used to build a hash table from user-supplied data.  
 
 The question already asks about worst case runtimes. A subtle change to the wording of the questions would make it clear that this is a security concern. 
 
