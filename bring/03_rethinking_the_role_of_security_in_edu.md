@@ -1,10 +1,5 @@
 # Rethinking the Role of Security in Undergraduate Education
 
-Title: Rethinking the Role of Security in Undergraduate Education  
-Primary Author Name: Sarah Zatko  
-Primary Author Affiliation:   
-Primary Author Email: ZatkoSarah at gmail dot com  
-Keywords/Tags: computer science, security, computer security, education, curriculum design  
 Abstract: 
 
 The role of security in computer science education needs to be reconsidered.  There is little to no applied security content for the majority of undergraduate computer science students. Given that security is an afterthought in education, it should be no surprise that it ends up being an afterthought when those students join the working world.  As a result, the same security mistakes are made over and over again.  
@@ -215,6 +210,9 @@ Baltimore, MD. http://www.abet.org/eac-criteria-2014-2015.
 [8]	Sahami, M. et al.  2013. Computer Science Curricula 2013: Curriculum Guidelines for Undergraduate Degree Programs in Computer Science.  (Dec 2013), Joint Task Force on Computing Curricula ACM IEEE. DOI= http://dx.doi.org/10.1145/2534860.    
 
 
-
- 
+Title: Rethinking the Role of Security in Undergraduate Education  
+Primary Author Name: Sarah Zatko  
+Primary Author Affiliation:   
+Primary Author Email: ZatkoSarah at gmail dot com  
+Keywords/Tags: computer science, security, computer security, education, curriculum design 
 
