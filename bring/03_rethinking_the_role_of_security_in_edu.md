@@ -52,11 +52,11 @@ Professors were asked to rate their curriculum in terms of how separate or integ
  
 ![](imgs/sixsubjectsrank.png "Figure 3. Integration of Security into Curriculum.") 
 
-__Figure 3. Integration of Security into Curriculum.__
+**Figure 3. Integration of Security into Curriculum.**
 
 Figure 3 shows that security is almost always treated as a separate topic, with only 6 universities saying that it was completely or mostly integrated, while 22 said that it was completely or mostly separate.  
 
-This data becomes even more telling after factoring in how applied that security content is.  Professors were asked to say how applied their content was for several subjects.  Figure 4 shows those ratings for security plotted against the integration ratings.  The applied vs theoretical ratings tended to be moderate, with very few 1ís or 5ís. Even so the data shows a very clear trend of security content becoming less applied as it becomes more integrated. 
+This data becomes even more telling after factoring in how applied that security content is.  Professors were asked to say how applied their content was for several subjects.  Figure 4 shows those ratings for security plotted against the integration ratings.  The applied vs theoretical ratings tended to be moderate, with very few 1s or 5s. Even so the data shows a very clear trend of security content becoming less applied as it becomes more integrated. 
 
 ![alt text](imgs/sixsubjectsrank.png "Figure 4. Security content becomes more theoretical as it is integrated.") 
 
