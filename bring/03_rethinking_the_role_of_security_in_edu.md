@@ -41,7 +41,7 @@ Figure 2 shows that when the ranks assigned to each subject were averaged, secur
 __Figure 1. Security inclusion as a core subject.__
  
 
-![alt text](imgs/sixsubjectsmean.png "Figure 2. Security ranking out of 6 subjects.") 
+![](imgs/sixsubjectsmean.png "Figure 2. Security ranking out of 6 subjects.") 
 
 __Figure 2. Mean security ranking out of 6 subjects.__
 
