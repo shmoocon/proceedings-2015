@@ -1,18 +1,6 @@
 # Mascots, March Madness & #yogapants: Hacking goes to College
 
-Title: Mascots, March Madness & #yogapants: Hacking goes to College
-Subtitle:
-Primary Author Name: Zack Allen
-Primary Author Affiliation: ZeroFOX
-Primary Author Email: zack@zerofox.com
-Additional Author Name: Chris Cullison
-Additional Author Affiliation: ZeroFOX
-Additional Author Email: chris@zerofox.com
-Additional Author Name: Avi Rubin
-Additional Author Affiliation: Johns Hopkins University
-Additional Author Email: avirubin@gmail.com
-Keywords/Tags: security,socialmedia,impersonation,college,competition
-Abstract: 
+## Abstract: 
 
 Professor Rubin gave his students an interesting assignment: conduct red-blue social media-based penetration tests on American universities. Students were tasked to construct an attack, defense and a “cover-your-tracks” plan. Hashtags, fake coffee shops, racy direct messages and yoga pants were just some of the strategies used to direct victims on social media to an emulated attack landing-page. Afterwards, students defended their university’s social media presence from other teams carrying out their attacks. Lastly, they employed concealment techniques to remove the evidence.
 
@@ -142,3 +130,18 @@ The last three are a combination of impersonations and spamming hashtags. Some s
 [7] http://www.theinquirer.net/inquirer/news/2140416/anonymous-twitter-links-cause-ddos-attacks
 [8] http://betanews.com/2014/12/26/anonymous-declares-war-on-lizard-squad-after-ddos-attacks-on-game-networks/
 [9] http://www.webroot.com/blog/2012/10/19/malware-campaign-spreading-via-facebook-direct-messages-spotted-in-the-wild/
+
+#### Metadata
+
+Title: Mascots, March Madness & #yogapants: Hacking goes to College
+Subtitle:
+Primary Author Name: Zack Allen
+Primary Author Affiliation: ZeroFOX
+Primary Author Email: zack@zerofox.com
+Additional Author Name: Chris Cullison
+Additional Author Affiliation: ZeroFOX
+Additional Author Email: chris@zerofox.com
+Additional Author Name: Avi Rubin
+Additional Author Affiliation: Johns Hopkins University
+Additional Author Email: avirubin@gmail.com
+Keywords/Tags: security,socialmedia,impersonation,college,competition
