@@ -73,7 +73,7 @@ The non-iid entropy estimates from the current draft of 90B represent a serious 
 Future research should identify more predictors that could be added, investigate the best parameter choices for the predictors presented here, and evaluate both the 90B estimates and the predictors against additional simulated sources. 
 
 
-[note 1]: These five estimators were contributed to 90B by NSA, and are discussed in [3] by Hagerty and Draper.
+[NOTE #1]: These five estimators were contributed to 90B by NSA, and are discussed in [3] by Hagerty and Draper.
 
 [note 2]: Sources in 90B are split into iid and non-iid sources.  An iid (independent and identically distributed) source is a source whose samples are all drawn from the same distribution, and are all independent of surrounding samples.  A non-iid source is any source that isn't iid.  In general, it's easy to estimate the entropy for iid sources, and harder for non-iid sources.    
  
