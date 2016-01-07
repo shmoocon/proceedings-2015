@@ -81,10 +81,8 @@ Future research should identify more predictors that could be added, investigate
 ## References 
 
 * [^1] N. Heninger, Z. Durumeric, E. Wustrow and J. A. Halderman, "Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices," in Proceedings of the 21st USENIX Security Symposium, 2012. 
-
-[2] 	E. Barker and J. Kelsey, NIST Draft SP 800-90B Recommendation for the Entropy Sources Used for Random Bit Generation, Available online http://csrc.nist.gov/publications/drafts/800-90/draft-sp800-90b.pdf, 2012. 
-
-[3] 	P. Hagerty and T. Draper, "Entropy Bounds and Statistical Tests," in Random Bit Generation Workshop, 2012. 
+* [^2] E. Barker and J. Kelsey, NIST Draft SP 800-90B Recommendation for the Entropy Sources Used for Random Bit Generation, Available online http://csrc.nist.gov/publications/drafts/800-90/draft-sp800-90b.pdf, 2012. 
+* [^3] P. Hagerty and T. Draper, "Entropy Bounds and Statistical Tests," in Random Bit Generation Workshop, 2012. 
 
 Title: How Random is Your RNG?
 Primary Author Name: 	Meltem Sonmez Turan
