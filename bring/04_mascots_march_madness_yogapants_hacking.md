@@ -30,16 +30,14 @@ Students took turns performing attack and defense against each other. For exampl
 
 The attacking students used several strategies to hide their attack URLs. All students use shortlinks to masquerade the end-point of their URLs, while others performed multi-layered approaches. These multi-layered approaches involved a long redirect chain with embedded iframes or obfuscated javascript that led victims to landing pages. These links were spread by their botnets on various social media mediums.
 
-|![ Figure 1 - Botnet Software 1](imgs/botnet1.png "Figure 1 - Botnet Software 1")
+![ Figure 1 - Botnet Software 1](imgs/botnet1.png "Figure 1 - Botnet Software 1")
 
 ![ Figure 2 - Botnet Software 2](imgs/botnet2.png "Figure 2 - Botnet Software 2")
 
 
 Impersonating accounts, or evil twins, were also used in tandem with the link hiding tactics. Impersonation accounts are typically used on social media to act as someone else, whether it is Barack Obama or the CEO of a company, as an effective measure to help build trust with a victim. Through these impersonations, students spread attack URLs so when a potential victim saw the message, they attributed it to a trusted figure.
 
-| Figure 3 |
-|:---:|
-|![Figure 3 - Ice Cream hashtag hijack](imgs/gannon.png "Figure 3 - Ice Cream hashtag hijack")|
+![Figure 3 - Ice Cream hashtag hijack](imgs/gannon.png "Figure 3 - Ice Cream hashtag hijack")
 
 For example, during halftime of a college basketball game, one impersonated a local ice cream shop and offered a deal if the home team rallied and won the game in the second half. This attack got retweeted by multiple student and university accounts, yielding 41 clicks.
 
