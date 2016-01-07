@@ -24,6 +24,7 @@ Deception is the construction of a false reality for an adversary via intentiona
 
 Military operators think in terms of effects.  Staffs generally begin planning by considering the specific effect they want to have on an adversary (example effects are degrade, delay, destroy, disrupt, divert, neutralize, and suppress) and then think about the tools they have at their disposal and how those tools can be used to achieve the desired effect.  The same should be true for your defensive deception campaign.  What sort of effect do you want to achieve, and on who (or what) do you want to achieve those effects?  Table 1, below, provides a sampling of cyber effects and how an attacker or a defender might approach each one.
 
+TABLE 1. EXAMPLE DECEPTION EFFECTS FOR CYBER ATTACKERS AND DEFENDERS
 
 | Effect | Attacker | Defender |
 |:-------|:---------|:---------|
@@ -34,49 +35,7 @@ Military operators think in terms of effects.  Staffs generally begin planning b
 | Disengage | Induce the defender into thinking that the attack is contained or completed. | Induce the attacker into thinking that they have already achieved their goal. |
 | Misdirect | Focus the defender on a different attacker. | Encourage the attacker to target a different victim. |
 | Misattribute | Induce the defender into thinking that the attacker is someone else. | Induce the attacker into thinking that they’ve compromised the wrong network. |
-<table style="width:100%">
-<caption>TABLE 1. EXAMPLE DECEPTION EFFECTS FOR CYBER ATTACKERS AND DEFENDERS</caption>
-<tr>
-	<th>Effect </th>
-	<th>Attacker</th>
-	<th>Defender</th>
-</tr>
-<tr>
-	<td>Fail to observe</td>
-	<td>Prevent the defender from detecting the attack.</td>
-	<td>Prevent the attacker from discovering their target.</td>
-</tr>
-<tr>
-	<td>Reveal</td>
-	<td>Trick the defender into providing access.</td>
-	<td>Trick the attacker into revealing their presence.</td>
-</tr>
-<tr>
-	<td>Waste Time</td>
-	<td>Focus the defender's attention on the wrong aspects of the incident.</td>
-	<td>Focus the attacker's efforts on the wrong target.</td>
-</tr>
-<tr>
-	<td>Underestimate</td>
-	<td>Induce the defender to think the attack is unsophisticated, not targeted.</td>
-	<td>Induce the attacker into thinking that the sought after thing is not here.</td>
-</tr>
-<tr>
-	<td>Disengage</td>
-	<td>Induce the defender into thinking that the attack is contained or completed.</td>
-	<td>Induce the attacker into thinking that they have already achieved their goal.</td>
-</tr>
-<tr>
-	<td>Misdirect</td>
-	<td>Focus the defender on a different attacker. </td>
-	<td>Encourage the attacker to target a different victim.</td>
-</tr>
-<tr>
-	<td>Misattribute</td>
-	<td>Induce the defender into thinking that the attacker is someone else. </td>
-	<td>Induce the attacker into thinking that they’ve compromised the wrong network.</td>
-</tr>
-</table>
+
 
 It is useful to consider the level at which your deception operation will be applied.  Military planners divide operations into three levels of warfare: strategic, operational, and tactical.  Strategic deception are those high-level techniques that apply to the entirety of a large, perhaps geographically distributed, organization.  It might be used to disguise basic objectives, intentions, strategies, and capabilities of the organization as a whole.  Operational deception bridges the gap between strategic and tactical.  It might be used to confuse an adversary regarding specific operations or activities you are preparing to conduct.  Tactical deception is used to mislead others while they are actively involved in competition with you, your interests, or your forces.  It is important to understand that these categorizations are not based on the type of deception being practiced, but rather on the overall objective of the deception.
 
