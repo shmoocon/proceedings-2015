@@ -45,11 +45,8 @@ Note that this arithmetic approach for a conditional move can be generalized to 
 
 ## 3. Secret addresses
 
-Secret branch conditions are only one of two major sources of input-dependent
-timing variability in software; the other one is memory access. The easiest way
-to understand why this is the case is to consider loads from cached memory.
-Loading from cache (cache hit) is much faster than loading from main memory
-(cache miss). The most famous examples of cache-timing attacks are attacks
+Secret branch conditions are only one of two major sources of input-dependent timing variability in software; the other one is memory access. The easiest way to understand why this is the case is to consider loads from cached memory.
+Loading from cache (cache hit) is much faster than loading from main memory (cache miss). The most famous examples of cache-timing attacks are attacks
 against the Advanced Encryption Standard (AES). The original proposal by Daemen
 and Rijmen already describes an implementation technique for AES, which is
 making heavy use of secretly-indexed lookups from four tables of 1KB each. The
