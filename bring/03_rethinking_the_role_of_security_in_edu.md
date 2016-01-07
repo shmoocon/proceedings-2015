@@ -8,7 +8,7 @@ Most security content in curriculum today is meant for future security specialis
 
 The integration of Environmental Engineering design concepts into general engineering curricula provides a model for how to fix this 'afterthought' problem.  Applied security content needs to be integrated throughout the undergraduate computer science curriculum.  This can be achieved with minimal disruption to the existing courses, as long as the changes are subtle, but consistent.
 
-# Introduction
+# 1. Introduction
 
 We all know that there is an inherent asymmetry in computer security that favors the attacker.  The offense only needs one successful exploit in order to win, while the defense has a huge amount of surface area that they needs to guard.  This asymmetry may be unavoidable, but it is unnecessarily amplified by how we approach computer security.  The offense gets to focus on finding bugs and exploiting them, while the defense has to spend the majority of their time fixing mistakes that shouldn't have happened in the first place.  Some amount of bugs are inevitable, but most of the major security problems today occur because programmers don't have even a baseline understanding of security, and security isn't a part of their design process.  I call this the security afterthought problem.  Even as security becomes a higher priority in people's rhetoric, it remains an afterthought in their work and their design processes.  
 
@@ -22,11 +22,11 @@ There has been a major push to develop specialized security content geared towar
 
 <a name="section2"></a>
 
-# 2. Security in today's curricula
+# 2. Security In Today's Curricula
 
 A survey was sent to 100 university computer science department heads, and 33 responded with data about their undergraduate curricula.  The survey was designed to determine to what degree security is prioritized and integrated in undergraduate core curricula, as well as how applied that content is.   
 
-## 2\.1 Priority in Comparison to Other Subjects##
+## 2.1 Priority in Comparison to Other Subjects
 
 Securityís ranking as a topic in overall curriculum design was ascertained using two different questions.  First, the professors were presented with 10 core curriculum subjects, and asked to pick the 5 which were most important to include in undergraduate curriculum.  
 
