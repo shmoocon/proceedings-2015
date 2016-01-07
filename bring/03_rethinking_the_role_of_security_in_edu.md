@@ -196,23 +196,15 @@ My thanks to the professors who participated in my survey and to Neal Patel for 
 
 #8.	REFERENCES#
 
-<A NAME="ref1"></A>
-[1]	Alonso, K; Leopard, A. ìCommonwealth of Kentucky enacts data breach notification law.î  Inside Counsel. June 26, 2014.  
-<A NAME="ref2"></A>
-[2]	Criteria for Accrediting Computing Programs. Oct 26, 2013.  ABET, Baltimore, MD.    http://www.abet.org/cac-criteria-2014-2015.  
-<A NAME="ref3"></A>
-[3]	Criteria for Accrediting Engineering Programs. Oct 26, 2013.  ABET, 
+* [^1]	Alonso, K; Leopard, A. ìCommonwealth of Kentucky enacts data breach notification law.î  Inside Counsel. June 26, 2014.  
+* [^2]	Criteria for Accrediting Computing Programs. Oct 26, 2013.  ABET, Baltimore, MD.    http://www.abet.org/cac-criteria-2014-2015.  
+* [^3]	Criteria for Accrediting Engineering Programs. Oct 26, 2013.  ABET, 
 Baltimore, MD. http://www.abet.org/eac-criteria-2014-2015.  
-<A NAME="ref4"></A>
-[4]	Directive 2006/66/EC of the European Parliament and of the Council of 6 September 2006 on batteries and accumulators and waste batteries and accumulators and repealing Directive 91/157/EEC (Text with EEA relevance). OJ L 266, 26.09.2006, p. 1ñ14.  
-<A NAME="ref5"></A>
-[5]	Directive 2002/95/EC of the European Parliament and of the Council of 27 January 2003 on the restriction of the use of certain hazardous substances in electrical and electronic equipment. OJ L 37, 13.02.2003, p. 19ñ23.  
-<A NAME="ref6"></A>
-[6]	Hans, G. ìFederal Judge Rules Against Claims that FTC Lacks Power to Regulate Data Security.î Center for Democracy & Policy.  April 8, 2014.  
-<A NAME="ref7"></A>
-[7]	Harris, E. ìData Breach Hurts Profit at Target.î New York Times. Feb 26, 2014.  
-<A NAME="ref8"></A>
-[8]	Sahami, M. et al.  2013. Computer Science Curricula 2013: Curriculum Guidelines for Undergraduate Degree Programs in Computer Science.  (Dec 2013), Joint Task Force on Computing Curricula ACM IEEE. DOI= http://dx.doi.org/10.1145/2534860.    
+* [^4]	Directive 2006/66/EC of the European Parliament and of the Council of 6 September 2006 on batteries and accumulators and waste batteries and accumulators and repealing Directive 91/157/EEC (Text with EEA relevance). OJ L 266, 26.09.2006, p. 1ñ14.  
+* [^5]	Directive 2002/95/EC of the European Parliament and of the Council of 27 January 2003 on the restriction of the use of certain hazardous substances in electrical and electronic equipment. OJ L 37, 13.02.2003, p. 19ñ23.  
+* [^6]	Hans, G. ìFederal Judge Rules Against Claims that FTC Lacks Power to Regulate Data Security.î Center for Democracy & Policy.  April 8, 2014.  
+* [^7]	Harris, E. ìData Breach Hurts Profit at Target.î New York Times. Feb 26, 2014.  
+* [^8]	Sahami, M. et al.  2013. Computer Science Curricula 2013: Curriculum Guidelines for Undergraduate Degree Programs in Computer Science.  (Dec 2013), Joint Task Force on Computing Curricula ACM IEEE. DOI= http://dx.doi.org/10.1145/2534860.    
 
 
 Title: Rethinking the Role of Security in Undergraduate Education  
