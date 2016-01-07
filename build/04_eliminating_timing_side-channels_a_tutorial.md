@@ -28,11 +28,7 @@ The most obvious source for data-dependent timing variation in software are cond
 Obviously, if `do_A()` and `do_B()` take a different amount of time, this piece of code will leak information about `secret` through timing. What is less obvious is that this piece of code also leaks information about `secret` if `do_A()` and `do_B()` take the same amount of time. One reason is that almost all modern CPUs perform branch prediction. A CPU essentially guesses if `secret` is 0 or 1 and fill the pipeline with the instructions that correspond to this guess. A correct guess will result in faster execution of the code, a wrong guess requires the pipeline to be flushed, which costs extra cycles. The other reason are instruction caches: if instructions of `do_A()` are in cache and instructions of `do_B()` are not, then fetching instructions of `do_A()` is faster than fetching instruction of `do_B()`. See also Section 3.
 
 Eliminating this kind of side channel requires to perform both computations,
-`do_A()` and `do_B()` and then conditionally copying the result. Again, this
-conditional copy must not be done through a branch, but through arithmetic. The
-following piece of code is an example of a constant-time conditional move of a
-32-bit integer from one memory location to another memory location, depending on
-one secret bit. 
+`do_A()` and `do_B()` and then conditionally copying the result. Again, this conditional copy must not be done through a branch, but through arithmetic. The following piece of code is an example of a constant-time conditional move of a 32-bit integer from one memory location to another memory location, depending on one secret bit. 
 
     /* secret has to be either 0 or 1 */
     void cmov(uint32_t *r, const uint32_t *a, uint32_t secret)
