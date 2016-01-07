@@ -6,7 +6,8 @@ The role of security in computer science education needs to be reconsidered.  Th
 
 Most security content in curriculum today is meant for future security specialists. What content there is comes as a standalone class or lecture, and is not interwoven with regular curricula.   
 
-The integration of Environmental Engineering design concepts into general engineering curricula provides a model for how to fix this ìafterthoughtî problem.  Applied security content needs to be integrated throughout the undergraduate computer science curriculum.  This can be achieved with minimal disruption to the existing courses, as long as the changes are subtle, but consistent. 
+The integration of Environmental Engineering design concepts into general engineering curricula provides a model for how to fix this *afterthought* problem.  Applied security content needs to be integrated throughout the undergraduate computer science curriculum.  This can be achieved with minimal disruption to the existing courses, as long as the changes are subtle, but consistent.
+
 
 
 # Introduction
