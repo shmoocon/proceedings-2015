@@ -9,8 +9,7 @@ The timing side channel is different than other side channels (such as power con
 ## 1. Introduction
 
 The last few decades of research in cryptography have produced various
-primitives and protocols that are widely accepted as secure. Examples are AES in
-CBC mode together with HMAC-SHA256 for authenticated encryption, RSA-2048 for
+primitives and protocols that are widely accepted as secure. Examples are AES in CBC mode together with HMAC-SHA256 for authenticated encryption, RSA-2048 for
 public key encryption and ECDSA on the secp256k1 curve as used in Bitcoin for
 cryptographic signatures.  However, many *implementations* of those primitives
 and protocols have shown to be highly insecure as demonstrated by various
