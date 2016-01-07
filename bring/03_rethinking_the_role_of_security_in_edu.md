@@ -43,7 +43,6 @@ The other approach to this question was to present the professors with 6 compute
 
 Figure 2 shows that when the ranks assigned to each subject were averaged, security has a mean ranking of 4.7, making it the 5th of 6 subjects.  
 
-<center>
 ![alt text](imgs/tensubjectsrank.png "Figure 1. Security inclusion as a core subject.")
 
 __Figure 1. Security inclusion as a core subject.__
@@ -52,7 +51,6 @@ __Figure 1. Security inclusion as a core subject.__
 ![alt text](imgs/sixsubjectsmean.png "Figure 2. Security ranking out of 6 subjects.") 
 
 __Figure 2. Mean security ranking out of 6 subjects.__
-</center>
 
 ## 2\.2 Integration into Other Subjects ##
 
@@ -60,21 +58,17 @@ Clearly, when security is made a separate subject, it is not highly prioritized 
 
 Professors were asked to rate their curriculum in terms of how separate or integrated security is in the introductory courses, with 1 meaning completely separate, and 5 being totally integrated.  
  
-<center>
-![alt text](./images/sixsubjectsrank.png "Figure 3. Integration of Security into Curriculum.") 
+![alt text](imgs/sixsubjectsrank.png "Figure 3. Integration of Security into Curriculum.") 
 
 __Figure 3. Integration of Security into Curriculum.__
-</center>
 
 Figure 3 shows that security is almost always treated as a separate topic, with only 6 universities saying that it was completely or mostly integrated, while 22 said that it was completely or mostly separate.  
 
 This data becomes even more telling after factoring in how applied that security content is.  Professors were asked to say how applied their content was for several subjects.  Figure 4 shows those ratings for security plotted against the integration ratings.  The applied vs theoretical ratings tended to be moderate, with very few 1ís or 5ís. Even so the data shows a very clear trend of security content becoming less applied as it becomes more integrated. 
 
-<center>
-![alt text](./images/sixsubjectsrank.png "Figure 4. Security content becomes more theoretical as it is integrated.") 
+![alt text](imgs/sixsubjectsrank.png "Figure 4. Security content becomes more theoretical as it is integrated.") 
 
 __Figure 4. Security content becomes more theoretical as it is integrated.  Dashed line shows linear trend.__
-</center>
 
 Security was also one of the most theoretical subjects overall.  Across all 6 rated subjects, only Algorithms and Data Structures was more theoretical than Security.  Theory is of course useful, but how are computer scientists to know how to practice good security in their working lives if they were not required to put that theory into practice in their education?  In neglecting this part of computer science education we are doing students a vast disservice.  
 
