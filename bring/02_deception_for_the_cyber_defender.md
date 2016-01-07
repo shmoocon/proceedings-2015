@@ -76,7 +76,7 @@ U.S. Military doctrine lists a series of deception principles that, unlike the a
 
 Deception, if properly applied, can be a powerful tool for the network defender.  We contend that most deception operations, like much of network security in general, is applied as an afterthought and is not well coordinated with network construction or defense.  Military planners have used deception for millennia to improve their chances of success.  We believe that existing military history and doctrine can be a rich source of inspiration and techniques for the network defender.
 
-##Disclaimer
+## Disclaimer
 
 The views expressed in this paper are those of the authors and do not reflect the official policy or position of Drawbridge Networks, West Point, the Department of the Army, the Department of Defense, or the United States Government.
 
