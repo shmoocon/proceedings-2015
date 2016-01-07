@@ -1,29 +1,12 @@
 # Deception for the Cyber Defender
+### To Err is Human; to Deceive, Divine
 
-Title: Deception for the Cyber Defender: To Err is Human; to Deceive, Divine
-Subtitle:
-Primary Author Name:  Tom Cross
-Primary Author Affiliation: Drawbridge Networks
-Primary Author Email: tom@tomcross.info
-Additional Author Name: Dave Raymond
-Additional Author Affiliation: West Point
-Additional Author Email: david.raymond@usma.edu
-Additional Author Name: Greg Conti
-Additional Author Affiliation: West Point
-Additional Author Email: gregory.conti@usma.edu
-Keywords/Tags: deception, honeypot, honeynet, military, cyber operations
-Abstract: Since the first conflict between man, deception has played an integral role. Today on the network battlefield attackers enjoy many advantages and frequently employ deception as a powerful tool to accomplish their objectives. In this paper we discuss how to turn the tables on the attacker and employ deception strategies that deceive both human attackers and the code they employ to best defend your assets.  We do so by mapping traditional and well-developed military battlefield deception techniques and principles onto the cyber domain.
+## Abstract
 
-#<center>Deception for the Cyber Defender:</center>
-#<center>To Err is Human; to Deceive, Divine</center>
+Since the first conflict between man, deception has played an integral role. Today on the network battlefield attackers enjoy many advantages and frequently employ deception as a powerful tool to accomplish their objectives. In this paper we discuss how to turn the tables on the attacker and employ deception strategies that deceive both human attackers and the code they employ to best defend your assets.  We do so by mapping traditional and well-developed military battlefield deception techniques and principles onto the cyber domain.
 
-<center>**Tom Cross, Drawbridge Networks**</center>
+## Introduction
 
-<center>**David Raymond, West Point**</center>
-
-<center>**Greg Conti, West Point**</center>
-
-##Introduction
 Using deception in computer network attack and defense is not a new concept.  Malicious hackers have used spoofed packet headers, social engineering, phishing, and other deception techniques for years to deceive users and network devices in order to gain unauthorized access to target systems and networks.  Defenders, however, have taken less advantage of deception in their efforts to keep their networks safe.  Deception in the defense has largely been limited to honeypots or honeynets, servers or network segments that appear to be lucrative targets for hackers but are really unused systems designed to waste attackers' time and capture their tools.  In the past, honeypots have primarily been designed to trap opportunistic attackers and have had limited usefulness. 
 
 In a world where persistent attackers are operating with knowledge of 0-day vulnerabilities and IDS evasion techniques, deceptive defensive tactics may deserve a second look.  Honeynets can be useful if they are well-designed and implemented, and if they are properly monitored by network defenders.  They can buy time for defenders to harden suspected target systems and to evict intruders.  Even better, they might help reveal how attackers gained initial access and their general tactics and techniques.  In a perfect world, a honeynet would be so well-conceived and constructed that it convinces attackers that they got what they are looking for, or that what they are looking for doesn't exist anywhere in the target network.  The best way to protect against persistent attackers who can evade technical controls may be to manipulate the attacker's perceptions.  
@@ -41,6 +24,16 @@ Deception is the construction of a false reality for an adversary via intentiona
 
 Military operators think in terms of effects.  Staffs generally begin planning by considering the specific effect they want to have on an adversary (example effects are degrade, delay, destroy, disrupt, divert, neutralize, and suppress) and then think about the tools they have at their disposal and how those tools can be used to achieve the desired effect.  The same should be true for your defensive deception campaign.  What sort of effect do you want to achieve, and on who (or what) do you want to achieve those effects?  Table 1, below, provides a sampling of cyber effects and how an attacker or a defender might approach each one.
 
+
+| Effect | Attacker | Defender |
+|:-------|:---------|:---------|
+| Fail to observe | Prevent the defender from detecting the attack. | Prevent the attacker from discovering their target. |
+| Reveal | Trick the defender into providing access. | Trick the attacker into revealing their presence. |
+| Waste Time | Focus the defender's attention on the wrong aspects of the incident. | Focus the attacker's efforts on the wrong target. |
+| Underestimate | Induce the defender to think the attack is unsophisticated, not targeted. | Induce the attacker into thinking that the sought after thing is not here. |
+| Disengage | Induce the defender into thinking that the attack is contained or completed. | Induce the attacker into thinking that they have already achieved their goal. |
+| Misdirect | Focus the defender on a different attacker. | Encourage the attacker to target a different victim. |
+| Misattribute | Induce the defender into thinking that the attacker is someone else. | Induce the attacker into thinking that they’ve compromised the wrong network. |
 <table style="width:100%">
 <caption>TABLE 1. EXAMPLE DECEPTION EFFECTS FOR CYBER ATTACKERS AND DEFENDERS</caption>
 <tr>
@@ -130,3 +123,13 @@ The views expressed in this paper are those of the authors and do not reflect th
 
 We are not lawyers, nor are we giving legal advice.  Please consult your legal advisor before even considering deception activities.
 
+Primary Author Name:  Tom Cross
+Primary Author Affiliation: Drawbridge Networks
+Primary Author Email: tom@tomcross.info
+Additional Author Name: Dave Raymond
+Additional Author Affiliation: West Point
+Additional Author Email: david.raymond@usma.edu
+Additional Author Name: Greg Conti
+Additional Author Affiliation: West Point
+Additional Author Email: gregory.conti@usma.edu
+Keywords/Tags: deception, honeypot, honeynet, military, cyber operations
