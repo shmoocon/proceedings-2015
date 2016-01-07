@@ -82,13 +82,18 @@ The views expressed in this paper are those of the authors and do not reflect th
 
 We are not lawyers, nor are we giving legal advice.  Please consult your legal advisor before even considering deception activities.
 
-Primary Author Name:  Tom Cross
-Primary Author Affiliation: Drawbridge Networks
-Primary Author Email: tom@tomcross.info
-Additional Author Name: Dave Raymond
-Additional Author Affiliation: West Point
-Additional Author Email: david.raymond@usma.edu
-Additional Author Name: Greg Conti
-Additional Author Affiliation: West Point
-Additional Author Email: gregory.conti@usma.edu
-Keywords/Tags: deception, honeypot, honeynet, military, cyber operations
+## References
+
+#### Metadata
+
+**Primary Author Name**: Tom Cross  
+**Primary Author Affiliation**: Drawbridge Networks  
+**Primary Author Email**: tom@tomcross.info
+
+**Additional Author Name**: Dave Raymond  
+**Additional Author Affiliation**: West Point  
+**Additional Author Email**: david.raymond@usma.edu
+
+**Additional Author Name**: Greg Conti  
+**Additional Author Affiliation**: West Point  
+**Additional Author Email**: gregory.conti@usma.edu
