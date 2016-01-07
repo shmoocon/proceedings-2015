@@ -149,7 +149,7 @@ The question already asks about worst case runtimes. A subtle change to the word
 * Give an example of an input that would achieve this.  
 * How could you change the hash function to avoid this vulnerability?
 
-![alt text](imgs/hashexample.png "Figure 6. Simple hash function to be applied to letters of the alphabet.")
+![](imgs/hashexample.png "Figure 6. Simple hash function to be applied to letters of the alphabet.")
 
 __Figure 6. Simple hash function to be applied to letters of the alphabet.  h(k) = k mod 13.__
 
