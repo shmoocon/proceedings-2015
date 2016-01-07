@@ -139,7 +139,7 @@ These questions are designed to make students demonstrate their knowledge of how
 
 With simple, subtle changes like these throughout the course, students will come away with a much more rounded understanding of the concepts involved, and with a much greater ability to put those tools and concepts to use effectively and securely.  Students will learn how to ask the right security questions when they are familiarizing themselves with a new system.  
 
-##4.2	Algorithms and Worst Case Run Times##
+## 4.2 Algorithms and Worst Case Run Times
 
 The second example problem is from an algorithms class at University of Montana.  Students were given the simple hash function shown in Figure 6, which takes a letter k and computes h(k) = k mod 13. This function will be used to build a hash table from user-supplied data.  
 
