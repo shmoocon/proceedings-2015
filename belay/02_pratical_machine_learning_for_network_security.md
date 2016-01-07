@@ -19,7 +19,7 @@ Introduction
 
 Machine learning is a useful tool for a subset of the problems in network security, but it is often overhyped with a focus on the math behind it.  This limits the audience that can fully understand how it works and assess its limitations.  However, the math is just one aspect and typically not the most important for evaluating a project, product or idea.  In this paper, we examine all stages of a machine-leaning project with a focus on application (see Figure).
 
-![Alt text](ml_process.jpg "Figure 1")
+![Alt text](imgs/ml_process.jpg "Figure 1")
 
 Data
 -------------
