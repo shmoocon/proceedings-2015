@@ -72,7 +72,7 @@ U.S. Military doctrine lists a series of deception principles that, unlike the a
 * Timeliness - a deception operation requires careful timing.  Events should be sequenced to maximize the intended effect of the deception on the target.
 * Integration - fully integrate each deception with the operation that it is supporting.  The deception plan should be integral to the operation and planned in parallel to ensure maximum benefit.
 
-##Conclusion
+## Conclusion
 
 Deception, if properly applied, can be a powerful tool for the network defender.  We contend that most deception operations, like much of network security in general, is applied as an afterthought and is not well coordinated with network construction or defense.  Military planners have used deception for millennia to improve their chances of success.  We believe that existing military history and doctrine can be a rich source of inspiration and techniques for the network defender.
 
