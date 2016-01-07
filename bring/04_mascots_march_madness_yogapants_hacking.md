@@ -43,9 +43,7 @@ For example, during halftime of a college basketball game, one impersonated a lo
 
 Another student built a Tinder bot that scoured Tinder for matches. It would automatically "swipe right" on every match, meaning it default accepted any invitation to chat with potential suitors. From this, the student then abused the profile picture and persona he constructed to send users a shortlink to his attack page, stating that he would rather talk on Facebook rather than Tinder.
 
-![Figure 4 - Tinder Conversation 1](imgs/tinder1.png "Figure 4 - Tinder Conversation 1")
-
-![Figure 5 - Tinder Conversation 2](imgs/tinder2.png "Figure 5 - Tinder Conversation 2")
+![Figure 4 - Tinder Conversation 1](imgs/tinder1.png "Figure 4 - Tinder Conversation 1") ![Figure 5 - Tinder Conversation 2](imgs/tinder2.png "Figure 5 - Tinder Conversation 2")
 
 The student group that was targeting University of Michigan (UMich) built a "UMich Jobs" website to lure in victims. This was a combination of a brand abuse and phishing attack that yielded clicks and personally identifiable information (PII) from victims. The group managed to find closed Facebook groups for UMich students and convinced a friend who goes to the university to post on their behalf. This insider attack chained together multiple attack strategies to infect their victims.
 
