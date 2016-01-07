@@ -45,21 +45,7 @@ Note that this arithmetic approach for a conditional move can be generalized to 
 
 ## 3. Secret addresses
 
-Secret branch conditions are only one of two major sources of input-dependent timing variability in software; the other one is memory access. The easiest way to understand why this is the case is to consider loads from cached memory.
-Loading from cache (cache hit) is much faster than loading from main memory (cache miss). The most famous examples of cache-timing attacks are attacks
-against the Advanced Encryption Standard (AES). The original proposal by Daemen
-and Rijmen already describes an implementation technique for AES, which is
-making heavy use of secretly-indexed lookups from four tables of 1KB each. The
-most basic timing attack against AES implementations that follows this apprach
-goes as follows: After AES has processed some data, all tables are very likely
-to be in cache. An attacker running code on the same CPU now loads some data and
-thereby replaces some entries of the AES tables in cache with his own data.
-Afterwards AES proceeds for a while and, depending on secret data, may again
-replace some of the attackers data with table entries. When it is the attacker's
-turn again, he loads his data and measures the time required for those loads.
-If the loads are fast, his data was still in cache and AES has thus not accessed
-the table entries that correspond to those cache lines; if it is slow, AES has
-accessed those cache lines. 
+Secret branch conditions are only one of two major sources of input-dependent timing variability in software; the other one is memory access. The easiest way to understand why this is the case is to consider loads from cached memory. Loading from cache (cache hit) is much faster than loading from main memory (cache miss). The most famous examples of cache-timing attacks are attacks against the Advanced Encryption Standard (AES). The original proposal by Daemen and Rijmen already describes an implementation technique for AES, which is making heavy use of secretly-indexed lookups from four tables of 1KB each. The most basic timing attack against AES implementations that follows this apprach goes as follows: After AES has processed some data, all tables are very likely to be in cache. An attacker running code on the same CPU now loads some data and thereby replaces some entries of the AES tables in cache with his own data. Afterwards AES proceeds for a while and, depending on secret data, may again replace some of the attackers data with table entries. When it is the attacker's turn again, he loads his data and measures the time required for those loads. If the loads are fast, his data was still in cache and AES has thus not accessed the table entries that correspond to those cache lines; if it is slow, AES has accessed those cache lines. 
 
 Looking only at this basic attack one might conclude that secret addresses are
 not a problem, as long as only the position within a cache line is secret but
