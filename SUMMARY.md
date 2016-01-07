@@ -19,5 +19,6 @@
 * [BELAY IT](belay/belay_it.md)
    * [Cockroach Analysis](belay/01_cockroach_analysis.md)
    * [Pratical Machine Learning for Network Security](belay/02_pratical_machine_learning_for_network_security.md)
+   * Infrastructure Tracking with Passive Monitoring and Active Probing
 * [BRING IT ON](bring/bring_it_on.md)
 
