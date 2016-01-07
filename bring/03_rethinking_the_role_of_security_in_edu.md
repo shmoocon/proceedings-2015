@@ -90,7 +90,7 @@ Given the continually poor state of commercial security practices, more attempts
 
 Numerous major US companies have reported large data breaches in recent years.  In some cases, the news has been quite costly for the companies involved.  For example, Target's reported breach in 2013 resulted in major financial losses for the company following the news. [^7] If this trend continues, then financial and legal pressures should cause industry standards to change.    
 
-###3.1.2 Accreditation
+### 3.1.2 Accreditation
 
 ABET has made the ability to make designs environmentally sound a requirement for all engineering disciplines.  The 'Criteria for Accrediting Engineering Programs', General Criteria 3. Student Outcomes, Section c, requires ìan ability to design a system, component, or process to meet desired needs within realistic constraints such as economic, environmental, social, political, ethical, health and safety, manufacturability, and sustainabilityî. <A HREF="#ref3">[3]</A>  It is true that not all programs are accredited, but having these criteria listed in the accreditation requirements creates an industry standard.  
 
