@@ -84,15 +84,19 @@ Future research should identify more predictors that could be added, investigate
 * [^2] E. Barker and J. Kelsey, NIST Draft SP 800-90B Recommendation for the Entropy Sources Used for Random Bit Generation, Available online http://csrc.nist.gov/publications/drafts/800-90/draft-sp800-90b.pdf, 2012. 
 * [^3] P. Hagerty and T. Draper, "Entropy Bounds and Statistical Tests," in Random Bit Generation Workshop, 2012. 
 
-Title: How Random is Your RNG?
-Primary Author Name: 	Meltem Sonmez Turan
-Primary Author Affiliation: 	NIST
-Primary Author Email: 	meltem.turan@nist.gov
-Additional Author Name: 	John Kelsey
-Additional Author Affiliation:  	NIST
-Additional Author Email: 	john.kelsey@nist.gov
-Additional Author Name: 	Kerry McKay
-Additional Author Affiliation: 	NIST
-Additional Author Email: 	kerry.mckay@nist.gov
+#### Metadata
 
-Keywords/Tags: entropy, random number generation, RNG, prediction
+Tags: entropy, random number generation, RNG, prediction
+
+**Primary Author Name**: Meltem Sonmez Turan  
+**Primary Author Affiliation**: NIST  
+**Primary Author Email**: meltem.turan@nist.gov
+
+**Additional Author Name**: John Kelsey  
+**Additional Author Affiliation**: NIST  
+**Additional Author Email**: john.kelsey@nist.gov
+
+**Additional Author Name**: Kerry McKay  
+**Additional Author Affiliation**: NIST  
+**Additional Author Email**: kerry.mckay@nist.gov
+
