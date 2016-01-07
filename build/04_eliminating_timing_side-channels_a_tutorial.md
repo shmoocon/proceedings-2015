@@ -4,12 +4,7 @@
 
 The traditional model of an attacker against a cryptographic primitive sees (and potentially controls) inputs and outputs of the computation. Side-channel attacks go beyond this model. The attacker now also sees some "leakage" of the internal state of the cryptographic computation. One class of leakage is timing: If the time taken by a computation depends on secret data, the attacker can measure time and obtain information about this secret data.  
 
-The timing side channel is different than other side channels (such as power
-consumption or electromagnetic radiation) because it can be exploited remotely
-and without any specialized hardware or manual interaction.  It is also
-different because it is now well understood how to fully eliminate timing
-leakage. This tutorial explains how to write *constant-time* software, i.e.,
-software that does not leak any secret information through timing.
+The timing side channel is different than other side channels (such as power consumption or electromagnetic radiation) because it can be exploited remotely and without any specialized hardware or manual interaction.  It is also different because it is now well understood how to fully eliminate timing leakage. This tutorial explains how to write *constant-time* software, i.e., software that does not leak any secret information through timing.
 
 # Eliminating timing side channels. A tutorial.
 
