@@ -61,7 +61,7 @@ Over the years a handful of deception maxims, or general principles, have been d
 
 **Feedback:**  One of the most challenging aspects of any deception effort is the feedback mechanism.  You must have a way to determine whether your deception events are being witnessed by the target and he believes them.  For example, as a network attacker, you might try to eavesdrop on your target's incident handling team as they react to your deception (or not).
 
-##Principles of Military Deception
+## Principles of Military Deception
 
 U.S. Military doctrine lists a series of deception principles that, unlike the above maxims, should be applied to any deception operation.  Those principles are listed here.
 
