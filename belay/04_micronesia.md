@@ -33,7 +33,7 @@ Surely this is enough for some organizations to stop an insider threat…
 A purposeful insider can and would continue on to either enable physical access onto the machine or to pick a different target entirely. Preventative policy is just not enough to fully dissuade an insider. This is where surveillance methods need to be employed to not only garner aimplement activity monitoring capabilities but also determine the order &and severity of leakage. We want to know exactlyThe goal is to determine what this insider has with respect to sensitive materials and his/her destinations for such the exfiltration of such materials. Enough evidence- gathering would allow for sufficient case-building against the insider.
 Venturing forth, our goal is to we gatherutilize insight from an offensive mind-set and build capabilities towards the to further the defensive side. We work from previous breach incidents and grab inspiration from certain specific tools &and technologies used in aiding a motivated insider threat’s attempts atin data exfiltration. 
 ### TailsTails
-From The Amnesic Incognito Live System (Tails) site: > Tails is a live OS, that you can start on almost any computer from a DVD, USB stick, > or SD card. It aims at preserving your privacy and anonymity, and helps you to: > use the Internet anonymously and circumvent censorship; all connections to the Internet are forced to > go through the Tor network; leave no trace on the computer you are using unless you ask it explicitly; > use state-of-the-art cryptographic tools to encrypt your files, emails and instant messaging.
+From The Amnesic Incognito Live System (Tails) site:> Tails is a live OS, that you can start on almost any computer from a DVD, USB stick, > or SD card. It aims at preserving your privacy and anonymity, and helps you to:> use the Internet anonymously and circumvent censorship; all connections to the Internet are forced to > go through the Tor network; leave no trace on the computer you are using unless you ask it explicitly;> use state-of-the-art cryptographic tools to encrypt your files, emails and instant messaging.
 As a target, Tails was chosen for its notoriety and broad support. We felt that Tails was an appropriate target to build the bootkit against because of its continual econtinued endorsements. It helps that Tails is touted as a crucial piece of the tradecraft tool of choice by Edward Snowden[Citation9]. 
 Tails as a bootable media seeks to replace every computation layer except for the sub-kernel space. Thus the solution is to gain and maintain control over the one layer that persists between typical system use and malicious usage of a LiveLive Operating SystemOS. 
 The old adage, “the best defense is a good offense”, remains true. In approaching a solution for the problem space, techniques in offensive boot kits were adopted and refashioned. Boot kits have typically been used in the past for malicious means, ; we often see them used as a platform to maintain control mechanisms in situations where an operating system typically cannot control. Similar system controls are sought and achieved with the Micronesia kit. 
@@ -53,4 +53,18 @@ There are some other cool tinteresting things that can be performed when playing
 I hope some of these “foods for thought” has been satiating to the mind. You will find the slides from the Shmoocon talk available at link[external link].
 — Loc Nguyen / @nocsi_
 Works Cited:
-[1] http://www.fbi.gov/about-us/investigate/counterintelligence/insider_threat_brochure [2]https://www.defcon.org/images/defcon–22/dc–22-presentations/Schrodinger/DEFCON–22-Tess-Schrodinger-Raxacoricofallapatorius-With-Love-Case-Studies.pdf [3]https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-antonio_rucci-insider_threats.pdf [4]https://www.us-cert.gov/sites/default/files/publications/Combating%20the%20Insider%20Threat_0.pdf [5]http://media.scmagazine.com/documents/90/spectorsoft–2014-insider-threa_22395.pdf [6] http://en.wikipedia.org/wiki/Live_CD  [7] http://en.wikipedia.org/wiki/Live_USB [8] http://en.wikipedia.org/wiki/Data_loss_prevention_software  [8]http://blog.exodusintel.com/2014/07/23/silverbullets_and_fairytails/ [9]http://www.wired.com/2014/04/tails/ [10] http://www.coreboot.org/Welcome_to_coreboot [11] http://www.coreboot.org/SeaBIOS [12] http://www.coreboot.org/TianoCore [13] https://technet.microsoft.com/en-us/library/hh824987.aspx [14]https://www.exodusintel.com/files/micronesia.pdf
+[1] http://www.fbi.gov/about-us/investigate/counterintelligence/insider_threat_brochure
+[2]https://www.defcon.org/images/defcon–22/dc–22-presentations/Schrodinger/DEFCON–22-Tess-Schrodinger-Raxacoricofallapatorius-With-Love-Case-Studies.pdf
+[3]https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-antonio_rucci-insider_threats.pdf
+[4]https://www.us-cert.gov/sites/default/files/publications/Combating%20the%20Insider%20Threat_0.pdf
+[5]http://media.scmagazine.com/documents/90/spectorsoft–2014-insider-threa_22395.pdf
+[6] http://en.wikipedia.org/wiki/Live_CD 
+[7] http://en.wikipedia.org/wiki/Live_USB
+[8] http://en.wikipedia.org/wiki/Data_loss_prevention_software 
+[8]http://blog.exodusintel.com/2014/07/23/silverbullets_and_fairytails/
+[9]http://www.wired.com/2014/04/tails/
+[10] http://www.coreboot.org/Welcome_to_coreboot
+[11] http://www.coreboot.org/SeaBIOS
+[12] http://www.coreboot.org/TianoCore
+[13] https://technet.microsoft.com/en-us/library/hh824987.aspx
+[14]https://www.exodusintel.com/files/micronesia.pdf
