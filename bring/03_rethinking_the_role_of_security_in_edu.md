@@ -28,7 +28,7 @@ A survey was sent to 100 university computer science department heads, and 33 re
 
 ## 2.1 Priority in Comparison to Other Subjects
 
-Securityís ranking as a topic in overall curriculum design was ascertained using two different questions.  First, the professors were presented with 10 core curriculum subjects, and asked to pick the 5 which were most important to include in undergraduate curriculum.  
+Security's ranking as a topic in overall curriculum design was ascertained using two different questions.  First, the professors were presented with 10 core curriculum subjects, and asked to pick the 5 which were most important to include in undergraduate curriculum.  
 
 As the graph in Figure 1 shows, Security was included in 6 of the 33 responses, making it ranked 9th out of 10, with only Compilers getting a lower inclusion rate.  
 
