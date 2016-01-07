@@ -136,14 +136,14 @@ The last three are a combination of impersonations and spamming hashtags. Some s
 
 Tags: security,socialmedia,impersonation,college,competition
 
-Primary Author Name: Zack Allen
-Primary Author Affiliation: ZeroFOX
-Primary Author Email: zack@zerofox.com
+**Primary Author Name**: Zack Allen  
+**Primary Author Affiliation**: ZeroFOX  
+**Primary Author Email**: zack@zerofox.com
 
-Additional Author Name: Chris Cullison
-Additional Author Affiliation: ZeroFOX
-Additional Author Email: chris@zerofox.com
+**Additional Author Name**: Chris Cullison  
+**Additional Author Affiliatio**n: ZeroFOX  
+**Additional Author Email**: chris@zerofox.com
 
-Additional Author Name: Avi Rubin
-Additional Author Affiliation: Johns Hopkins University
-Additional Author Email: avirubin@gmail.com
+**Additional Author Name**: Avi Rubin  
+**Additional Author Affiliation**: Johns Hopkins University  
+**Additional Author Email**: avirubin@gmail.com
