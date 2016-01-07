@@ -86,8 +86,9 @@ As some degree of environmental design knowledge became industry standard, this 
 
 There have already been some attempts to legislate or regulate information security issues.  The Federal Trade Commission (FTC) is in the process of taking Wyndham Hotels to court for negligent security practices, and 47 of the 50 states have passed some form of data breach notification law. [^6] [^1] 
 
-Given the continually poor state of commercial security practices, more attempts to enforce good security practices through regulation should be expected.   Of course, security legislation is difficult to write correctly, and it would be preferable to migrate to better practices voluntarily.   
-Numerous major US companies have reported large data breaches in recent years.  In some cases, the news has been quite costly for the companies involved.  For example, Targetís reported breach in 2013 resulted in major financial losses for the company following the news. <A HREF="#ref7">[7]</A>  If this trend continues, then financial and legal pressures should cause industry standards to change.    
+Given the continually poor state of commercial security practices, more attempts to enforce good security practices through regulation should be expected.   Of course, security legislation is difficult to write correctly, and it would be preferable to migrate to better practices voluntarily.
+
+Numerous major US companies have reported large data breaches in recent years.  In some cases, the news has been quite costly for the companies involved.  For example, Targetís reported breach in 2013 resulted in major financial losses for the company following the news. [^7] If this trend continues, then financial and legal pressures should cause industry standards to change.    
 
 ###3.1.2 Accreditation ###
 
