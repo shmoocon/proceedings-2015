@@ -18,7 +18,7 @@ There are a number of different measures of entropy; for seeding a DRBG, the rel
 
 ## The 90B Non-iid Estimators
 
-Draft SP 800-90B (one of the SP 800-90 documents, and called 90B from now on) discusses procedures for evaluating how much entropy per sample can be obtained from an entropy source [2], and includes five entropy estimators [note 1]  for non-iid [note 2]  data. Each estimator takes a sequence of minimally processed samples from the underlying unpredictable process in the entropy source, and uses them to compute an entropy estimate. The minimum of these five estimates is used as the entropy assessment of a given source. 
+Draft SP 800-90B (one of the SP 800-90 documents, and called 90B from now on) discusses procedures for evaluating how much entropy per sample can be obtained from an entropy source[^2], and includes five entropy estimators [NOTE #1] for non-iid [NOTE #2] data. Each estimator takes a sequence of minimally processed samples from the underlying unpredictable process in the entropy source, and uses them to compute an entropy estimate. The minimum of these five estimates is used as the entropy assessment of a given source. 
 
 ### Issues with the 90B Estimates
 
