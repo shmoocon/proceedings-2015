@@ -118,7 +118,7 @@ Curriculum changes do not need to be drastic.  In fact, in many cases only minor
 
 Introducing a security concept once is not enough.  Only frequent repetition will lead to good reflex behaviors.  The following subsections touch upon some easy ways to update certain computing topics.  It should be noted that these changes can have high impact in terms of student understanding without being onerous to put into practice.  What follows are a few examples of how minimal changes to existing course material can interweave security principles into general computer science topics. This approach avoids adding new coursework or making any major structural changes to the overall curriculum.
 
-##4.1	Networking Protocols##
+## 4.1 Networking Protocols
 
 Whenever a networking protocol is discussed in class, that conversation usually focuses on the protocolís features and capabilities.  While it is important to understand how the protocol is intended to work, it is also important to understand its failure modes.  What are its blind spots, limits, or vulnerabilities?  Both sides of this coin are important in building a realistic understanding of how to use that protocol in a real world system.  Understanding how something breaks or fails is a critical part of understanding how it is designed.  
  
