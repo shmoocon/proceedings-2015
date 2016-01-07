@@ -142,12 +142,7 @@ recent lines of processors.
 
 ## 4. Variable-time arithmetic
 
-Secret branch conditions and secret addresses are the two major sources of
-timing variation, but some processors expose a third source for potential timing
-leakage: variable-time arithmetic instructions, i.e., arithmetic instructions
-that take a different amount of time depending on their inputs. Examples include
-`DIV`, `IDIV`, and `FDIV` on pretty much all Intel/AMD CPUs, various math
-instructions like `FSIN`, `FCOS` etc. on Intel and AMD CPUs, and multiplication
+Secret branch conditions and secret addresses are the two major sources of timing variation, but some processors expose a third source for potential timing leakage: variable-time arithmetic instructions, i.e., arithmetic instructions that take a different amount of time depending on their inputs. Examples include `DIV`, `IDIV`, and `FDIV` on pretty much all Intel/AMD CPUs, various math instructions like `FSIN`, `FCOS` etc. on Intel and AMD CPUs, and multiplication
 instructions like `MUL`, `MULHW`, `MULHWU` on many PowerPC CPUs or `UMULL`,
 `SMULL`, `UMLAL`, and `SMLAL` on ARM Cortex-M3.
 The easiest way to eliminate timing side channels stemming from those
