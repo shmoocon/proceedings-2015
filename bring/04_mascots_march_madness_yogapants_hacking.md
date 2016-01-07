@@ -59,7 +59,7 @@ Students also used the ZeroFOX platform to find impersonator profiles. Not only 
 
 ![Figure 7 - Drexel Alert](imgs/drexel1.png "Figure 7 - Drexel Alert")
 
-![Figure 8 - Drexel Comparison](imgs/drexe2l.png "Figure 8 - Drexel Comparison")
+![Figure 8 - Drexel Comparison](imgs/drexel2.png "Figure 8 - Drexel Comparison")
 
 # Results & Conclusion
 
