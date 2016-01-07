@@ -10,7 +10,7 @@ The integration of Environmental Engineering design concepts into general engine
 
 #Rethinking the Role of Security in Undergraduate Education# 
 
-# INTRODUCTION
+# Introduction
 
 We all know that thereís an inherent asymmetry in computer security that favors the attacker.  The offense only needs one successful exploit in order to win, while the defense has a huge amount of surface area that they needs to guard.  This asymmetry may be unavoidable, but it is unnecessarily amplified by how we approach computer security.  The offense gets to focus on finding bugs and exploiting them, while the defense has to spend the majority of their time fixing mistakes that shouldnít have happened in the first place.  Some amount of bugs are inevitable, but most of the major security problems today occur because programmers donít have even a baseline understanding of security, and security isnít a part of their design process.  I call this the security afterthought problem.  Even as security becomes a higher priority in peopleís rhetoric, it remains an afterthought in their work and their design processes.  
 
