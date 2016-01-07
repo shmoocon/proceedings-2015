@@ -42,7 +42,7 @@ Students took turns performing attack and defense against each other. For exampl
 
 The attacking students used several strategies to hide their attack URLs. All students use shortlinks to masquerade the end-point of their URLs, while others performed multi-layered approaches. These multi-layered approaches involved a long redirect chain with embedded iframes or obfuscated javascript that led victims to landing pages. These links were spread by their botnets on various social media mediums.
 
-![ Figure 1 - Botnet Software 1](botnet1.png "Figure 1 - Botnet Software 1")
+![ Figure 1 - Botnet Software 1](imgs/botnet1.png "Figure 1 - Botnet Software 1")
 <br>
 ![ Figure 2 - Botnet Software 2](botnet2.png "Figure 2 - Botnet Software 2")
 
