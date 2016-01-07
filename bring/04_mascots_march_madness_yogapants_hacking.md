@@ -43,25 +43,25 @@ Students took turns performing attack and defense against each other. For exampl
 The attacking students used several strategies to hide their attack URLs. All students use shortlinks to masquerade the end-point of their URLs, while others performed multi-layered approaches. These multi-layered approaches involved a long redirect chain with embedded iframes or obfuscated javascript that led victims to landing pages. These links were spread by their botnets on various social media mediums.
 
 ![ Figure 1 - Botnet Software 1](imgs/botnet1.png "Figure 1 - Botnet Software 1")
-<br>
+
 ![ Figure 2 - Botnet Software 2](imgs/botnet2.png "Figure 2 - Botnet Software 2")
 
 
 Impersonating accounts, or evil twins, were also used in tandem with the link hiding tactics. Impersonation accounts are typically used on social media to act as someone else, whether it is Barack Obama or the CEO of a company, as an effective measure to help build trust with a victim. Through these impersonations, students spread attack URLs so when a potential victim saw the message, they attributed it to a trusted figure. 
 
-![Figure 3 - Ice Cream hashtag hijack](gannon.png "Figure 3 - Ice Cream hashtag hijack")
+![Figure 3 - Ice Cream hashtag hijack](imgs/gannon.png "Figure 3 - Ice Cream hashtag hijack")
 
 For example, during halftime of a college basketball game, one impersonated a local ice cream shop and offered a deal if the home team rallied and won the game in the second half. This attack got retweeted by multiple student and university accounts, yielding 41 clicks.
 
 Another student built a Tinder bot that scoured Tinder for matches. It would automatically "swipe right" on every match, meaning it default accepted any invitation to chat with potential suitors. From this, the student then abused the profile picture and persona he constructed to send users a shortlink to his attack page, stating that he would rather talk on Facebook rather than Tinder.
 
-![Figure 4 - Tinder Conversation 1](tinder1.png "Figure 4 - Tinder Conversation 1")
-<br>
-![Figure 5 - Tinder Conversation 2](tinder2.png "Figure 5 - Tinder Conversation 2")
+![Figure 4 - Tinder Conversation 1](imgs/tinder1.png "Figure 4 - Tinder Conversation 1")
+
+![Figure 5 - Tinder Conversation 2](imgs/tinder2.png "Figure 5 - Tinder Conversation 2")
 
 The student group that was targeting University of Michigan (UMich) built a "UMich Jobs" website to lure in victims. This was a combination of a brand abuse and phishing attack that yielded clicks and personally identifiable information (PII) from victims. The group managed to find closed Facebook groups for UMich students and convinced a friend who goes to the university to post on their behalf. This insider attack chained together multiple attack strategies to infect their victims.
 
-![Figure 6 - UMich Jobs website](umich1.png "Figure 6 - UMich jobs website")
+![Figure 6 - UMich Jobs website](imgs/umich1.png "Figure 6 - UMich jobs website")
 
 #### Strategies - Defense
 
@@ -69,9 +69,9 @@ Methods of defense that students concocted include: hashtag firewalls, shiftwork
 
 Students also used the ZeroFOX platform to find impersonator profiles. Not only did the platform find impersonator profiles from students, but also real impersonators in the wild.
 
-![Figure 7 - Drexel Alert](drexel1.png "Figure 7 - Drexel Alert")
-<br>
-![Figure 8 - Drexel Comparison](drexe2l.png "Figure 8 - Drexel Comparison")
+![Figure 7 - Drexel Alert](imgs/drexel1.png "Figure 7 - Drexel Alert")
+
+![Figure 8 - Drexel Comparison](imgs/drexe2l.png "Figure 8 - Drexel Comparison")
 
 #Results & Conclusion
 #### Highest Yield Attacks
