@@ -56,20 +56,20 @@ Professors were asked to rate their curriculum in terms of how separate or integ
 
 Figure 3 shows that security is almost always treated as a separate topic, with only 6 universities saying that it was completely or mostly integrated, while 22 said that it was completely or mostly separate.  
 
-This data becomes even more telling after factoring in how applied that security content is.  Professors were asked to say how applied their content was for several subjects.  Figure 4 shows those ratings for security plotted against the integration ratings.  The applied vs theoretical ratings tended to be moderate, with very few 1s or 5s. Even so the data shows a very clear trend of security content becoming less applied as it becomes more integrated. 
+This data becomes even more telling after factoring in how applied that security content is.  Professors were asked to say how applied their content was for several subjects.  Figure 4 shows those ratings for security plotted against the integration ratings.  The applied vs theoretical ratings tended to be moderate, with very few "1"s or "5"s. Even so the data shows a very clear trend of security content becoming less applied as it becomes more integrated. 
 
-![alt text](imgs/sixsubjectsrank.png "Figure 4. Security content becomes more theoretical as it is integrated.") 
+![](imgs/sixsubjectsrank.png "Figure 4. Security content becomes more theoretical as it is integrated.") 
 
-__Figure 4. Security content becomes more theoretical as it is integrated.  Dashed line shows linear trend.__
+**Figure 4. Security content becomes more theoretical as it is integrated.  Dashed line shows linear trend.**
 
 Security was also one of the most theoretical subjects overall.  Across all 6 rated subjects, only Algorithms and Data Structures was more theoretical than Security.  Theory is of course useful, but how are computer scientists to know how to practice good security in their working lives if they were not required to put that theory into practice in their education?  In neglecting this part of computer science education we are doing students a vast disservice.  
 
 There is no question that the other topics mentioned are important.  Replacing one of them with a security course would not make sense, because most universities already have a separate, more advanced security course.  That course is already fulfilling its function: serving students who might want to specialize in security.  What is missing is meaningful, applied security content integrated into all of the other undergraduate courses.  Every computer science topic has security aspects, so why is that content missing entirely from the courses where it would fit best?  
 
-<A NAME="section3"></A>
-#3. EXISTING EXAMPLES TO FOLLOW#
+<a name="section3"></a>
+# 3. Existing Examples To Follow
 
-##3.1 Environmental Engineering##
+## 3.1 Environmental Engineering
 
 Environmental engineering and its role in other engineering disciplines provides us with an example of how to proceed with this integration.  Security and environmental engineering are fields with very similar origins.  In both cases, a particular class of problems was recognized, and then a discipline was created to address those problems.  In a way, the fields themselves were afterthoughts.  It is no wonder that there has been a delay when it comes to integrating new design criteria into all of the relevant fields.  Environmental Engineering has been around longer, so engineers have worked through more of the growing pains when it comes to that field.  Fortunately, recognizing this means that the process for security integration in computer science curricula can be accelerated by following their lead.  
 
