@@ -190,7 +190,7 @@ The changes needed to fold security into existing courses do not need to be dras
 
 There will still be some security situations that require the skill of an expert, but if the average programmer knows what questions to ask as they go about their work then they will be better able to recognize those situations and find the specialist they need.  
 
-#7.	ACKNOWLEDGMENTS#
+# 7. ACKNOWLEDGMENTS
 
 My thanks to the professors who participated in my survey and to Neal Patel for his help in writing the survey questions.  
 
