@@ -111,8 +111,8 @@ A lot of topics are included at a 'familiarity' level, rather than 'usage', whic
 
 Also, the general sense is that these are exercises that students might see once or twice, not something that they would see over and over.  If good security practices are to become reflex, then there needs to be frequent, consistent repetition. For example, if a student just has to do proper input sanitization in one programming assignment, they will learn that input sanitization is something they only have to do in special cases.  If they have to do it every time, they will think about input sanitization needs on every project.  
 
-<A NAME="section4"></A>
-#4.	CURRICULUM RECOMMENDATIONS#
+<a name="section4"></a>
+# 4. Curriculum Recommendations
 
 Curriculum changes do not need to be drastic.  In fact, in many cases only minor changes need to be made.  It is important, however, that the changes be comprehensive and consistently repeated.  Security needs to be a part of every course, and must be introduced early. Having a course devoted to securityis useful for those students who are interested in specializing in security, but every computer science student needs a strong grounding in the security concepts of their field.  Every topic should be presented in conjunction with the security grounding that teaches students how and when to use the new tools they are gaining.  The way someone is initially taught a concept is how they are likely to always think about it, so introducing security after all the fundamentals are in place is bound to be ineffective.  
 
