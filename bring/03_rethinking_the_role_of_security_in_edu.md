@@ -182,7 +182,7 @@ The first step towards getting these changes implemented on a broad scale is to 
 
 The next steps towards adoption of our approach include lobbying ABET for changes to computer science program criteria, encouraging ACM to further integrate security into their curriculum guidelines, partnering with academics and security professionals to create teaching materials, and engaging with industry partners who want to encourage better security skills in the workforce.  
 
-#6.	SUMMARY
+#6.	Summary
 
 It is important to provide dedicated offerings for students who are going to specialize in security, but all students need some fundamental grounding in security.  Adding a security course for non-specialists just increases an already packed course load, without showing how security concepts integrate into other topics.  Integrating applied, practical security content into other courses is a more logical and effective way of ensuring that students get the security knowledge they will need later in life.  
 
