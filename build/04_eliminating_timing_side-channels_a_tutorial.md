@@ -18,11 +18,11 @@ The most obvious source for data-dependent timing variation in software are cond
 
     if(secret)
     {
-        do_A();
+      do_A();
     }
     else
     {
-        do_B();
+      do_B();
     }
 
 Obviously, if `do_A()` and `do_B()` take a different amount of time, this piece of code will leak information about `secret` through timing. What is less obvious is that this piece of code also leaks information about `secret` if `do_A()` and `do_B()` take the same amount of time. One reason is that almost
