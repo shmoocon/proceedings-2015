@@ -36,7 +36,7 @@ The other approach to this question was to present the professors with 6 compute
 
 Figure 2 shows that when the ranks assigned to each subject were averaged, security has a mean ranking of 4.7, making it the 5th of 6 subjects.  
 
-![alt text](imgs/tensubjectsrank.png "Figure 1. Security inclusion as a core subject.")
+![](imgs/tensubjectsrank.png "Figure 1. Security inclusion as a core subject.")
 
 __Figure 1. Security inclusion as a core subject.__
  
