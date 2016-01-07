@@ -163,8 +163,8 @@ In most programming courses, there will be at least one or two assignments where
 
 When students have programming assignments, whether the assignment itself is security-focused or not, their submissions should be subjected to input fuzzing, with possible points taken off for segmentation faults, crashes, or other lack of responsible program behavior for hostile environments.  If there are no penalties for bad coding practices in school, then students will not  learn the right lessons to carry on to the working world.  What students should learn is that security and robustness should be default considerations, part of the design process from the beginning.  
 
-<A NAME="section5"></A>
-#5. GOALS AND NEXT STEPS#
+<a name="section5"></a>
+# 5. GOALS AND NEXT STEPS#
 
 The intent of these curriculum changes is that students graduating with an undergraduate computer science degree understand the security basics of their chosen field.  That includes the following student outcomes: 
 
