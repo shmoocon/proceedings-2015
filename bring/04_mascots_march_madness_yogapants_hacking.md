@@ -4,6 +4,7 @@
 
 Professor Rubin gave his students an interesting assignment: conduct red-blue social media-based penetration tests on American universities. Students were tasked to construct an attack, defense and a “cover-your-tracks” plan. Hashtags, fake coffee shops, racy direct messages and yoga pants were just some of the strategies used to direct victims on social media to an emulated attack landing-page. Afterwards, students defended their university's social media presence from other teams carrying out their attacks. Lastly, they employed concealment techniques to remove the evidence.
 
+
 The teams switched attack & defense phases after a four-week period. They cataloged their actions with a standardized syslog for analysis, and we calculated the amount of clicks each team generated based on the University IP range. The talk focused on the results of this project, and it outlined some of our favorite team names, strategies and novel project constructions. 
 
 #Introduction & Background
