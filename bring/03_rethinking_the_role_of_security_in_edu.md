@@ -50,7 +50,7 @@ Clearly, when security is made a separate subject, it is not highly prioritized 
 
 Professors were asked to rate their curriculum in terms of how separate or integrated security is in the introductory courses, with 1 meaning completely separate, and 5 being totally integrated.  
  
-![alt text](imgs/sixsubjectsrank.png "Figure 3. Integration of Security into Curriculum.") 
+![](imgs/sixsubjectsrank.png "Figure 3. Integration of Security into Curriculum.") 
 
 __Figure 3. Integration of Security into Curriculum.__
 
