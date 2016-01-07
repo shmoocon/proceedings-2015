@@ -78,12 +78,13 @@ The change in how Environmental design is treated has come about due to multiple
 
 ### 3.1.1 Legislative Pressure and Changing Industry Standards
 
-Various governing bodies worldwide have put legislation in place regulating environmental aspects of commercial practices and products.  In the European Union, for example, Directive 2006/66/EC regulates the manufacture and disposal of batteries, and the Restriction of Hazardous Substances Directive (2002/95/EC) restricts the manufacture of products containing lead, mercury, and several other environmentally harmful substances. [^4] [^5] 
+Various governing bodies worldwide have put legislation in place regulating environmental aspects of commercial practices and products.  In the European Union, for example, Directive 2006/66/EC regulates the manufacture and disposal of batteries, and the Restriction of Hazardous Substances Directive (2002/95/EC) restricts the manufacture of products containing lead, mercury, and several other environmentally harmful substances. [^4] [^5]
+
 As environmental legislation has become more common, it has become more of a liability to employers to hire engineers who do not have the skills needed to make compliant designs.  
 
 As some degree of environmental design knowledge became industry standard, this in turn put pressure on educators.  Educators needed to add environmental design content to their other engineering disciplines in order to provide their students with all the knowledge they need to be marketable in the work force.  
 
-There have already been some attempts to legislate or regulate information security issues.  The Federal Trade Commission (FTC) is in the process of taking Wyndham Hotels to court for negligent security practices, and 47 of the 50 states have passed some form of data breach notification law. <A HREF="#ref6">[6] </A><A HREF="#ref1">[1]</A> 
+There have already been some attempts to legislate or regulate information security issues.  The Federal Trade Commission (FTC) is in the process of taking Wyndham Hotels to court for negligent security practices, and 47 of the 50 states have passed some form of data breach notification law. [^6] [^1] 
 
 Given the continually poor state of commercial security practices, more attempts to enforce good security practices through regulation should be expected.   Of course, security legislation is difficult to write correctly, and it would be preferable to migrate to better practices voluntarily.   
 Numerous major US companies have reported large data breaches in recent years.  In some cases, the news has been quite costly for the companies involved.  For example, Targetís reported breach in 2013 resulted in major financial losses for the company following the news. <A HREF="#ref7">[7]</A>  If this trend continues, then financial and legal pressures should cause industry standards to change.    
