@@ -1,6 +1,6 @@
 # Rethinking the Role of Security in Undergraduate Education
 
-Abstract: 
+## Abstract
 
 The role of security in computer science education needs to be reconsidered.  There is little to no applied security content for the majority of undergraduate computer science students. Given that security is an afterthought in education, it should be no surprise that it ends up being an afterthought when those students join the working world.  As a result, the same security mistakes are made over and over again.  
 
@@ -8,7 +8,6 @@ Most security content in curriculum today is meant for future security specialis
 
 The integration of Environmental Engineering design concepts into general engineering curricula provides a model for how to fix this ìafterthoughtî problem.  Applied security content needs to be integrated throughout the undergraduate computer science curriculum.  This can be achieved with minimal disruption to the existing courses, as long as the changes are subtle, but consistent. 
 
-#Rethinking the Role of Security in Undergraduate Education# 
 
 # Introduction
 
