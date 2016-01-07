@@ -2,7 +2,7 @@
 
 ## Abstract
 
-The role of security in computer science education needs to be reconsidered.  There is little to no applied security content for the majority of undergraduate computer science students. Given that security is an afterthought in education, it should be no surprise that it ends up being an afterthought when those students join the working world.  As a result, the same security mistakes are made over and over again.  
+The role of security in computer science education needs to be reconsidered.  There is little to no applied security content for the majority of undergraduate computer science students. Given that security is an afterthought in education, it should be no surprise that it ends up being an afterthought when those students join the working world.  As a result, the same security mistakes are made over and over again.
 
 Most security content in curriculum today is meant for future security specialists. What content there is comes as a standalone class or lecture, and is not interwoven with regular curricula.   
 
