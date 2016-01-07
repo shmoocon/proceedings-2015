@@ -124,7 +124,7 @@ Whenever a networking protocol is discussed in class, that conversation usually 
  
 ![](imgs/bgpexample.png "Figure 5. Network diagram from a BGP homework problem.")
 
-__Figure 5. Network diagram from a BGP homework problem.__
+**Figure 5. Network diagram from a BGP homework problem.**
 
 As an example, Figure 5 shows a network diagram from a question about BGP, taken from a course at University of California San Diego .  The students were told that the nodes use a shortest path algorithm, and are asked questions that illustrate their knowledge of how BGP works.  
 
