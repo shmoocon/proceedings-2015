@@ -8,7 +8,7 @@ Estimating entropy is a difficult (if not impossible) problem, and we've been wo
 
 ## Introduction
 
-Random numbers are necessary for cryptography. Every time someone generates a key, initialization vector, nonce, random signature parameter, etc., they use a random number generator. The strength of those random numbers is important--there have been real-world attacks allowed by failures to generate cryptographically strong random numbers [1]. 
+Random numbers are necessary for cryptography. Every time someone generates a key, initialization vector, nonce, random signature parameter, etc., they use a random number generator. The strength of those random numbers is important--there have been real-world attacks allowed by failures to generate cryptographically strong random numbers[^1]. 
 
 NIST Special Publication (SP) 800-90 (a series consisting of three documents) is all about generating random numbers for cryptography. In SP 800-90, this is a two-stage process: first, an entropy source provides an impossible-to-guess seed. Then, a deterministic cryptographic algorithm (called a DRBG--deterministic random bit generator--in SP 800-90) expands the seed into a long sequence of values that may be safely used for keys, IVs, nonces, etc. 
 
@@ -80,7 +80,7 @@ Future research should identify more predictors that could be added, investigate
 
 ## References 
 
-[1] 	N. Heninger, Z. Durumeric, E. Wustrow and J. A. Halderman, "Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices," in Proceedings of the 21st USENIX Security Symposium, 2012. 
+* [^1] N. Heninger, Z. Durumeric, E. Wustrow and J. A. Halderman, "Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices," in Proceedings of the 21st USENIX Security Symposium, 2012. 
 
 [2] 	E. Barker and J. Kelsey, NIST Draft SP 800-90B Recommendation for the Entropy Sources Used for Random Bit Generation, Available online http://csrc.nist.gov/publications/drafts/800-90/draft-sp800-90b.pdf, 2012. 
 
