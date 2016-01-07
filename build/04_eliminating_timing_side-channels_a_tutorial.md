@@ -40,9 +40,7 @@ Eliminating this kind of side channel requires to perform both computations,
       *r ^= t;
     }
 
-Note that this arithmetic approach for a conditional move can be
-generalized to arbitrary data types thus be used to eliminate any conditional
-branch.
+Note that this arithmetic approach for a conditional move can be generalized to arbitrary data types thus be used to eliminate any conditional branch.
 
 
 ## 3. Secret addresses
