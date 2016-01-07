@@ -38,14 +38,13 @@ Figure 2 shows that when the ranks assigned to each subject were averaged, secur
 
 ![](imgs/tensubjectsrank.png "Figure 1. Security inclusion as a core subject.")
 
-__Figure 1. Security inclusion as a core subject.__
- 
+**Figure 1. Security inclusion as a core subject.**
 
 ![](imgs/sixsubjectsmean.png "Figure 2. Security ranking out of 6 subjects.") 
 
-__Figure 2. Mean security ranking out of 6 subjects.__
+**Figure 2. Mean security ranking out of 6 subjects.**
 
-## 2\.2 Integration into Other Subjects ##
+## 2.2 Integration into Other Subjects
 
 Clearly, when security is made a separate subject, it is not highly prioritized in the overall curriculum design.  Security does not have to be a separate topic, of course.  It is an integral facet of all other computing subjects, and could be treated as such.  This leads to the question, how integrated is security in the core curriculum?
 
