@@ -22,5 +22,5 @@
    * [Infrastructure Tracking with Passive Monitoring and Active Probing](belay/03_infrastructure_tracking_with_passive_monitoring.md)
    * [Micronesia](belay/04_micronesia.md)
 * [BRING IT ON](bring/bring_it_on.md)
-   * 2014 Analysis of POS Malware
+   * [2014 Analysis of POS Malware](bring/01_2014_analysis_of_pos_malware.md)
 
