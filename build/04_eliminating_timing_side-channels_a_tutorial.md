@@ -132,13 +132,7 @@ Obviously, even such an xor-based test for equality is not a *guarantee* that
 compilers do not introduce funny optimizations that violate constant-time
 behavior; however, for current compilers this code seems to be safe. 
 
-For the case of AES, using this general approach for constant-time lookups
-results in horrible performance. Implementations of AES that are at the same
-time fast and secure use either bitslicing (see, for example [KS09]) or
-vector-permute instructions as described in [Ham09]. Both techniques are rather
-complex and do not offer good performance across platforms. This is one reason
-that Intel, AMD, and ARM decided to include hardware support for AES in their
-recent lines of processors.
+For the case of AES, using this general approach for constant-time lookups results in horrible performance. Implementations of AES that are at the same time fast and secure use either bitslicing (see, for example [KS09]) or vector-permute instructions as described in [Ham09]. Both techniques are rather complex and do not offer good performance across platforms. This is one reason that Intel, AMD, and ARM decided to include hardware support for AES in their recent lines of processors.
 
 ## 4. Variable-time arithmetic
 
