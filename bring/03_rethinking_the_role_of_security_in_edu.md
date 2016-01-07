@@ -78,7 +78,7 @@ The change in how Environmental design is treated has come about due to multiple
 
 ### 3.1.1 Legislative Pressure and Changing Industry Standards
 
-Various governing bodies worldwide have put legislation in place regulating environmental aspects of commercial practices and products.  In the European Union, for example, Directive 2006/66/EC regulates the manufacture and disposal of batteries, and the Restriction of Hazardous Substances Directive (2002/95/EC) restricts the manufacture of products containing lead, mercury, and several other environmentally harmful substances.  <A HREF="#ref4">[4]</A> <A HREF="#ref5">[5]</A> 
+Various governing bodies worldwide have put legislation in place regulating environmental aspects of commercial practices and products.  In the European Union, for example, Directive 2006/66/EC regulates the manufacture and disposal of batteries, and the Restriction of Hazardous Substances Directive (2002/95/EC) restricts the manufacture of products containing lead, mercury, and several other environmentally harmful substances. [^4] [^5] 
 As environmental legislation has become more common, it has become more of a liability to employers to hire engineers who do not have the skills needed to make compliant designs.  
 
 As some degree of environmental design knowledge became industry standard, this in turn put pressure on educators.  Educators needed to add environmental design content to their other engineering disciplines in order to provide their students with all the knowledge they need to be marketable in the work force.  
