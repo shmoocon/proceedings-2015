@@ -121,11 +121,9 @@ Introducing a security concept once is not enough.  Only frequent repetition wil
 
 Whenever a networking protocol is discussed in class, that conversation usually focuses on the protocolís features and capabilities.  While it is important to understand how the protocol is intended to work, it is also important to understand its failure modes.  What are its blind spots, limits, or vulnerabilities?  Both sides of this coin are important in building a realistic understanding of how to use that protocol in a real world system.  Understanding how something breaks or fails is a critical part of understanding how it is designed.  
  
-<center>
 ![alt text](imgs/bgpexample.png "Figure 5. Network diagram from a BGP homework problem.")
 
 __Figure 5. Network diagram from a BGP homework problem.__
-</center>
 
 As an example, Figure 5 shows a network diagram from a question about BGP, taken from a course at University of California San Diego .  The students were told that the nodes use a shortest path algorithm, and are asked questions that illustrate their knowledge of how BGP works.  
 
