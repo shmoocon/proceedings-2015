@@ -6,19 +6,19 @@ Professor Rubin gave his students an interesting assignment: conduct red-blue so
 
 The teams switched attack & defense phases after a four-week period. They cataloged their actions with a standardized syslog for analysis, and we calculated the amount of clicks each team generated based on the University IP range. The talk focused on the results of this project, and it outlined some of our favorite team names, strategies and novel project constructions. 
 
-#Introduction & Background
+# Introduction & Background
 
 Within the last 10 years, educational institutions have embodied the idea of hacking competitions for their students. The National Cyber Security Defense Competition (NCCDC) [1] holds a yearly national cybersecurity event for college students to apply theories in a real world, hostile cyber-environment. These competitions help students who want to go above and beyond their academic program to put their skills to the test, but it is reserved for elite teams who pass regional qualifiers to compete at the national level. Other exercises include Cyber Defense Exercise who pits service academies against each other [2] and Cyber Patriot, a competition that targets middle to high school students [3].
 
 While there exists a need to test and apply cybersecurity skills in an operational environment or test them given a Capture The Flag (CTF) format, these competitions rarely assess the ability for students to create their own solutions to solve cybersecurity issues. Specifically, these competitions lack opportunities for students to brainstorm, develop and reify implementations that test the security problems both on the offensive and defensive spectrums. This problem offers an opportunity for academia to create innovative and challenging projects for security and computer science classes. This problem inspired the faculty of CS443, a Johns Hopkins University security class, to construct a relevant security project where students where challenged to create and employ offensive and defensive capabilities on social media.
 
-#Project Setup
+# Project Setup
 
 The faculty chose social media for three reasons. First, social media is an up and coming attack vector for cybersecurity criminal organizations. Phishing attacks on executives[4] and agency accounts [5], DDoS command and control networks [6] [7] [8] and malware campaigns [9] are a sampling of the multitude of attacks that can happen via social media. Due to the implicit trust of having "friends" on these networks, malicious users can abuse these relationships to spread malware, harvest credentials or collect intelligence. Secondly, these websites provide programmatic access to their API, and malicious actors leverage programmatic access to build social botnets capable of spreading attcks. Lastly, Universities social media presence encapsulates multiple bodies of the population that includes professors, sports teams, athletes, notable alumni and campus restaurants. This encapsulation is analogous to businesses that have multiple departments on social media.
 
 Students were given two American universities, one to defend on social media, one as a quarry university. In order to measure the effectiveness of an attack on their respective quarries, a server was setup that measured click traffic based on a team endpoint. Click traffic was chosen as the metric due to the history of attackers on social media using websites as a way to deliver payloads to victims. Actors contact victims via hashtag, direct messages or through impersonating profiles and send out URLs that lead to the attack payload. Once clicked, the victim executes the code and the attacker can gain access to the victim’s machine.
 
-####Metrics & Phases
+#### Metrics & Phases
 
 Instead of a malicious payload, a server was setup that measured click traffic and basic computer, browser and geographic information. For example, Team 1 was setup on http://A.B.C.D/team1/index.html, so if Team 1 was attacking a University, they sent this emulated attack link. When someone clicks it, they visit the team website and receive a "404 not found" page, while the server records one successful click for the team alongside user agents, GEO-IP information, time and device type. 
 
