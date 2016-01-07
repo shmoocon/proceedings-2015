@@ -148,11 +148,9 @@ The question already asks about worst case runtimes. A subtle change to the word
 * Give an example of an input that would achieve this.  
 * How could you change the hash function to avoid this vulnerability?
 
-<center> 
 ![alt text](imgs/hashexample.png "Figure 6. Simple hash function to be applied to letters of the alphabet.")
 
 __Figure 6. Simple hash function to be applied to letters of the alphabet.  h(k) = k mod 13.__
-</center>
 
 Any worst case runtime is also a potential attack vector.  Instead of presenting the worst case as something that occurs due to particularly bad luck, it should be made clear that bad inputs can be constructed purposefully.  A malicious user could use this as an avenue for a denial of service attack.  By emphasizing these aspects each time worst case run times are discussed, students can be trained to recognize similar situations later in life.  The first step in secure design is recognizing which situations are riskier than others and require more careful consideration.  This simple change in wording could go a long way to developing this awareness in students early.  
 
