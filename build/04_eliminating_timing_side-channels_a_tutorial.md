@@ -125,7 +125,10 @@ The easiest way to eliminate timing side channels stemming from those instructio
          Proceedings of the 23rd USENIX Security Symposium, USENIX Association (2014), pp 719--732.    
          [http://eprint.iacr.org/2013/448/](http://eprint.iacr.org/2013/448/)
 
-Primary Author Name: Peter Schwabe
-Primary Author Affiliation: Radboud University, Nijmegen, The Netherlands
-Primary Author Email: peter@cryptojedi.org
-Keywords/Tags: Timing attacks, constant-time software, secret branches, secret addresses
+#### Metadata
+
+Tags: Timing attacks, constant-time software, secret branches, secret addresses
+
+**Primary Author Name**: Peter Schwabe
+**Primary Author Affiliation**: Radboud University, Nijmegen, The Netherlands
+**Primary Author Email**: peter@cryptojedi.org
