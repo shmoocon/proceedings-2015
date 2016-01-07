@@ -47,7 +47,7 @@ Another student built a Tinder bot that scoured Tinder for matches. It would aut
 
 The student group that was targeting University of Michigan (UMich) built a "UMich Jobs" website to lure in victims. This was a combination of a brand abuse and phishing attack that yielded clicks and personally identifiable information (PII) from victims. The group managed to find closed Facebook groups for UMich students and convinced a friend who goes to the university to post on their behalf. This insider attack chained together multiple attack strategies to infect their victims.
 
-<img src="imgs/umich1.png" width=50%></img>
+<img src="imgs/umich1.png" width=50%>
 
 ![Figure 6 - UMich Jobs website](imgs/umich1.png "Figure 6 - UMich jobs website")
 
