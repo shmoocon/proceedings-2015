@@ -134,7 +134,9 @@ For the case of AES, using this general approach for constant-time lookups resul
 
 ## 4. Variable-time arithmetic
 
-Secret branch conditions and secret addresses are the two major sources of timing variation, but some processors expose a third source for potential timing leakage: variable-time arithmetic instructions, i.e., arithmetic instructions that take a different amount of time depending on their inputs. Examples include `DIV`, `IDIV`, and `FDIV` on pretty much all Intel/AMD CPUs, various math instructions like `FSIN`, `FCOS` etc. on Intel and AMD CPUs, and multiplication instructions like `MUL`, `MULHW`, `MULHWU` on many PowerPC CPUs or `UMULL`, `SMULL`, `UMLAL`, and `SMLAL` on ARM Cortex-M3. The easiest way to eliminate timing side channels stemming from those instructions is not to use these instructions. For software written in C or other compiled languages this requires some understanding of what compilers do to the source code; it is obviously much easier to avoid those instructions when writing software directly in assembly.
+Secret branch conditions and secret addresses are the two major sources of timing variation, but some processors expose a third source for potential timing leakage: variable-time arithmetic instructions, i.e., arithmetic instructions that take a different amount of time depending on their inputs. Examples include `DIV`, `IDIV`, and `FDIV` on pretty much all Intel/AMD CPUs, various math instructions like `FSIN`, `FCOS` etc. on Intel and AMD CPUs, and multiplication instructions like `MUL`, `MULHW`, `MULHWU` on many PowerPC CPUs or `UMULL`, `SMULL`, `UMLAL`, and `SMLAL` on ARM Cortex-M3.
+
+The easiest way to eliminate timing side channels stemming from those instructions is not to use these instructions. For software written in C or other compiled languages this requires some understanding of what compilers do to the source code; it is obviously much easier to avoid those instructions when writing software directly in assembly.
 
 
 ## References
