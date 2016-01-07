@@ -69,38 +69,13 @@ Table 1 shows the most successful attack strategies.
 
 Table 1 - Click Distribution
 
-<table>
-  <tr>
-    <th>Attack</th>
-    <th>Networks</th>
-    <th>Click Number</th>
-  </tr>
-  <tr>
-    <td>UMich Job</td>
-    <td>Facebook</td>
-    <td>972</td>
-  </tr>
-  <tr>
-    <td>Tinder Bot</td>
-    <td>Tinder</td>
-    <td>132</td>
-  </tr>
-  <tr>
-    <td>Fake Attractive Profile </td>
-    <td>Twitter</td>
-    <td>379</td>
-  </tr>
-  <tr>
-    <td>Fake Attractive Profile</td>
-    <td>Facebook</td>
-    <td>249</td>
-  </tr>
-  <tr>
-    <td>Fake Coupon/Discount</td>
-    <td>Twitter</td>
-    <td>367</td>
-  </tr>
-</table>
+|         Attack          |Networks  | Click Number |
+|:------------------------|:--------:|:------------:|
+|        UMich Job        |  Facbook |      972     |
+|        Tinder Bot       |  Tinder  |      132     |
+| Fake Attractive Profile |  Twitter |      379     |
+| Fake Attractive Profile | Facebook |      249     |
+|  Fake Coupon / Discount |  Twitter |      367     |
 
 Based on the number of clicks and the effective click through rate, students proved the effectiveness of social media as an attack vector for malicious actors. Traditional attack strategies, like phishing and insider attacks, were leveraged and proved successful. We outline the most successful attack strategies by the students as follows:
 
