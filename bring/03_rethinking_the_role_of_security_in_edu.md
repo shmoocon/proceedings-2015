@@ -22,7 +22,7 @@ There has been a major push to develop specialized security content geared towar
 
 <A NAME="section2"></A>
 
-# 2. Security IN TODAY'S CURRICULA #
+# 2. Security in today's curricula
 
 A survey was sent to 100 university computer science department heads, and 33 responded with data about their undergraduate curricula.  The survey was designed to determine to what degree security is prioritized and integrated in undergraduate core curricula, as well as how applied that content is.   
 
