@@ -26,4 +26,5 @@
    * [Deception for the Cyber Defender](bring/02_deception_for_the_cyber_defender.md)
    * [Rethinking the Role of Security in Undergraduate Education](bring/03_rethinking_the_role_of_security_in_edu.md)
    * [Mascots, March Madness & #yogapants: Hacking goes to College](bring/04_mascots_march_madness_yogapants_hacking.md)
+   * How Random is Your RNG?
 
