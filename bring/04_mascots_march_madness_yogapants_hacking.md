@@ -2,9 +2,9 @@
 
 ## Abstract: 
 
-Professor Rubin gave his students an interesting assignment: conduct red-blue social media-based penetration tests on American universities. Students were tasked to construct an attack, defense and a “cover-your-tracks” plan. Hashtags, fake coffee shops, racy direct messages and yoga pants were just some of the strategies used to direct victims on social media to an emulated attack landing-page. Afterwards, students defended their university’s social media presence from other teams carrying out their attacks. Lastly, they employed concealment techniques to remove the evidence.
+Professor Rubin gave his students an interesting assignment: conduct red-blue social media-based penetration tests on American universities. Students were tasked to construct an attack, defense and a “cover-your-tracks” plan. Hashtags, fake coffee shops, racy direct messages and yoga pants were just some of the strategies used to direct victims on social media to an emulated attack landing-page. Afterwards, students defended their university's social media presence from other teams carrying out their attacks. Lastly, they employed concealment techniques to remove the evidence.
 
-The teams switched attack & defense phases after a four-week period. They catalogued their actions with a standardized syslog for analysis, and we calculated the amount of clicks each team generated based on the University IP range. The talk focused on the results of this project, and it outlined some of our favorite team names, strategies and novel project constructions. 
+The teams switched attack & defense phases after a four-week period. They cataloged their actions with a standardized syslog for analysis, and we calculated the amount of clicks each team generated based on the University IP range. The talk focused on the results of this project, and it outlined some of our favorite team names, strategies and novel project constructions. 
 
 #Introduction & Background
 
@@ -61,7 +61,8 @@ Students also used the ZeroFOX platform to find impersonator profiles. Not only 
 
 ![Figure 8 - Drexel Comparison](imgs/drexe2l.png "Figure 8 - Drexel Comparison")
 
-#Results & Conclusion
+# Results & Conclusion
+
 #### Highest Yield Attacks
 
 Table 1 shows the most successful attack strategies.
@@ -133,15 +134,16 @@ The last three are a combination of impersonations and spamming hashtags. Some s
 
 #### Metadata
 
-Title: Mascots, March Madness & #yogapants: Hacking goes to College
-Subtitle:
+Tags: security,socialmedia,impersonation,college,competition
+
 Primary Author Name: Zack Allen
 Primary Author Affiliation: ZeroFOX
 Primary Author Email: zack@zerofox.com
+
 Additional Author Name: Chris Cullison
 Additional Author Affiliation: ZeroFOX
 Additional Author Email: chris@zerofox.com
+
 Additional Author Name: Avi Rubin
 Additional Author Affiliation: Johns Hopkins University
 Additional Author Email: avirubin@gmail.com
-Keywords/Tags: security,socialmedia,impersonation,college,competition
