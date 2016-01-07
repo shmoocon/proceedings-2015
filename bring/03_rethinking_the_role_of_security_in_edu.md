@@ -172,7 +172,7 @@ The intent of these curriculum changes is that students graduating with an under
 * Students can recognize when they need further security expertise
 * Students can articulate security concerns to someone else
 
-This last point is particularly important.  Being able to recognize when you need someone elseís help is useful, but only if you know enough to find the right help.  Too often, computer science professionals can recognize that they should be making security a bigger priority in their design, but do not have enough security knowledge to articulate the problem to someone else.  At best, this makes it hard to seek out the right kind of expertise.  At worst, it makes them unable to tell a qualified security professional from a charlatan.  
+This last point is particularly important.  Being able to recognize when you need someone else's help is useful, but only if you know enough to find the right help.  Too often, computer science professionals can recognize that they should be making security a bigger priority in their design, but do not have enough security knowledge to articulate the problem to someone else.  At best, this makes it hard to seek out the right kind of expertise.  At worst, it makes them unable to tell a qualified security professional from a charlatan.  
 
 In short, the goal is to make computer science professionals responsible for the security they are capable of handling.  
 
