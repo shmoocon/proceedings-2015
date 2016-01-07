@@ -17,6 +17,6 @@
    * [Tap On, Tap Off: Onscreen Keyboards and Mobile Password Entry](build/03_tap_on,_tap_off_onscreen_keyboards.md)
    * [Eliminating Timing Side-channels. A Tutorial](build/04_eliminating_timing_side-channels_a_tutorial.md)
 * [BELAY IT](belay/belay_it.md)
-   * Cockroach Analysis
+   * [Cockroach Analysis](belay/01_cockroach_analysis.md)
 * [BRING IT ON](bring/bring_it_on.md)
 
