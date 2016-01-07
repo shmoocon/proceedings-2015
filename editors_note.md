@@ -6,7 +6,7 @@ In 2014 James Arlen, the original ShmooCon Proceedings Editor, wrote the followi
 >**One of these days, I’ll learn.**  
 > It is my great pleasure to have contributed to the creation of the Proceedings of ShmooCon 2014. I hope that this book will be a source of inspiration and reference material for our industry for many years to come. - *James Arlen January 6, 2014*
 
-I find myself in the exact same situation on the exact same day 2 years later. I took over the Proceedings in 2015 after pestering Heidi (and James) constantly about when they would be released. I soon learned what a epic task I had just volunteered for, but I believe as Mr. Arlen did, that a project like this is very much needed in our community. I hope that if you are reading this, you believe so too and maybe the next conference you decide to speak at, you write your proceeding.
+I find myself in the exact same situation on the exact same day 2 years later. I took over the Proceedings in 2015 after pestering Heidi (and James) constantly about when they would be released. I soon learned what a epic task I had just volunteered for, but I believe as Mr. Arlen did, that a project like this is very much needed in our community. I hope that if you are reading this, you believe so too and maybe the next conference you decide to speak at, you write your proceeding first.
 
 
 Rob Fuller
