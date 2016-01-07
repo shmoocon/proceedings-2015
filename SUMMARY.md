@@ -18,5 +18,6 @@
    * [Eliminating Timing Side-channels. A Tutorial](build/04_eliminating_timing_side-channels_a_tutorial.md)
 * [BELAY IT](belay/belay_it.md)
    * [Cockroach Analysis](belay/01_cockroach_analysis.md)
+   * Pratical Machine Learning for Network Security
 * [BRING IT ON](bring/bring_it_on.md)
 
