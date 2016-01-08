@@ -27,6 +27,7 @@ What these tools offer to an insider is the ability to establish a new working e
 The problem space can be divided out into different segments that occur chronologically. The most immediate segment would be the actual booting of the Live OS. Employing a preventative policy, one can simply block boots from Universal Serial Bus (USB) devices for instance. However, this is akin to “hot-gluing USB ports”. 
 
 A purposeful insider can and would continue to either enable physical access to the machine or to pick a different target entirely. Preventative policy is not enough to fully dissuade an insider. This is where surveillance methods need to be employed to not only implement activity monitoring capabilities but also determine the order and severity of leakage. The goal is to determine what this insider has with respect to sensitive materials and his/her destinations for such the exfiltration of such materials. Enough evidence gathering would allow for sufficient case-building against the insider.
+
 Venturing forth, our goal is to utilize insight from an offensive mind-set and build capabilities towards to further the defensive side. We work from previous breach incidents and grab inspiration from specific tools and technologies used in aiding a motivated insider threat’s attempts at data exfiltration. 
 
 ### Tails
@@ -45,15 +46,24 @@ The old adage, “the best defense is a good offense”, remains true. In approa
 
 ## Micronesia Kit
 
-Micronesia is a combination of different sub-kernel frameworks. Employing coreboot[10] allows us to modularize the payload components. Combining coreboot and SeaBIOS[11]/Tianocore[12] is sufficient to achieve full-boot functionality expected of a system. The Micronesia bootkit itself is a combination of patches to open-source BIOS/UEFI implementations along with a custom payload. 
+Micronesia is a combination of different sub-kernel frameworks. Employing coreboot[^10] allows us to modularize the payload components. Combining coreboot and SeaBIOS[^11]/Tianocore[^12] is sufficient to achieve full-boot functionality expected of a system. The Micronesia bootkit itself is a combination of patches to open-source BIOS/UEFI implementations along with a custom payload. 
+
 This allows us to secure control over the sub-kernel and to implement preventative policies. However, as mentioned prior, preventative measures are not a catch-all policy and ultimately in addressing an insider a reactive solution should be deployed. Regardless of what operating system is booted, Micronesia is able to persist and acts as a first-line defense against such maneuvers. 
-Secure Boot[13] is a standard that allows for the firmware of the system to check the signature of the boot software. In doing so, a white-list of approved boot software can be created. In the context of the Micronesia Kit, Secure Boot would be relevant if the end-goal was the development of only a preventative system. In environments where preventative policies are “good enough”, secure boot should be enabled and left to cater to those policies. The converse of that is that when performing in defensive posture, there can be cases where it is necessary to disable secure boot in order to entice an insider deeper into a controlled environment. Without secure boot, an insider now faces less restrictions in environments that can be booted into, what this means for the defense is that introspection can then occur which would not have been allowed otherwise.. However, there are environments where there is a need for active intelligence gathering on an insider threat and that would mean relinquishing full preventative capabilities and employing reactive policies in the form of the OS-level kit (Stampede Agent).
+
+Secure Boot[^13] is a standard that allows for the firmware of the system to check the signature of the boot software. In doing so, a white-list of approved boot software can be created. In the context of the Micronesia Kit, Secure Boot would be relevant if the end-goal was the development of only a preventative system. In environments where preventative policies are “good enough”, secure boot should be enabled and left to cater to those policies. The converse of that is that when performing in defensive posture, there can be cases where it is necessary to disable secure boot in order to entice an insider deeper into a controlled environment. Without secure boot, an insider now faces less restrictions in environments that can be booted into, what this means for the defense is that introspection can then occur which would not have been allowed otherwise.. However, there are environments where there is a need for active intelligence gathering on an insider threat and that would mean relinquishing full preventative capabilities and employing reactive policies in the form of the OS-level kit (Stampede Agent).
+
 Beyond the above, we desire the ability to monitor every facet of the system post-threat determination. Specifically, we want intelligence on activities in the protected Live OS container. In order to garner these abilities, we trampoline an agent from our controlled sub-kernel layer into Live OS layer.
+
 ### Stampede Agent – The Hand That Blocks Also Strikes
+
 The Stampede Agent is the component that currently allows for introspection into a Live OS environment. It allows the Micronesia kit to gain the capability of not just blocking an insider, but to strike back with surveillance.
+
 Starting from Micronesia, we are able to trampoline from the sub-kernel space back into the Tails Live OS environment. We bring with us the Stampede agent that allows for discrete full-system monitoring of Live OS space that was previously not possible. This entire phase is known as the trampolining of the stampede agent. Doing so has not only gained us the ability to passively monitor but to interrupt actions performed in the Live OS space.
+
 In summary, the insider’s attempt to boot into Tails will be logged and the action is tracked. Optionally, the stampede kit can be activated once the Live OS has established itself. From there stampede will allow accountability and surveillance upon the insider. From the defense’s perspective this allows for strong case-building against the target because not only has the malice been detected but the exfiltrated materials can be tracked and addressed in real-time.
-## Stay Tuned
+
+# Stay Tuned
+
 There are some other interesting things that can be performed when playing in the sub-kernel space. While Micronesia does not typically fit the mold of what we at Exodus engineer on a daily basis it was nonetheless a fun problem space to address. 
 
 
