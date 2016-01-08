@@ -1,19 +1,20 @@
 # Micronesia
+### Sub-Kernel Kit for Insider Threat Detection
 
-Title: Micronesia
-Subtitle: Sub-Kernel Kit for Insider Threat Detection
-Primary Author Name: Loc Nguyen
-Primary Author Affiliation: Exodus Intelligence
-Primary Author Email: loc@exodusintel.com
-Keywords/Tags: Data Leakage Prevention, Insider Threat, Bootkit, Surveillance, Preventative, Reactive, Counter Technology
-Abstract: Bootkits have long been used in an offensive manner by adversaries in order to maintain cold-state persistence. Micronesia is an extended bootkit to allow for self-surveillance upon a host system. The purpose of the kit is to monitor for insider-threat potential on a local machine. At current, resources invested in this problem space for anti-leak/insider-threat detection isare primarily invested in exterior-host communications. They rely heavily upon heuristics and detection of anomalous traffic movement. A notable example can be seen in various organizations where sensitive documents in high-side networks are hashed. These hashes are then matched against low-side traffic with hopes of taint marking against data leakage. A knowledgeable adversary however can easily renderobscure communications so as to be ineffective to being taggedsuch methods. Micronesia is a bootkit solution that allows for not only detection of a potential insider threat, but allows for the compromised system to react with both self-surveillance and deterrence.
-# Micronesia
-Loc Nguyen @nocsi_
+##Abstract
+
+Bootkits have long been used in an offensive manner by adversaries in order to maintain cold-state persistence. Micronesia is an extended bootkit to allow for self-surveillance upon a host system. The purpose of the kit is to monitor for insider-threat potential on a local machine. At current, resources invested in this problem space for anti-leak/insider-threat detection are primarily invested in exterior-host communications. They rely heavily upon heuristics and detection of anomalous traffic movement. A notable example can be seen in various organizations where sensitive documents in high-side networks are hashed. These hashes are then matched against low-side traffic with hopes of taint marking against data leakage. A knowledgeable adversary however can easily render obscure communications so as to be ineffective to being tagged such methods. Micronesia is a bootkit solution that allows for not only detection of a potential
+
 ## Introduction 
-The Hand Which Blocks Also Strikes
-IntroductionBootkits are often utilized as a tool for offensive measures. Micronesia, however, is a defensive bootkit solution intended to not only detect insider attempts toat booting a live operating system, but also to provide host-level introspection capabilities to aid identify and track activities within such an environment. The motivation behind the development of the kit was to explore the reintroduction of directed intelligence efforts as a viable solution as opposed to wasteful alternatives such as mass-scale analysis upon many systems
+
+### The Hand Which Blocks Also Strikes
+
+Bootkits are often utilized as a tool for offensive measures. Micronesia, however, is a defensive bootkit solution intended to not only detect insider attempts at booting a live operating system, but also to provide host-level introspection capabilities to aid identify and track activities within such an environment. The motivation behind the development of the kit was to explore the reintroduction of directed intelligence efforts as a viable solution as opposed to wasteful alternatives such as mass-scale analysis upon many systems
+
 ## Insider Threats 
-Here at Exodus Intelligence, we thrive on non-standard solutions to contemporary problems. With that saidsaid that being said, it was very fitting to have been given the opportunity to attend and present at a new project called Micronesia at the Shmoocon conference this year2015[http://www.shmoocon.org/speakers#micronesia]. Being succinct, Micronesia is a bootkit solution intended to not only detect insider attempts in to booting a live operating system, but goes furtheralso to provide host-level introspection capabilities in to aidhost-level introspection to  identify & and track activities within such an environment. 
+
+Here at Exodus Intelligence, we thrive on non-standard solutions to contemporary problems. With that that being said, it was very fitting to have been given the opportunity to attend and present at a new project called Micronesia at the ShmooCon conference this year [[2015]](http://www.shmoocon.org/speakers#micronesia). 
+Being succinct, Micronesia is a bootkit solution intended to not only detect insider attempts in to booting a live operating system, but goes further also to provide host-level introspection capabilities in to aidhost-level introspection to  identify & and track activities within such an environment. 
 The etymology motivation behind the development of the kit stems from goals ofwas to explore  reintroducthe reintroduction ofing directed intelligence efforts as a viable solution asin opposition opposed to wasteful alternatives such as mass-scale analysis upon many systems. 
 Insider Threats
 Insider threats aren’t a new phenomenon, they have always existed and will continue to exist as they formulate on theexploit the human factor. There have been so many instances of insider threats that the FBI has put effort into documenting notable cases and providing guidance on how organizations can attempt to deter themthemThe FBI can take you on a walk through a brief history of threat’s past[http://www.fbi.gov/about-us/investigate/counterintelligence/insider_threat_brochure1]. An insider exists in a privileged position and is able to and can cause harm to an organization. 
@@ -68,3 +69,9 @@ Works Cited:
 [12] http://www.coreboot.org/TianoCore
 [13] https://technet.microsoft.com/en-us/library/hh824987.aspx
 [14]https://www.exodusintel.com/files/micronesia.pdf
+
+
+Primary Author Name: Loc Nguyen
+Primary Author Affiliation: Exodus Intelligence
+Primary Author Email: loc@exodusintel.com
+Keywords/Tags: Data Leakage Prevention, Insider Threat, Bootkit, Surveillance, Preventative, Reactive, Counter Technology
