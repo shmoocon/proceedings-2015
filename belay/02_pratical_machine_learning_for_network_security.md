@@ -76,23 +76,19 @@ For DGA detection, we cluster using two different methods.  First we cluster usi
 
 Each DGA cluster is manually reviewed to determine if malware generated the NXDomains and, if it is malware, label it with the malware family.  These labeled clusters are then used as training data for supervised learning.  The resulting model can classify newly observed NXDomains as a specific malware family, benign or unknown.
 
-Evaluate
--------------
+## Evaluate
 
 Once a model has been created it should be evaluated.  It is important to use data not in the training set because the goal is not memorization, but classification of new, never before seen observations (i.e., generalization).  A commonly used technique is 10-fold cross validation.  The data is separated into 10 equal segments with 9 used for training and 1 for evaluation.  This is repeated 10 times using a different segment for the training set each time.  The performance of the classifier is the average of the 10 iterations.
 
-Deploy
--------------
+## Deploy
 
 Deployment is the final step, but typically not the end of the project.  Both the C&C protocol and DGA detection projects have been deployed in commercial security products.  New CPTs are generated for C&C communication when it is identified using anther technique (e.g., DGA, manual review, domain reputation) and new DGAs are discovered through review of NXDomain clusters that do not belong to a known malware family.  So, the learning continues even after deployment. 
 
-Conclusion
--------------
+## Conclusion
 
 Machine learning is a useful tool that can be successfully applied to a subset of problems in network security.  However, it should only be viewed as a tool not a solution.  Just because a security product uses cutting edge math or machine-learning algorithm does not imply that it will actually enhance security.  Instead of focusing on the math, ask about the features and data the product uses because those answers will allow you determine its usefulness. 
 
-References
--------------
+## References
 
 * [^1] Gareth James, Daniela Witten, Trevor Hastie, Rovert Tibshirani, An Introduction to Statistical Learning.  Springer.
 * [^2] Manos Antonakakis, Roberto Perdisci, Yacin Nadji, Nikolaos Vasiloglou, Saeed Abu-Nimeh, Wenke Lee, and David Dagon. 2012. From throw-away traffic to bots: detecting the rise of DGA-based malware. USENIX conference on Security (SEC'12). 
