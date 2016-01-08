@@ -12,13 +12,11 @@ Machine learning is a useful tool for a subset of the problems in network securi
 
 ![](imgs/ml_process.jpg "Figure 1")
 
-Data
--------------
+## Data
 
 Data are the foundation of all machine-learning projects.  You can have an expert data science team and execute the machine-learning process flawlessly, but still have the project fail due to wrong or insufficient data.  Data should be viewed as an asset and investments should be made as part of the project.   
 
-Define Problem
--------------
+## Define Problem
 
 Defining the problem is typically the first step.  For our two case studies our high level problem is to "detect hosts infected with malware by observing their network communication."  This, however, is not a well-defined machine-learning problem.  To formulate a machine-learning problem we must define the following components:  task, training experience and performance measurement [4]. 
 
@@ -96,15 +94,13 @@ Machine learning is a useful tool that can be successfully applied to a subset o
 References
 -------------
 
-1.  Gareth James, Daniela Witten, Trevor Hastie, Rovert Tibshirani, An Introduction to Statistical Learning.  Springer.
+* [^1] Gareth James, Daniela Witten, Trevor Hastie, Rovert Tibshirani, An Introduction to Statistical Learning.  Springer.
+* [^2] Manos Antonakakis, Roberto Perdisci, Yacin Nadji, Nikolaos Vasiloglou, Saeed Abu-Nimeh, Wenke Lee, and David Dagon. 2012. From throw-away traffic to bots: detecting the rise of DGA-based malware. USENIX conference on Security (SEC'12). 
+* [^3] Terry Nelms, Roberto Perdisci, and Mustaque Ahamad. 2013. ExecScent: mining for new C&C domains in live networks with adaptive control protocol templates.  USENIX conference on Security (SEC'13). 
+* [^4] Thomas M. Mitchell. 1997. Machine Learning. McGraw-Hill.
+* [^5] Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin.  Learning from Data.  AMLbook.com. 
 
-2.  Manos Antonakakis, Roberto Perdisci, Yacin Nadji, Nikolaos Vasiloglou, Saeed Abu-Nimeh, Wenke Lee, and David Dagon. 2012. From throw-away traffic to bots: detecting the rise of DGA-based malware. USENIX conference on Security (SEC'12). 
-
-3.  Terry Nelms, Roberto Perdisci, and Mustaque Ahamad. 2013. ExecScent: mining for new C&C domains in live networks with adaptive control protocol templates.  USENIX conference on Security (SEC'13). 
-
-4.  Thomas M. Mitchell. 1997. Machine Learning. McGraw-Hill.
-
-5.  Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin.  Learning from Data.  AMLbook.com. 
+#### Metadata
 
 ###Terry Nelms
 ###Damballa, Inc.
