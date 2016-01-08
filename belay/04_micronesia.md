@@ -11,12 +11,10 @@ Bootkits have long been used in an offensive manner by adversaries in order to m
 
 Bootkits are often utilized as a tool for offensive measures. Micronesia, however, is a defensive bootkit solution intended to not only detect insider attempts at booting a live operating system, but also to provide host-level introspection capabilities to aid identify and track activities within such an environment. The motivation behind the development of the kit was to explore the reintroduction of directed intelligence efforts as a viable solution as opposed to wasteful alternatives such as mass-scale analysis upon many systems
 
-## Insider Threats 
-
 Here at Exodus Intelligence, we thrive on non-standard solutions to contemporary problems. With that that being said, it was very fitting to have been given the opportunity to attend and present at a new project called Micronesia at the ShmooCon conference this year [[2015]](http://www.shmoocon.org/speakers#micronesia). 
 Being succinct, Micronesia is a bootkit solution intended to not only detect insider attempts in to booting a live operating system, but goes further also to provide host-level introspection capabilities to identify and track activities within such an environment.
 
-The etymology motivation behind the development of the kit stems from goals ofwas to explore  reintroducthe reintroduction ofing directed intelligence efforts as a viable solution asin opposition opposed to wasteful alternatives such as mass-scale analysis upon many systems. 
+The etymology motivation behind the development of the kit stems from goals to explore reintroduction of directed intelligence efforts as a viable solution opposed to wasteful alternatives such as mass-scale analysis upon many systems. 
 
 ##  Insider Threats
 Insider threats aren’t a new phenomenon, they have always existed and will continue to exist as they formulate on theexploit the human factor. There have been so many instances of insider threats that the FBI has put effort into documenting notable cases and providing guidance on how organizations can attempt to deter themthemThe FBI can take you on a walk through a brief history of threat’s past[http://www.fbi.gov/about-us/investigate/counterintelligence/insider_threat_brochure1]. An insider exists in a privileged position and is able to and can cause harm to an organization. 
