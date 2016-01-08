@@ -1,14 +1,6 @@
 # Infrastructure Tracking with Passive Monitoring and Active Probing
 
-* Title: Infrastructure Tracking with Passive Monitoring and Active Probing
-* Subtitle: [None]
-* Primary Author Name: Anthony Kasza
-* Primary Author Affiliation: OpenDNS
-* Primary Author Email: ak@opendns (@anthonykasza on Twitter)
-* Additional Author Name: Dhia Mahjoub
-* Additional Author Affiliation: OpenDNS
-* Additional Author Email: dhia@opendns.com (@DhiaLite on Twitter)
-* Keywords/Tags: Botnets, Gameover Zeus, Threat Tracking, Network Intelligence, 
+
 * Abstract: Threat intelligence is crucial in our industry to proactively monitor for attacks, detect active breaches, and analyze incidents post-mortem. Intelligence is created by researching, tracking, and interpreting attacker movements with a focus on preemptively countering malicious campaigns as soon as they emerge. In this talk, we will describe tools and methodologies we use in-house to provide context on evil at Internet scale. We will also present concrete use cases on how to leverage threat intelligence, both open source and proprietary, to track internet threats and pivot around specific indicators to further the investigative effort. Our use case of choice will be the new Zeus GameOver variant that re-emerged last summer and which we've been tracking for several months. The various aspects of campaign tracking include command and control infrastructure, preferred hosting providers, domain registration practices, and compromised client behaviors.
 
 # Infrastructure Tracking with Passive Monitoring and Active Probing
@@ -61,3 +53,14 @@ The 251 command and control domains used 31 different domains as authoritative z
 In talk, we covered various aspects of network intelligence and how we use it to effectively investigate and mitigate malware campaigns. We discussed two use cases that represent two recent malicious campaigns: the first is the Zbot fast flux proxy network which is currently live and operating and the second is the new GameOver Zeus DGA malware that was active between July and November 2014. 
 
 The slides used to present this material are available online and can be found [here](http://www.slideshare.net/OpenDNS/shmoocon-2015-presentation).
+
+
+* Title: Infrastructure Tracking with Passive Monitoring and Active Probing
+* Subtitle: [None]
+* Primary Author Name: Anthony Kasza
+* Primary Author Affiliation: OpenDNS
+* Primary Author Email: ak@opendns (@anthonykasza on Twitter)
+* Additional Author Name: Dhia Mahjoub
+* Additional Author Affiliation: OpenDNS
+* Additional Author Email: dhia@opendns.com (@DhiaLite on Twitter)
+* Keywords/Tags: Botnets, Gameover Zeus, Threat Tracking, Network Intelligence, 
