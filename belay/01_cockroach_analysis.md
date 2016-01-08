@@ -1,14 +1,10 @@
 # Cockroach Analysis
+### A Statistical Analysis of the Flash and Java Files that Infest the Internet
 
-Title: Cockroach Analysis: A Statistical Analysis of the Flash and Java Files that Infest the Internet
-Primary Author Name: David Dorsey
-Primary Author Affiliation: Click Security
-Primary Author Email: trogdorsey@gmail.com
-Keywords/Tags: Data Science, Machine Learning, malware, swf, java
-Abstract: Java and Flash are and will continue to be popular attack vectors. To combat this, we’ll put these two file formats under the microscope and throw some data science at them. For each file format, we will take a quick look at its layout and then explore some of the file features. Then using a malicious and clean file set, we will walk through the process we took to identify important features and show the results of from several different machine learning algorithms when built from these feature sets. We’ll use several open source tools and libraries to perform the data exploration and analysis, including pandas, scikitlearn as well as the data hacking library we’ve already released. IPython notebooks containing the analysis will be released at the
+## Abstract
+
+Java and Flash are and will continue to be popular attack vectors. To combat this, we’ll put these two file formats under the microscope and throw some data science at them. For each file format, we will take a quick look at its layout and then explore some of the file features. Then using a malicious and clean file set, we will walk through the process we took to identify important features and show the results of from several different machine learning algorithms when built from these feature sets. We’ll use several open source tools and libraries to perform the data exploration and analysis, including pandas, scikitlearn as well as the data hacking library we’ve already released. IPython notebooks containing the analysis will be released at the
 start of the talk.
-
-# Cockroach Analysis: A Statistical Analysis of the Flash and Java Files that Infest the Internet
 
 ## Introduction
 
@@ -55,6 +51,7 @@ Next we created a new classifier using all of the malicious files and 2000 files
 While not as good as our original testing would indicate, these files results show promise and with additional features, the classifier should be able to be improved.
 
 ## SWF Analysis
+
 We collected and labeled only 628 malicious files and 500 benign files.  We also had a large unlabeled corpus of 288,000 files. Again, while we were not sure of the label for these, we suspected that the vast majority, if not all, were benign. To start the analysis, we used all the malicious files and 500 benign files.
 
 The SWF file format contains a small header followed by any number of tags that contain various information about the file.  We started by extracting the data from the header and the number of tags that the file contained.  We then take into consideration the type of tags that are in the file.  A tag can exist multiple times, however, we only take into consideration the existence of a tag in the file, not the number of times it exists.  We then focus on extracting more information from tags that contain ActionScript.  We extract several features, include the number of strings and the ratio of the mean length of the strings to the median length of the strings.  Taking all this data, we train and test a Random Forest classifier. Our classifier trains on 80% of the data and tests on the remaining 20%. We got the following results.
@@ -91,3 +88,11 @@ These results are very promising.  In fact, these results may even be manageable
 ## Conclusions
 
 Using data science to detect new malicious files is possible.  This allows us to not rely on easily avoidable signatures, but to rely on nonlinear decisions boundary in a high dimensional space.  While the Java classifier is heavily dependent on class name, the SWF classifier is not highly dependent on any one field.  We also showed that training with more data could make the classifier better.
+
+#### Metadata
+
+Tags: Data Science, Machine Learning, malware, swf, java
+
+**Primary Author Name**: David Dorsey  
+**Primary Author Affiliation**: Click Security  
+**Primary Author Email**: trogdorsey@gmail.com
