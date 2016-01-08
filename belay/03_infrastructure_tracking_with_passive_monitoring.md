@@ -49,7 +49,7 @@ The new Zeus Gameover, dubbed newGOZ by researchers, emerged in the summer of 20
 Out of the 11,000 possible command and control domains generated in the 62 day study, only 251 domains resolved to IP addresses. Both researchers studying the botnet and malicious controllers of the botnet are included in this number. Of the 251 domains which resolved, patterns appeared within the TTL of the domain name. As the administrators of a domain’s authoritative name server set this TTL value, it can provide insight into malicious actors’ procedures. 110 of the 251 domains had a TTL value set to 300 (seconds). These domains were identified as malicious. A table of the remaining TTLs follows. Note that some domains had more than one TTL as they changed owner (from malicious actor to researcher).
 
 | Domain Count| TTL              |  Intent      |
-| ----------- |:-----------------|:-------------|
+|:----------- |:-----------------|:-------------|
 | 110         | 300              | Malicous     |
 | 81          | 10800            | Researcher   |
 | 58          | 666              | Researcher   |
