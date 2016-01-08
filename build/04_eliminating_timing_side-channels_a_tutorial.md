@@ -129,6 +129,6 @@ The easiest way to eliminate timing side channels stemming from those instructio
 
 Tags: Timing attacks, constant-time software, secret branches, secret addresses
 
-**Primary Author Name**: Peter Schwabe
-**Primary Author Affiliation**: Radboud University, Nijmegen, The Netherlands
+**Primary Author Name**: Peter Schwabe  
+**Primary Author Affiliation**: Radboud University, Nijmegen, The Netherlands  
 **Primary Author Email**: peter@cryptojedi.org
