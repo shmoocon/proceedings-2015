@@ -75,7 +75,7 @@ Works Cited:
 * [^2] https://www.defcon.org/images/defcon–22/dc–22-presentations/Schrodinger/DEFCON–22-Tess-Schrodinger-Raxacoricofallapatorius-With-Love-Case-Studies.pdf
 * [^3] https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-antonio_rucci-insider_threats.pdf
 * [^4] https://www.us-cert.gov/sites/default/files/publications/Combating%20the%20Insider%20Threat_0.pdf
-* [^5] http://media.scmagazine.com/documents/90/spectorsoft–2014-insider-threa_22395.pdf
+* [^5] http://downloads.spectorsoft.com/resources/infographic/spectorsoft-2014-insider-threat-survey.pdf
 * [^6] http://en.wikipedia.org/wiki/Live_CD 
 * [^7] http://en.wikipedia.org/wiki/Live_USB
 * [^8] http://en.wikipedia.org/wiki/Data_loss_prevention_software 
