@@ -60,22 +60,27 @@ Out of the 11,000 possible command and control domains generated in the 62 day s
 | 1           | 14400            | ?            |
 
 The 251 command and control domains used 31 different domains as authoritative zones. 21 of those zones had both an ‘ns1’ and ‘ns2’ named system. 5 of the 31 different zones likely belonged to researchers while 4 of the zones were eventually parked. 12 registrars were used to register the 251 domains. Dynadot and 1 & 1 Internet AG were both the most used registrars, however all domains registered through these registrars belonged to security researchers. The third and forth most used registrars where TodayNic and Melbourne IT. All of the domains registered through both of these registrars were malicious.
-        	Looking at the registrant email address found in whois information for both the command and control domains and their authoritative domains, 99 different email addresses were observed. These do not include the email addresses used by researchers. Many of the email addresses were hidden through the registrar’s whois protection service. Of those emails addresses that were not hidden, free email account providers were used. These providers included Yahoo, GMX, and AOL amongst others. An interesting pattern appeared in some of the email addresses where multiple words were used to create usernames. What seemed to be typos (including additional letters or rearranged letters) of previously used email addresses were later used in whois information. An example follows: medicallassers@ymail.com was used to register a domain, then later medicallaserss@ymail.com (note the double ‘s’ at the end of the username) was used to register an additional domain. Attempts to generalize this pattern were inconclusive.
-        	From all command and control domains and those domains’ name servers, 86 unique IP addresses were seen. Many of the IP addresses in this set hosted multiple command and control and name server systems. 54 unique locations were identified using IP whois information; 3 of the locations have been successfully identified as researchers. While the remaining consist of VPSs, ISPs, and compromised systems. Graphing the semantic networks between command and control domain names, their IP addresses, and their name server’s IP addresses created 6 distinct groupings. The largest group was identified as the malicious botnet while the other groups belong to researchers we have confirmed and groups we believe to be researchers given hosting, registrar, and TTL preferences. 
-        	As of November 12, 2014, no new domains have resolved belonging to malicious actors, although researcher sinkholes are still active. Client queries for active command and control domains are still at volumes of 100 to 200 queries per hour.
+
+Looking at the registrant email address found in whois information for both the command and control domains and their authoritative domains, 99 different email addresses were observed. These do not include the email addresses used by researchers. Many of the email addresses were hidden through the registrar’s whois protection service. Of those emails addresses that were not hidden, free email account providers were used. These providers included Yahoo, GMX, and AOL amongst others. An interesting pattern appeared in some of the email addresses where multiple words were used to create usernames. What seemed to be typos (including additional letters or rearranged letters) of previously used email addresses were later used in whois information. An example follows: medicallassers@ymail.com was used to register a domain, then later medicallaserss@ymail.com (note the double ‘s’ at the end of the username) was used to register an additional domain. Attempts to generalize this pattern were inconclusive.
+
+From all command and control domains and those domains’ name servers, 86 unique IP addresses were seen. Many of the IP addresses in this set hosted multiple command and control and name server systems. 54 unique locations were identified using IP whois information; 3 of the locations have been successfully identified as researchers. While the remaining consist of VPSs, ISPs, and compromised systems. Graphing the semantic networks between command and control domain names, their IP addresses, and their name server’s IP addresses created 6 distinct groupings. The largest group was identified as the malicious botnet while the other groups belong to researchers we have confirmed and groups we believe to be researchers given hosting, registrar, and TTL preferences. 
+
+As of November 12, 2014, no new domains have resolved belonging to malicious actors, although researcher sinkholes are still active. Client queries for active command and control domains are still at volumes of 100 to 200 queries per hour.
         	
 ## Conclusion
+
 In talk, we covered various aspects of network intelligence and how we use it to effectively investigate and mitigate malware campaigns. We discussed two use cases that represent two recent malicious campaigns: the first is the Zbot fast flux proxy network which is currently live and operating and the second is the new GameOver Zeus DGA malware that was active between July and November 2014. 
 
 The slides used to present this material are available online and can be found [here](http://www.slideshare.net/OpenDNS/shmoocon-2015-presentation).
 
+#### Metadata
 
-* Title: Infrastructure Tracking with Passive Monitoring and Active Probing
-* Subtitle: [None]
-* Primary Author Name: Anthony Kasza
-* Primary Author Affiliation: OpenDNS
-* Primary Author Email: ak@opendns (@anthonykasza on Twitter)
-* Additional Author Name: Dhia Mahjoub
-* Additional Author Affiliation: OpenDNS
-* Additional Author Email: dhia@opendns.com (@DhiaLite on Twitter)
-* Keywords/Tags: Botnets, Gameover Zeus, Threat Tracking, Network Intelligence, 
+Tags: Botnets, Gameover Zeus, Threat Tracking, Network Intelligence
+
+**Primary Author Name**: Anthony Kasza  
+**Primary Author Affiliation**: OpenDNS  
+**Primary Author Email**: ak@opendns (@anthonykasza on Twitter)
+
+**Additional Author Name**: Dhia Mahjoub  
+**Additional Author Affiliation**: OpenDNS  
+**Additional Author Email**: dhia@opendns.com (@DhiaLite on Twitter)  
