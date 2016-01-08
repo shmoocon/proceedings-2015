@@ -18,7 +18,7 @@ Data are the foundation of all machine-learning projects.  You can have an exper
 
 ## Define Problem
 
-Defining the problem is typically the first step.  For our two case studies our high level problem is to "detect hosts infected with malware by observing their network communication."  This, however, is not a well-defined machine-learning problem.  To formulate a machine-learning problem we must define the following components:  task, training experience and performance measurement [4]. 
+Defining the problem is typically the first step.  For our two case studies our high level problem is to "detect hosts infected with malware by observing their network communication."  This, however, is not a well-defined machine-learning problem.  To formulate a machine-learning problem we must define the following components:  task, training experience and performance measurement [^4]. 
 
 **C&C Protocol Detection (Case Study)[^3]**  One way to detect infected hosts is to recognize the structure of known C&C communication.  The communication structure for a malware family tends to not change as rapidly as its executable files, domains and IP-addresses because it is not as easy to update.  Using this observation we define the problem as follows:
 
