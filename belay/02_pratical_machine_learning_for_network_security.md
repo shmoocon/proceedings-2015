@@ -102,7 +102,8 @@ References
 
 #### Metadata
 
-###Terry Nelms
-###Damballa, Inc.
-###tnelms@damballa.com
-###Keywords/Tags: machine learning, network security, botnet 
+Tags: machine learning, network security, botnet 
+
+**Primary Author Name**: Terry Nelms  
+**Primary Author Affilication**: Damballa, Inc.  
+**Primary Author Email**: tnelms@damballa.com
