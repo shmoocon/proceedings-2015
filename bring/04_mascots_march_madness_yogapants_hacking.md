@@ -40,8 +40,6 @@ Impersonating accounts, or evil twins, were also used in tandem with the link hi
 
 ![Figure 3 - Ice Cream hashtag hijack](imgs/gannon.png "Figure 3 - Ice Cream hashtag hijack")
 
-<img src="imgs/gannon.png" alt="Hello World">
-
 For example, during halftime of a college basketball game, one impersonated a local ice cream shop and offered a deal if the home team rallied and won the game in the second half. This attack got retweeted by multiple student and university accounts, yielding 41 clicks.
 
 Another student built a Tinder bot that scoured Tinder for matches. It would automatically "swipe right" on every match, meaning it default accepted any invitation to chat with potential suitors. From this, the student then abused the profile picture and persona he constructed to send users a shortlink to his attack page, stating that he would rather talk on Facebook rather than Tinder.
