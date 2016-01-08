@@ -1,25 +1,16 @@
 # Pratical Machine Learning for Network Security
 
-Pratical Machine Learning for Network Security
-=============
-###Terry Nelms
-###Damballa, Inc.
-###tnelms@damballa.com
-###Keywords/Tags: machine learning, network security, botnet 
-
-Abstract:
--------------
+## Abstract
 
 Machine learning is currently receiving a lot of attention in network security.  There are many start-ups and existing companies that claim they use it in their solutions; yet, few details are shared on why or how it works.  So, is machine learning a potential solution or all hype?  The answer depends on the problem.
 
 In this paper we will demonstrate how machine learning can be leveraged to solve a set of practical network security problems.  However, we will also discuss its limitations and show how it can fail.  The focus of the paper will be on applying both supervised and unsupervised learning to problems in network security.  Case studies of real machine learning systems will be used to illustrate some of the issues faced by practitioners and provide practical techniques that can be used to mitigate many of them.
 
-Introduction
--------------
+## Introduction
 
 Machine learning is a useful tool for a subset of the problems in network security, but it is often overhyped with a focus on the math behind it.  This limits the audience that can fully understand how it works and assess its limitations.  However, the math is just one aspect and typically not the most important for evaluating a project, product or idea.  In this paper, we examine all stages of a machine-leaning project with a focus on application (see Figure).
 
-![Alt text](imgs/ml_process.jpg "Figure 1")
+![](imgs/ml_process.jpg "Figure 1")
 
 Data
 -------------
@@ -115,3 +106,7 @@ References
 
 5.  Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin.  Learning from Data.  AMLbook.com. 
 
+###Terry Nelms
+###Damballa, Inc.
+###tnelms@damballa.com
+###Keywords/Tags: machine learning, network security, botnet 
