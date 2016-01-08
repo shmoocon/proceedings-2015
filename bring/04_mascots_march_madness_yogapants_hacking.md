@@ -36,7 +36,7 @@ The attacking students used several strategies to hide their attack URLs. All st
 ![ Figure 2 - Botnet Software 2](imgs/botnet2.png "Figure 2 - Botnet Software 2")
 
 
-Impersonating accounts, or evil twins, were also used in tandem with the link hiding tactics. Impersonation accounts are typically used on social media to act as someone else, whether it is Barack Obama or the CEO of a company, as an effective measure to help build trust with a victim. Through these impersonations, students spread attack URLs so when a potential victim saw the message, they attributed it to a trusted figure.
+Impersonating accounts, or evil twins, were also used in tandem with the link hiding tactics. Impersonation accounts are typically used on social media to act as someone else, whether it is Barack Obama or the CEO of a company, as an effective measure to help build trust with a victim. Through these impersonations, students spread attack URLs so when a potential victim saw the message, they attributed it to a trusted figure. 
 
 ![Figure 3 - Ice Cream hashtag hijack](imgs/gannon.png "Figure 3 - Ice Cream hashtag hijack")
 
